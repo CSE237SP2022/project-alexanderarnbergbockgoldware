@@ -1,0 +1,506 @@
+Symbol,Size,Sector,Industry,Market cap,Headquarters,Year Founded,One-Year Return
+AAPL,Large cap,Information Technology,"Computers, Phones & Household Electronics","$2,698,909,152,580 ","Cupertino, California",1977,   -4.93%
+MSFT,Large cap,Information Technology,Software & IT Services,"$2,242,762,560,600 ","Redmond, Washington",1975,   -9.59%
+GOOG,Large cap,Communication Services,Software & IT Services,"$1,842,926,528,307 ","Mountain View, California",1998,   -3.04%
+GOOGL,Large cap,Communication Services,Software & IT Services,"$1,842,926,528,307 ","Mountain View, California",1998,   -3.44%
+AMZN,Large cap,Consumer Discretionary,Diversified Retail,"$1,643,480,940,750 ","Seattle, Washington",1994,   -1.10%
+TSLA,Large cap,Consumer Discretionary,Automobiles & Auto Parts,"$925,088,611,068 ","Palo Alto, California",2003,   -5.94%
+BRK.B,Large cap,Financials,Consumer Goods Conglomerates,"$772,947,306,186 ","Omaha, Nebraska",1839,   17.03%
+NVDA,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$668,350,000,000 ","Santa Clara, California",1993,   -9.82%
+FB,Large cap,Communication Services,Software & IT Services,"$603,592,487,071 ","Menlo Park, California",2004,   -35.59%
+V,Large cap,Information Technology,Software & IT Services,"$478,356,160,000 ","San Francisco, California",1958,   0.81%
+UNH,Large cap,Health Care,Healthcare Providers & Services,"$477,656,860,458 ","Minnetonka, Minnesota",1977,   0.63%
+JNJ,Large cap,Health Care,Pharmaceuticals,"$462,304,220,221 ","New Brunswick, New Jersey",1886,   2.30%
+JPM,Large cap,Financials,Banking Services,"$412,359,772,661 ","New York City, New York",2000,   -9.93%
+WMT,Large cap,Consumer Staples,Food & Drug Retailing,"$400,076,489,997 ","Bentonville, Arkansas",1962,   -0.62%
+PG,Large cap,Consumer Staples,Personal & Household Products & Services,"$364,734,535,280 ","Cincinnati, Ohio",1837,   -7.15%
+XOM,Large cap,Energy,Oil & Gas,"$348,001,297,664 ","Irving, Texas",1999,   33.75%
+BAC,Large cap,Financials,Banking Services,"$345,498,381,774 ","Charlotte, North Carolina",1998,   -0.70%
+HD,Large cap,Consumer Discretionary,Specialty Retailers,"$343,941,057,728 ","Atlanta, Georgia",1978,   -20.55%
+MA,Large cap,Information Technology,Software & IT Services,"$335,119,105,059 ","Harrison, New York",1966,   -2.72%
+CVX,Large cap,Energy,Oil & Gas,"$320,645,182,885 ","San Ramon, California",1879,   39.83%
+PFE,Large cap,Health Care,Pharmaceuticals,"$306,052,897,987 ","New York City, New York",1849,   -10.18%
+ABBV,Large cap,Health Care,Pharmaceuticals,"$283,089,050,331 ","North Chicago, Illinois",2013,   18.18%
+LLY,Large cap,Health Care,Pharmaceuticals,"$275,837,821,575 ","Indianapolis, Indiana",1876,   3.19%
+KO,Large cap,Consumer Staples,Beverages,"$262,613,992,254 ","Atlanta, Georgia",1886,   2.69%
+DIS,Large cap,Communication Services,Media & Publishing,"$252,376,203,017 ","Burbank, California",1923,   -9.54%
+COST,Large cap,Consumer Staples,Diversified Retail,"$246,224,389,824 ","Issaquah, Washington",1976,   -1.46%
+AVGO,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$245,495,384,709 ","San Jose, California",1961,   -8.13%
+CSCO,Large cap,Information Technology,Communications & Networking,"$232,633,408,000 ","San Jose, California",1984,   -11.36%
+TMO,Large cap,Health Care,Healthcare Equipment & Supplies,"$230,529,310,061 ","Waltham, Massachusetts",2006,   -11.97%
+PEP,Large cap,Consumer Staples,Beverages,"$224,764,062,414 ","Purchase, New York",1898,   -5.39%
+ORCL,Large cap,Information Technology,Software & IT Services,"$216,013,990,720 ","Austin, Texas",1977,   -6.20%
+ACN,Large cap,Information Technology,Software & IT Services,"$214,959,935,218 ","Dublin, Ireland",1989,   -21.01%
+ABT,Large cap,Health Care,Healthcare Equipment & Supplies,"$214,721,600,830 ","North Chicago, Illinois",1888,   -13.39%
+VZ,Large cap,Communication Services,Telecommunications Services,"$214,508,789,128 ","New York City, New York",1983,   -1.85%
+ADBE,Large cap,Information Technology,Software & IT Services,"$214,253,567,167 ","San Jose, California",1982,   -17.74%
+CRM,Large cap,Information Technology,Software & IT Services,"$211,582,800,000 ","San Francisco, California",1999,   -14.13%
+CMCSA,Large cap,Communication Services,Media & Publishing,"$211,125,090,287 ","Philadelphia, Pennsylvania",1963,   -6.18%
+DHR,Large cap,Health Care,Healthcare Equipment & Supplies,"$206,930,042,552 ","Washington, D.C.",1969,   -10.67%
+NKE,Large cap,Consumer Discretionary,Textiles & Apparel,"$204,376,169,783 ","Washington County, Oregon",1964,   -20.15%
+MRK,Large cap,Health Care,Pharmaceuticals,"$199,701,127,580 ","Kenilworth, New Jersey",1891,   3.47%
+WFC,Large cap,Financials,Banking Services,"$194,413,241,362 ","San Francisco, California",1852,   11.28%
+INTC,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$192,972,080,000 ","Santa Clara, California",1968,   -6.04%
+UPS,Large cap,Industrials,Freight & Logistics Services,"$188,923,264,000 ","Sandy Springs, Georgia",1907,   1.90%
+QCOM,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$175,051,435,719 ","San Diego, California",1985,   -13.81%
+MCD,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$174,980,355,840 ","Chicago, Illinois",1940,   -11.17%
+UNP,Large cap,Industrials,Freight & Logistics Services,"$168,466,143,116 ","Omaha, Nebraska",1862,   5.53%
+SCHW,Large cap,Financials,Investment Banking & Investment Services,"$167,256,905,103 ","Westlake, Texas",1971,   9.63%
+TXN,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$166,542,481,229 ","Dallas, Texas",1930,   -3.25%
+MS,Large cap,Financials,Investment Banking & Investment Services,"$166,180,491,060 ","New York City, New York",1935,   -4.01%
+NFLX,Large cap,Communication Services,Software & IT Services,"$165,491,992,047 ","Los Gatos, California",1997,   -36.44%
+T,Large cap,Communication Services,Telecommunications Services,"$165,429,395,882 ","Dallas, Texas",1983,   -5.65%
+NEE,Large cap,Utilities,Electrical Utilities & IPPs,"$160,251,922,074 ","Juno Beach, Florida",1984,   -11.26%
+LIN,Large cap,Materials,Chemicals,"$159,250,754,922 ","Guildford, England",1879,   -9.90%
+TMUS,Large cap,Communication Services,Telecommunications Services,"$157,373,055,505 ","Bellevue, Washington",1994,   8.37%
+BMY,Large cap,Health Care,Pharmaceuticals,"$154,868,595,861 ","New York City, New York",1989,   13.58%
+LOW,Large cap,Consumer Discretionary,Specialty Retailers,"$153,344,860,216 ","Mooresville, North Carolina",1904,   -11.61%
+RTX,Large cap,Industrials,Aerospace & Defense,"$148,937,421,597 ","Waltham, Massachusetts",1922,   17.80%
+PM,Large cap,Consumer Staples,Food & Tobacco,"$145,900,790,692 ","New York City, New York",2008,   -1.42%
+MDT,Large cap,Health Care,Healthcare Equipment & Supplies,"$145,892,385,608 ","Dublin, Ireland",1949,   5.34%
+AXP,Large cap,Financials,Banking Services,"$143,195,759,236 ","New York City, New York",1850,   16.95%
+CVS,Large cap,Health Care,Healthcare Providers & Services,"$140,950,494,648 ","Woonsocket, Rhode Island",1996,   3.95%
+AMD,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$139,023,252,678 ","Santa Clara, California",1969,   -20.24%
+PYPL,Large cap,Information Technology,Software & IT Services,"$133,567,813,275 ","San Jose, California",1998,   -37.50%
+COP,Large cap,Energy,Oil & Gas,"$133,539,385,888 ","Houston, Texas",2002,   40.99%
+AMGN,Large cap,Health Care,Pharmaceuticals,"$133,110,997,961 ","Thousand Oaks, California",1980,   5.11%
+HON,Large cap,Industrials,Consumer Goods Conglomerates,"$132,311,678,506 ","Charlotte, North Carolina",1906,   -6.46%
+DE,Large cap,Industrials,"Machinery, Equipment & Components","$129,551,953,449 ","Moline, Illinois",1837,   24.69%
+INTU,Large cap,Information Technology,Financial Technology (Fintech) & Infrastructure,"$127,841,988,768 ","Mountain View, California",1983,   -26.00%
+ANTM,Large cap,Health Care,Healthcare Providers & Services,"$120,553,851,068 ","Indianapolis, Indiana",2014,   1.73%
+CAT,Large cap,Industrials,"Machinery, Equipment & Components","$119,883,515,889 ","Deerfield, Illinois",1925,   7.72%
+AMAT,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$118,551,560,554 ","Santa Clara, California",1967,   -13.90%
+PLD,Large cap,Real Estate,Residential & Commercial REIT,"$117,600,800,000 ","San Francisco, California",1983,   -5.76%
+LMT,Large cap,Industrials,Aerospace & Defense,"$117,275,003,560 ","Bethesda, Maryland",1995,   23.97%
+IBM,Large cap,Information Technology,Software & IT Services,"$115,201,609,207 ","Armonk, New York",1911,   -3.44%
+NOW,Large cap,Information Technology,Software & IT Services,"$113,960,000,000 ","Santa Clara, California",2003,   -9.31%
+GS,Large cap,Financials,Investment Banking & Investment Services,"$113,494,820,220 ","New York City, New York",1869,   -10.34%
+C,Large cap,Financials,Banking Services,"$112,871,375,049 ","New York City, New York",1998,   -4.79%
+BLK,Large cap,Financials,Investment Banking & Investment Services,"$111,573,275,126 ","New York City, New York",1988,   -18.42%
+AMT,Large cap,Real Estate,Residential & Commercial REIT,"$110,160,004,522 ","Boston, Massachusetts",1995,   -18.06%
+BA,Large cap,Industrials,Aerospace & Defense,"$109,752,542,314 ","Chicago, Illinois",1916,   -5.11%
+CHTR,Large cap,Communication Services,Telecommunications Services,"$108,340,814,129 ","Stamford, Connecticut",1993,   -11.86%
+GE,Large cap,Industrials,Consumer Goods Conglomerates,"$104,237,700,851 ","Boston, Massachusetts",1892,   0.46%
+TGT,Large cap,Consumer Discretionary,Diversified Retail,"$103,119,230,725 ","Minneapolis, Minnesota",1902,   -3.75%
+ISRG,Large cap,Health Care,Healthcare Equipment & Supplies,"$101,752,713,425 ","Sunnyvale, California",1995,   -20.28%
+SYK,Large cap,Health Care,Healthcare Equipment & Supplies,"$100,347,602,092 ","Kalamazoo, Michigan",1941,   -0.17%
+SBUX,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$99,915,058,000 ","Seattle, Washington",1971,   -24.86%
+EL,Large cap,Consumer Staples,Personal & Household Products & Services,"$99,069,471,982 ","New York City, New York",1946,   -23.85%
+SPGI,Large cap,Financials,Professional & Commercial Services,"$97,547,160,000 ","New York City, New York",1917,   -12.22%
+MO,Large cap,Consumer Staples,Food & Tobacco,"$94,951,695,075 ","Richmond, Virginia",1985,   12.49%
+ZTS,Large cap,Health Care,Pharmaceuticals,"$91,897,391,632 ","Parsippany, New Jersey",1952,   -19.32%
+CB,Large cap,Financials,Insurance,"$90,774,044,224 ","Zurich, Switzerland",1985,   10.52%
+CME,Large cap,Financials,Investment Banking & Investment Services,"$90,128,023,539 ","Chicago, Illinois",1848,   8.55%
+ADP,Large cap,Information Technology,Software & IT Services,"$89,272,220,170 ","Roseland, New Jersey",1949,   -12.72%
+BKNG,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$88,754,205,844 ","Norwalk, Connecticut",1996,   -8.22%
+MU,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$87,734,536,569 ","Boise, Idaho",1978,   -15.06%
+ADI,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$85,938,810,649 ","Wilmington, Massachusetts",1965,   -6.26%
+MDLZ,Large cap,Consumer Staples,Food & Tobacco,"$85,609,439,741 ","Chicago, Illinois",2012,   -7.15%
+MMM,Large cap,Industrials,Consumer Goods Conglomerates,"$84,854,038,000 ","Saint Paul, Minnesota",1902,   -15.59%
+USB,Large cap,Financials,Banking Services,"$83,399,767,214 ","Minneapolis, Minnesota",1968,   1.51%
+DUK,Large cap,Utilities,Electrical Utilities & IPPs,"$81,672,879,404 ","Charlotte, North Carolina",1904,   1.23%
+MMC,Large cap,Financials,Insurance,"$81,372,617,054 ","New York City, New York",1905,   -6.34%
+CSX,Large cap,Industrials,Freight & Logistics Services,"$80,848,334,906 ","Jacksonville, Florida",1980,   -2.18%
+PNC,Large cap,Financials,Banking Services,"$80,765,960,755 ","Pittsburgh, Pennsylvania",1845,   -1.57%
+HCA,Large cap,Health Care,Healthcare Providers & Services,"$78,995,931,919 ","Nashville, Tennessee",1968,   1.34%
+CI,Large cap,Health Care,Healthcare Providers & Services,"$78,155,324,690 ","Bloomfield, Connecticut",1982,   6.05%
+TFC,Large cap,Financials,Banking Services,"$77,905,587,715 ","Charlotte, North Carolina",1872,   1.98%
+ICE,Large cap,Financials,Investment Banking & Investment Services,"$76,395,058,591 ","Atlanta, Georgia",2000,   -0.27%
+BDX,Large cap,Health Care,Healthcare Equipment & Supplies,"$76,204,740,205 ","Franklin Lakes, New Jersey",1897,   5.32%
+CCI,Large cap,Real Estate,Residential & Commercial REIT,"$75,680,770,857 ","Houston, Texas",1994,   -16.63%
+LRCX,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$74,892,046,771 ","Fremont, California",1980,   -23.97%
+GILD,Large cap,Health Care,Biotechnology & Medical Research,"$74,806,881,954 ","Foster City, California",1987,   -17.39%
+REGN,Large cap,Health Care,Biotechnology & Medical Research,"$73,284,920,302 ","Tarrytown, New York",1988,   9.68%
+SO,Large cap,Utilities,Electrical Utilities & IPPs,"$73,039,009,578 ","Atlanta, Georgia",1945,   0.35%
+TJX,Large cap,Consumer Discretionary,Diversified Retail,"$72,753,653,250 ","Framingham, Massachusetts",1987,   -19.48%
+FCX,Large cap,Materials,Metals & Mining,"$72,026,210,033 ","Phoenix, Arizona",1912,   19.48%
+EOG,Large cap,Energy,Oil & Gas,"$71,686,792,659 ","Houston, Texas",1999,   37.57%
+MRNA,Large cap,Health Care,Biotechnology & Medical Research,"$70,681,685,482 ","Cambridge, Massachusetts",2010,   -26.48%
+NSC,Large cap,Industrials,Freight & Logistics Services,"$70,645,925,525 ","Norfolk, Virginia",1881,   -6.30%
+AON,Large cap,Financials,Insurance,"$70,043,671,867 ","London, UK",1982,   4.88%
+NOC,Large cap,Industrials,Aerospace & Defense,"$69,715,123,724 ","West Falls Church, Virginia",1994,   15.30%
+EW,Large cap,Health Care,Healthcare Equipment & Supplies,"$69,644,513,029 ","Irvine, California",1958,   -12.81%
+ITW,Large cap,Industrials,Consumer Goods Conglomerates,"$66,337,381,799 ","Glenview, Illinois",1912,   -13.90%
+D,Large cap,Utilities,Electrical Utilities & IPPs,"$66,158,517,723 ","Richmond, Virginia",1983,   3.95%
+FISV,Large cap,Information Technology,Professional & Commercial Services,"$65,732,690,752 ","Brookfield, Wisconsin",1984,   -3.17%
+PGR,Large cap,Financials,Insurance,"$65,608,308,768 ","Mayfield Village, Ohio",1937,   10.42%
+GD,Large cap,Industrials,Aerospace & Defense,"$65,556,159,070 ","Falls Church, Virginia",1899,   14.08%
+EQIX,Large cap,Real Estate,Residential & Commercial REIT,"$65,115,025,742 ","Redwood City, California",1998,   -14.98%
+F,Large cap,Consumer Discretionary,Automobiles & Auto Parts,"$64,822,357,444 ","Dearborn, Michigan",1903,   -17.72%
+WM,Large cap,Industrials,Professional & Commercial Services,"$64,687,965,610 ","Houston, Texas",1968,   -7.23%
+PSA,Large cap,Real Estate,Residential & Commercial REIT,"$64,454,117,841 ","Glendale, California",1972,   -1.12%
+SHW,Large cap,Materials,Chemicals,"$64,047,820,373 ","Cleveland, Ohio",1866,   -28.96%
+VRTX,Large cap,Health Care,Biotechnology & Medical Research,"$63,710,362,690 ","Cambridge, Massachusetts",1989,   14.70%
+GM,Large cap,Consumer Discretionary,Automobiles & Auto Parts,"$63,366,260,507 ","Detroit, Michigan",1908,   -24.00%
+BSX,Large cap,Health Care,Healthcare Equipment & Supplies,"$63,232,439,236 ","Marlborough, Massachusetts[4]",1979,   2.97%
+CL,Large cap,Consumer Staples,Personal & Household Products & Services,"$62,322,127,511 ","New York City, New York",1806,   -12.70%
+ETN,Large cap,Industrials,"Machinery, Equipment & Components","$61,654,480,000 ","Dublin, Ireland",1911,   -10.17%
+ATVI,Large cap,Communication Services,Software & IT Services,"$61,434,878,570 ","Santa Monica, California",2008,   19.19%
+PXD,Large cap,Energy,Oil & Gas,"$61,007,606,888 ","Irving, Texas",1997,   38.18%
+MCO,Large cap,Financials,Professional & Commercial Services,"$60,583,125,020 ","New York City, New York",1909,   -15.26%
+NEM,Large cap,Materials,Metals & Mining,"$60,471,525,095 ","Denver, Colorado",1921,   22.59%
+EMR,Large cap,Industrials,"Machinery, Equipment & Components","$58,419,180,000 ","Ferguson, Missouri",1890,   5.43%
+SLB,Large cap,Energy,Oil & Gas Related Equipment and Services,"$58,202,265,626 ","Curaçao, Kingdom of the Netherlands",1926,   37.56%
+FIS,Large cap,Information Technology,Financial Technology (Fintech) & Infrastructure,"$57,892,829,444 ","Jacksonville, Florida",1968,   -11.20%
+FDX,Large cap,Industrials,Freight & Logistics Services,"$57,579,035,355 ","Memphis, Tennessee",1971,   -12.40%
+COF,Large cap,Financials,Banking Services,"$57,220,629,478 ","Tysons Corner, Virginia",1994,   -4.77%
+OXY,Large cap,Energy,Oil & Gas,"$56,940,540,769 ","Houston, Texas",1920,   105.73%
+MET,Large cap,Financials,Insurance,"$56,740,630,840 ","New York City, New York",1868,   12.53%
+MAR,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$55,456,573,314 ","Bethesda, Maryland",1927,   3.23%
+HUM,Large cap,Health Care,Healthcare Providers & Services,"$55,370,337,607 ","Louisville, Kentucky",1961,   -5.48%
+ILMN,Large cap,Health Care,Healthcare Equipment & Supplies,"$54,479,000,000 ","San Diego, California",1998,   -7.95%
+KLAC,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$53,696,862,404 ","Milpitas, California",1975,   -16.06%
+DG,Large cap,Consumer Discretionary,Diversified Retail,"$52,921,765,514 ","Goodlettsville, Tennessee",1939,   -4.14%
+APD,Large cap,Materials,Chemicals,"$51,926,212,035 ","Allentown, Pennsylvania",1940,   -22.26%
+AIG,Large cap,Financials,Insurance,"$51,262,574,318 ","New York City, New York",1919,   10.24%
+SRE,Large cap,Utilities,Multiline Utilities,"$50,853,036,712 ","San Diego, California",1998,   19.54%
+FTNT,Large cap,Information Technology,Software & IT Services,"$50,581,282,230 ","Sunnyvale, California",2000,   -9.38%
+CNC,Large cap,Health Care,Healthcare Providers & Services,"$50,564,409,286 ","St. Louis, Missouri",1984,   6.27%
+NXPI,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$50,016,144,100 ","Eindhoven, Netherlands",1953,   -17.57%
+LHX,Large cap,Industrials,Aerospace & Defense,"$49,010,160,320 ","Melbourne, Florida",2019,   18.17%
+ADM,Large cap,Consumer Staples,Food & Tobacco,"$48,998,438,416 ","Chicago, Illinois",1902,   29.55%
+ECL,Large cap,Materials,Chemicals,"$48,954,221,372 ","Saint Paul, Minnesota",1923,   -24.83%
+ROP,Large cap,Industrials,Software & IT Services,"$48,859,263,669 ","Sarasota, Florida",1981,   -5.69%
+SNPS,Large cap,Information Technology,Software & IT Services,"$48,120,457,740 ","Mountain View, California",1986,   -11.74%
+CTSH,Large cap,Information Technology,Software & IT Services,"$47,937,237,931 ","Teaneck, New Jersey",1994,   4.96%
+AEP,Large cap,Utilities,Electrical Utilities & IPPs,"$47,775,540,280 ","Columbus, Ohio",1906,   7.06%
+DOW,Large cap,Materials,Chemicals,"$46,560,337,929 ","Midland, Michigan",2019,   12.04%
+JCI,Large cap,Industrials,"Machinery, Equipment & Components","$46,307,476,055 ","Cork, Ireland",1885,   -19.27%
+ADSK,Large cap,Information Technology,Software & IT Services,"$46,151,867,518 ","San Rafael, California",1982,   -22.95%
+KHC,Large cap,Consumer Staples,Food & Tobacco,"$46,037,106,437 ","Chicago, Illinois; Pittsburgh, Pennsylvania",2015,   5.71%
+PAYX,Large cap,Information Technology,Professional & Commercial Services,"$45,693,480,353 ","Penfield, New York",1971,   -6.63%
+ORLY,Large cap,Consumer Discretionary,Specialty Retailers,"$45,652,931,261 ","Springfield, Missouri",1957,   -2.72%
+APH,Large cap,Information Technology,Pharmaceuticals,"$45,549,369,737 ","Wallingford, Connecticut",1932,   -13.45%
+IDXX,Large cap,Health Care,Healthcare Equipment & Supplies,"$45,459,963,775 ","Westbrook, Maine",1983,   -16.10%
+MCK,Large cap,Health Care,Food & Drug Retailing,"$44,930,525,497 ","Irving, Texas",1833,   20.66%
+DXCM,Large cap,Health Care,Healthcare Equipment & Supplies,"$44,683,193,956 ","San Diego, California",1999,   -13.45%
+MPC,Large cap,Energy,Oil & Gas,"$44,674,785,231 ","Findlay, Ohio",2009,   23.85%
+TRV,Large cap,Financials,Insurance,"$44,083,543,619 ","New York City, New York",1853,   16.79%
+PRU,Large cap,Financials,Insurance,"$43,649,840,000 ","Newark, New Jersey",1875,   9.94%
+CDNS,Large cap,Information technology,Software & IT Services,"$43,597,219,200 ","San Jose, California",1988,   -14.03%
+HSY,Large cap,Consumer Staples,Food & Tobacco,"$43,368,467,120 ","Hershey, Pennsylvania",1894,   7.67%
+IQV,Large cap,Health Care,Biotechnology & Medical Research,"$43,331,994,119 ","Durham, North Carolina",1982,   -18.86%
+CMG,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$43,175,086,629 ","Newport Beach, California",1993,   -10.86%
+TEL,Large cap,Information Technology,"Machinery, Equipment & Components","$43,076,625,994 ","Schaffhausen, Switzerland",2007,   -18.29%
+EXC,Large cap,Utilities,Electrical Utilities & IPPs,"$42,792,780,023 ","Chicago, Illinois",2000,   5.90%
+MCHP,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$42,572,210,120 ","Chandler, Arizona",1989,   -12.26%
+SPG,Large cap,Real Estate,Residential & Commercial REIT,"$42,407,581,606 ","Indianapolis, Indiana",2003,   -16.86%
+STZ,Large cap,Consumer Staples,Beverages,"$42,292,901,187 ","Victor, New York",1945,   -9.26%
+BK,Large cap,Financials,Investment Banking & Investment Services,"$42,114,803,290 ","New York City, New York",1784,   -9.28%
+HLT,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$41,968,560,979 ","Tysons Corner, Virginia",1919,   -2.93%
+MNST,Large cap,Consumer Staples,Beverages,"$41,819,349,940 ","Corona, California",2012,   -15.35%
+RSG,Large cap,Industrials,Professional & Commercial Services,"$41,620,215,334 ","Phoenix, Arizona",1998,   -7.12%
+A,Large cap,Health Care,Healthcare Equipment & Supplies,"$41,492,574,435 ","Santa Clara, California",1999,   -12.75%
+WELL,Large cap,Real Estate,Residential & Commercial REIT,"$41,462,822,813 ","Toledo, Ohio",1970,   7.99%
+CTVA,Large cap,Materials,Food & Tobacco,"$41,403,845,950 ","Wilmington, Delaware",2019,   19.46%
+SYY,Large cap,Consumer Staples,Food & Drug Retailing,"$41,396,999,697 ","Houston, Texas",1969,   3.26%
+MSCI,Large cap,Financials,Professional & Commercial Services,"$41,202,829,863 ","New York City, New York",1969,   -16.80%
+AFL,Large cap,Financials,Insurance,"$41,201,179,475 ","Columbus, Georgia",1955,   10.40%
+KMI,Large cap,Energy,Oil & Gas Related Equipment and Services,"$40,973,445,945 ","Houston, Texas",1997,   13.05%
+KR,Large cap,Consumer Staples,Food & Drug Retailing,"$40,939,029,804 ","Cincinnati, Ohio",1883,   24.99%
+WBA,Large cap,Consumer Staples,Food & Drug Retailing,"$40,901,828,639 ","Deerfield, Illinois",2014,   -9.07%
+DVN,Large cap,Energy,Oil & Gas,"$40,808,448,000 ","Oklahoma City, Oklahoma",1971,   37.64%
+KMB,Large cap,Consumer Staples,Personal & Household Products & Services,"$40,677,363,438 ","Irving, Texas",1872,   -14.36%
+ANET,Large cap,Information Technology,Communications & Networking,"$40,609,799,967 ","Santa Clara, California",2004,   -5.38%
+CTAS,Large cap,Industrials,Professional & Commercial Services,"$40,590,556,989 ","Mason, Ohio",1929,   -11.32%
+CARR,Large cap,Industrials,"Machinery, Equipment & Components","$40,500,753,036 ","Palm Beach Gardens, Florida",2020,   -12.44%
+AZO,Large cap,Consumer Discretionary,Specialty Retailers,"$40,003,697,181 ","Memphis, Tennessee",1979,   -7.13%
+BAX,Large cap,Health Care,Healthcare Equipment & Supplies,"$39,579,816,511 ","Deerfield, Illinois",1931,   -9.12%
+HPQ,Large cap,Information Technology,"Computers, Phones & Household Electronics","$39,543,352,132 ","Palo Alto, California",1939,   1.49%
+WMB,Large cap,Energy,Oil & Gas Related Equipment and Services,"$39,506,765,708 ","Tulsa, Oklahoma",1908,   23.35%
+O,Large cap,Real Estate,Residential & Commercial REIT,"$39,370,122,419 ","San Diego, California",1969,   -5.78%
+DD,Large cap,Materials,Chemicals,"$39,365,649,397 ","Wilmington, Delaware",2017,   -4.64%
+MSI,Large cap,Information Technology,Communications & Networking,"$39,036,283,284 ","Chicago, Illinois",1928,   -14.58%
+DLR,Large cap,Real Estate,Residential & Commercial REIT,"$38,929,963,214 ","Austin, Texas",2004,   -21.74%
+VLO,Large cap,Energy,Oil & Gas,"$38,591,620,216 ","San Antonio, Texas",1980,   24.60%
+NUE,Large cap,Materials,Metals & Mining,"$38,417,574,193 ","Charlotte, North Carolina",1940,   26.15%
+GIS,Large cap,Consumer Staples,Food & Tobacco,"$37,893,444,894 ","Golden Valley, Minnesota",1856,   -6.98%
+GPN,Large cap,Information Technology,Professional & Commercial Services,"$37,858,282,157 ","Atlanta, Georgia",2000,   1.31%
+XEL,Large cap,Utilities,Electrical Utilities & IPPs,"$37,724,895,764 ","Minneapolis, Minnesota",1909,   2.23%
+RMD,Large cap,Health Care,Healthcare Equipment & Supplies,"$37,574,888,996 ","San Diego, California",1989,   -2.08%
+BKR,Large cap,Energy,Oil & Gas Related Equipment and Services,"$37,496,392,800 ","Houston, Texas",2017,   51.87%
+ALL,Large cap,Financials,Insurance,"$37,445,895,452 ","Northfield Township, Illinois",1931,   16.48%
+PH,Large cap,Industrials,"Machinery, Equipment & Components","$37,069,651,738 ","Cleveland, Ohio",1917,   -8.77%
+ODFL,Large cap,Industrials,Freight & Logistics Services,"$36,732,295,561 ","Thomasville, North Carolina",1934,   -9.89%
+TT,Large cap,Industrials,"Machinery, Equipment & Components","$36,509,009,766 ","Dublin, Ireland",1871,   -22.17%
+TDG,Large cap,Industrials,Aerospace & Defense,"$36,343,747,058 ","Cleveland, Ohio",1993,   5.56%
+SBAC,Large cap,Real Estate,Residential & Commercial REIT,"$35,354,473,409 ","Boca Raton, Florida",1989,   -17.04%
+PSX,Large cap,Energy,Oil & Gas,"$35,353,157,518 ","Houston, Texas",2012,   10.12%
+EA,Large cap,Communication Services,Software & IT Services,"$35,310,267,970 ","Redwood City, California",1982,   -3.01%
+DLTR,Large cap,Consumer Discretionary,Diversified Retail,"$34,883,096,582 ","Chesapeake, Virginia",1986,   11.51%
+AJG,Large cap,Financials,Insurance,"$34,747,268,040 ","Rolling Meadows, Illinois",1927,   -1.22%
+LYB,Large cap,Materials,Chemicals,"$34,421,325,640 ","Rotterdam, Netherlands",2007,   13.39%
+YUM,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$34,255,805,606 ","Louisville, Kentucky",1997,   -14.54%
+AVB,Large cap,Real Estate,Residential & Commercial REIT,"$34,215,601,147 ","Arlington, Virginia[3]",1978,   -3.77%
+ALGN,Large cap,Health Care,Healthcare Equipment & Supplies,"$34,076,687,290 ","San Jose, California",1997,   -30.46%
+VRSK,Large cap,Industrials,Software & IT Services,"$33,921,028,361 ","Jersey City, New Jersey",1971,   -7.69%
+PEG,Large cap,Utilities,Multiline Utilities,"$33,865,156,716 ","Newark, New Jersey",1903,   0.55%
+HAL,Large cap,Energy,Oil & Gas Related Equipment and Services,"$33,768,317,609 ","Houston, Texas",1919,   62.18%
+EQR,Large cap,Real Estate,Residential & Commercial REIT,"$33,415,283,641 ","Chicago, Illinois",1969,   -2.65%
+SIVB,Large cap,Financials,Banking Services,"$33,257,406,717 ","Santa Clara, California",1983,   -13.33%
+FAST,Large cap,Industrials,"Machinery, Equipment & Components","$33,243,772,159 ","Winona, Minnesota",1967,   -9.85%
+TROW,Large cap,Financials,Investment Banking & Investment Services,"$33,226,349,554 ","Baltimore, Maryland",1937,   -24.00%
+AMP,Large cap,Financials,Investment Banking & Investment Services,"$33,097,919,913 ","Minneapolis, Minnesota",1894,   1.93%
+OTIS,Large cap,Industrials,"Machinery, Equipment & Components","$32,862,338,989 ","Farmington, Connecticut",2020,   -10.96%
+EBAY,Large cap,Consumer Discretionary,Software & IT Services,"$32,502,099,578 ","San Jose, California",1995,   -16.17%
+STT,Large cap,Financials,Investment Banking & Investment Services,"$32,345,710,074 ","Boston, Massachusetts",1792,   -2.87%
+IFF,Large cap,Materials,Food & Tobacco,"$32,235,442,352 ","New York City, New York",1958,   -15.33%
+ROST,Large cap,Consumer Discretionary,Specialty Retailers,"$32,177,738,966 ","Dublin, California",1982,   -19.78%
+HES,Large cap,Energy,Oil & Gas,"$32,165,137,942 ","New York City, New York",1919,   37.23%
+ABC,Large cap,Health Care,Healthcare Equipment & Supplies,"$32,035,671,374 ","Chesterbrook, Pennsylvania",1985,   14.46%
+GLW,Large cap,Information Technology,Electronic Equipment & Parts,"$31,973,111,024 ","Corning, New York",1851,   2.98%
+DFS,Large cap,Financials,Banking Services,"$31,946,250,423 ","Riverwoods, Illinois",1985,   -0.71%
+FITB,Large cap,Financials,Banking Services,"$31,774,201,080 ","Cincinnati, Ohio",1858,   8.86%
+ED,Large cap,Utilities,Electrical Utilities & IPPs,"$31,715,877,307 ","New York City, New York",1823,   4.65%
+ROK,Large cap,Industrials,"Machinery, Equipment & Components","$31,711,084,201 ","Milwaukee, Wisconsin",1903,   -21.41%
+MTD,Large cap,Health Care,Office Equipment,"$31,707,281,170 ","Columbus, Ohio",1945,   -17.54%
+TSN,Large cap,Consumer Staples,Food & Tobacco,"$31,526,894,880 ","Springdale, Arkansas",1935,   -0.44%
+APTV,Large cap,Consumer Discretionary,Automobiles & Auto Parts,"$31,477,654,981 ","Dublin, Ireland",1994,   -28.28%
+AME,Large cap,Industrials,"Machinery, Equipment & Components","$31,136,405,827 ","Berwyn, Pennsylvania",1930,   -8.45%
+ARE,Large cap,Real Estate,Residential & Commercial REIT,"$30,955,432,282 ","Pasadena, California",1994,   -13.32%
+PCAR,Large cap,Industrials,"Machinery, Equipment & Components","$30,845,698,763 ","Bellevue, Washington",1905,   1.02%
+WST,Large cap,Health Care,Healthcare Equipment & Supplies,"$30,652,297,701 ","Exton, Pennsylvania",1923,   -11.84%
+BF.B,Large cap,Consumer Staples,Beverages,"$30,583,305,421 ","Louisville, Kentucky",1870,   -9.25%
+OKE,Large cap,Energy,Oil & Gas Related Equipment and Services,"$30,574,534,288 ","Tulsa, Oklahoma",1906,   16.24%
+PPG,Large cap,Materials,Chemicals,"$30,441,854,278 ","Pittsburgh, Pennsylvania",1883,   -24.34%
+BIIB,Large cap,Health Care,Pharmaceuticals,"$30,393,375,220 ","Cambridge, Massachusetts",1978,   -12.09%
+WEC,Large cap,Utilities,Electrical Utilities & IPPs,"$30,187,084,617 ","Milwaukee, Wisconsin",1896,   -1.75%
+BLL,Large cap,Materials,Containers & Packaging,"$30,059,039,173 ","Broomfield, Colorado",1880,   -2.16%
+CBRE,Large cap,Real Estate,Real Estate Operations,"$29,998,759,206 ","Dallas, Texas",1906,   -15.60%
+CPRT,Large cap,Industrials,Specialty Retailers,"$29,986,409,477 ","Dallas, Texas",1982,   -15.99%
+TWTR,Large cap,Communication Services,Software & IT Services,"$29,976,005,255 ","San Francisco, California",2006,   -11.08%
+LVS,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$29,558,763,505 ","Las Vegas, Nevada",1988,   3.67%
+DHI,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,"$29,383,379,042 ","Arlington, Texas",1978,   -23.66%
+CMI,Large cap,Industrials,Automobiles & Auto Parts,"$29,361,271,420 ","Columbus, Indiana",1919,   -3.88%
+WY,Large cap,Real Estate,Residential & Commercial REIT,"$29,248,711,890 ","Seattle, Washington",1900,   -3.85%
+NDAQ,Large cap,Financials,Investment Banking & Investment Services,"$29,206,167,931 ","New York City, New York",1971,   -15.48%
+KEYS,Large cap,Information Technology,"Machinery, Equipment & Components","$29,166,962,296 ","Santa Rosa, California",2014,   -23.07%
+ES,Large cap,Utilities,Electrical Utilities & IPPs,"$29,112,060,771 ","Hartford, Connecticut",1966,   -7.45%
+EFX,Large cap,Industrials,Professional & Commercial Services,"$29,036,601,978 ","Atlanta, Georgia",1899,   -18.17%
+FRC,Large cap,Financials,Banking Services,"$28,901,332,980 ","San Francisco, California",1985,   -17.42%
+EXPE,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$28,570,913,513 ","Seattle, Washington",1996,   6.08%
+MTCH,Large cap,Communication Services,Software & IT Services,"$28,523,383,249 ","Dallas, Texas",1986,   -21.13%
+AWK,Large cap,Utilities,Water Utilities,"$28,503,241,813 ","Camden, New Jersey",1886,   -17.09%
+CERN,Large cap,Health Care,Healthcare Equipment & Supplies,"$27,459,940,265 ","North Kansas City, Missouri",1979,   0.84%
+WTW,Large cap,Financials,Personal & Household Products & Services,"$27,240,449,881 ","London, England",2016,   -1.31%
+HRL,Large cap,Consumer Staples,Food & Tobacco,"$27,113,631,098 ","Austin, Minnesota",1891,   1.88%
+ANSS,Large cap,Information Technology,Software & IT Services,"$27,097,996,704 ","Canonsburg, Pennsylvania",1969,   -20.87%
+EXR,Large cap,Real Estate,Residential & Commercial REIT,"$26,283,165,637 ","Salt Lake City, Utah",1977,   -13.67%
+TSCO,Large cap,Consumer Discretionary,Specialty Retailers,"$26,116,948,305 ","Brentwood, Tennessee",1938,   -2.85%
+GWW,Large cap,Industrials,"Machinery, Equipment & Components","$25,871,490,844 ","Lake Forest, Illinois",1927,   -2.99%
+LH,Large cap,Health Care,Healthcare Providers & Services,"$25,840,044,000 ","Burlington, North Carolina",1978,   -11.70%
+LEN,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,"$25,818,839,747 ","Miami, Florida",1954,   -23.96%
+MKC,Large cap,Consumer Staples,Food & Tobacco,"$25,798,223,094 ","Hunt Valley, Maryland",1889,   0.18%
+LYV,Large cap,Communication Services,Hotels & Entertainment Services,"$25,591,619,787 ","Beverly Hills, California",2010,   -1.43%
+LUV,Large cap,Industrials,Passenger Transportation Services,"$25,322,333,621 ","Dallas, Texas",1967,   0.51%
+ZBH,Large cap,Health Care,Healthcare Equipment & Supplies,"$25,318,837,943 ","Warsaw, Indiana",1927,   -5.16%
+URI,Large cap,Industrials,Professional & Commercial Services,"$25,108,397,425 ","Stamford, Connecticut",1997,   7.24%
+FE,Large cap,Utilities,Electrical Utilities & IPPs,"$24,867,015,360 ","Akron, Ohio",1997,   4.71%
+EIX,Large cap,Utilities,Electrical Utilities & IPPs,"$24,847,882,047 ","Rosemead, California",1886,   -3.38%
+ENPH,Large cap,Information Technology,Renewable Energy,"$24,838,352,198 ","Fremont, California",2006,   3.45%
+FANG,Large cap,Energy,Oil & Gas,"$24,816,805,864 ","Midland, Texas",2007,   27.35%
+MOS,Large cap,Materials,Chemicals,"$24,750,383,280 ","Tampa, Florida",2004,   67.17%
+DTE,Large cap,Utilities,Electrical Utilities & IPPs,"$24,624,591,677 ","Detroit, Michigan",1995,   5.16%
+IT,Large cap,Information Technology,Software & IT Services,"$24,416,317,921 ","Stamford, Connecticut",1979,   -10.13%
+SWK,Large cap,Industrials,"Machinery, Equipment & Components","$24,222,485,311 ","New Britain, Connecticut",1843,   -22.64%
+VMC,Large cap,Materials,Construction Materials,"$24,212,015,501 ","Birmingham, Alabama",1909,   -12.30%
+CDW,Large cap,Information Technology,Software & IT Services,"$24,126,696,403 ","Lincolnshire, Illinois",1984,   -13.00%
+MAA,Large cap,Real Estate,Residential & Commercial REIT,"$23,873,285,768 ","Memphis, Tennessee",1977,   -10.44%
+MLM,Large cap,Materials,Construction Materials,"$23,870,299,444 ","Raleigh, North Carolina",1993,   -12.83%
+BBY,Large cap,Consumer Discretionary,Specialty Retailers,"$23,825,151,338 ","Richfield, Minnesota",1966,   -2.26%
+NTRS,Large cap,Financials,Investment Banking & Investment Services,"$23,811,660,684 ","Chicago, Illinois",1889,   -2.00%
+VTR,Large cap,Real Estate,Residential & Commercial REIT,"$23,738,060,163 ","Chicago, Illinois",1998,   17.82%
+PARA,Large cap,Communication Services,#FIELD!,"$23,717,171,121 ","New York City, New York",2019,   24.02%
+HIG,Large cap,Financials,Insurance,"$23,716,065,242 ","Hartford, Connecticut",1810,   3.97%
+VRSN,Large cap,Information Technology,Software & IT Services,"$23,677,185,775 ","Dulles, Virginia",1995,   -14.08%
+CHD,Large cap,Consumer Staples,Personal & Household Products & Services,"$23,672,143,443 ","Ewing, New Jersey",1847,   -4.53%
+STE,Large cap,Health Care,Healthcare Equipment & Supplies,"$23,423,758,104 ","Dublin, Ireland",1985,   -3.30%
+MTB,Large cap,Financials,Banking Services,"$23,304,935,189 ","Buffalo, New York",1856,   20.13%
+ALB,Large cap,Materials,Chemicals,"$23,252,834,668 ","Charlotte, North Carolina",1994,   -12.05%
+DAL,Large cap,Industrials,Passenger Transportation Services,"$23,095,065,038 ","Atlanta, Georgia",1929,   -5.37%
+AEE,Large cap,Utilities,Multiline Utilities,"$23,056,059,087 ","St. Louis, Missouri",1902,   -0.48%
+ZBRA,Large cap,Information Technology,Electronic Equipment & Parts,"$22,799,871,520 ","Lincolnshire, Illinois",1969,   -27.14%
+PKI,Large cap,Health Care,Healthcare Equipment & Supplies,"$22,789,068,762 ","Waltham, Massachusetts",1937,   -8.22%
+DOV,Large cap,Industrials,"Machinery, Equipment & Components","$22,783,676,643 ","Downers Grove, Illinois",1955,   -12.23%
+GRMN,Large cap,Consumer Discretionary,Communications & Networking,"$22,498,252,236 ","Schaffhausen, Switzerland",1989,   -12.95%
+JBHT,Large cap,Industrials,Freight & Logistics Services,"$22,468,772,546 ","Lowell, Arkansas",1961,   4.62%
+COO,Large cap,Health Care,Healthcare Equipment & Supplies,"$22,300,104,642 ","San Ramon, California",1958,   -0.08%
+ETR,Large cap,Utilities,Electrical Utilities & IPPs,"$22,262,698,379 ","New Orleans, Louisiana",1913,   -2.64%
+FOXA,Large cap,Communication Services,Media & Publishing,"$22,176,682,916 ","New York City, New York",2019,   11.38%
+FOXA,Large cap,Communication Services,Media & Publishing,"$22,176,682,916 ","New York City, New York",2019,   11.38%
+HPE,Large cap,Information Technology,"Computers, Phones & Household Electronics","$22,167,314,367 ","Houston, Texas",2015,   8.62%
+KEY,Large cap,Financials,Banking Services,"$22,164,211,031 ","Cleveland, Ohio",1825,   5.19%
+SWKS,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$22,065,335,758 ","Woburn, Massachusetts",2002,   -11.36%
+FTV,Large cap,Industrials,"Machinery, Equipment & Components","$22,039,495,386 ","Everett, Washington",2016,   -19.49%
+ESS,Large cap,Real Estate,Residential & Commercial REIT,"$22,012,053,566 ","San Mateo, California",1971,   -4.71%
+RJF,Large cap,Financials,Investment Banking & Investment Services,"$21,960,144,109 ","St. Petersburg, Florida",1962,   7.17%
+VFC,Large cap,Consumer Discretionary,Textiles & Apparel,"$21,957,388,119 ","Denver, Colorado",1899,   -22.55%
+HBAN,Large cap,Financials,Banking Services,"$21,787,985,686 ","Columbus, Ohio; Detroit, Michigan",1866,   0.00%
+MPWR,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$21,600,174,870 ","Kirkland, Washington",1997,   -4.70%
+DRE,Large cap,Real Estate,Residential & Commercial REIT,"$21,457,957,935 ","Indianapolis, Indiana",1972,   -14.56%
+RF,Large cap,Financials,Banking Services,"$21,348,188,933 ","Birmingham, Alabama",1971,   7.48%
+PAYC,Large cap,Information Technology,Software & IT Services,"$21,187,330,931 ","Oklahoma City, Oklahoma",1998,   -13.96%
+TDY,Large cap,Information Technology,Electronic Equipment & Parts,"$21,178,190,513 ","Thousand Oaks, California",1960,   2.96%
+CINF,Large cap,Financials,Insurance,"$21,034,471,454 ","Fairfield, Ohio",1950,   15.59%
+CF,Large cap,Materials,Chemicals,"$21,002,057,595 ","Deerfield, Illinois",1946,   41.28%
+CCL,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$20,920,610,803 ","Miami, Florida",1972,   -5.91%
+ULTA,Large cap,Consumer Discretionary,Specialty Retailers,"$20,872,527,121 ","Bolingbrook, Illinois",1990,   -5.48%
+IR,Large cap,Industrials,"Machinery, Equipment & Components","$20,741,981,566 ","Davidson, North Carolina",1859,   -17.94%
+K,Large cap,Consumer Staples,Food & Tobacco,"$20,732,534,043 ","Battle Creek, Michigan",1906,   -5.18%
+CFG,Large cap,Financials,Banking Services,"$20,718,766,906 ","Providence, Rhode Island",1828,   5.74%
+WAT,Large cap,Health Care,Healthcare Equipment & Supplies,"$20,635,141,824 ","Milford, Massachusetts",1958,   -8.80%
+CTRA,Large cap,Energy,Oil & Gas,"$20,567,242,714 ","Houston, Texas",2021,   34.63%
+STX,Large cap,Information Technology,"Computers, Phones & Household Electronics","$20,197,749,740 ","Dublin, Ireland",1979,   -17.09%
+GNRC,Large cap,Industrials,"Machinery, Equipment & Components","$19,903,050,458 ","Waukesha, Wisconsin",1959,   -7.96%
+PPL,Large cap,Utilities,Multiline Utilities,"$19,781,234,707 ","Allentown, Pennsylvania",1920,   -10.65%
+MOH,Large cap,Health Care,Healthcare Providers & Services,"$19,700,656,000 ","Long Beach, California",1980,   6.32%
+NTAP,Large cap,Information Technology,"Computers, Phones & Household Electronics","$19,694,476,356 ","Sunnyvale, California",1992,   -4.76%
+TER,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$19,642,717,543 ","North Reading, Massachusetts",1960,   -26.01%
+BRO,Large cap,Financials,Insurance,"$19,616,807,329 ","Daytona Beach, Florida",1939,   -1.52%
+BXP,Large cap,Real Estate,Residential & Commercial REIT,"$19,605,533,541 ","Boston, Massachusetts",1970,   8.89%
+CMS,Large cap,Utilities,Multiline Utilities,"$19,411,040,152 ","Jackson, Michigan",1886,   3.01%
+CTLT,Large cap,Health Care,Pharmaceuticals,"$19,302,056,724 ","Somerset, New Jersey",2007,   -15.73%
+RCL,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$19,290,959,626 ","Miami, Florida",1997,   0.00%
+POOL,Large cap,Consumer Discretionary,Leisure Products,"$19,112,786,769 ","Covington, Louisiana",1993,   -15.75%
+SYF,Large cap,Financials,Banking Services,"$18,963,869,830 ","Stamford, Connecticut",2003,   -18.95%
+HOLX,Large cap,Health Care,Healthcare Equipment & Supplies,"$18,946,296,152 ","Marlborough, Massachusetts",1985,   -0.52%
+SBNY,Large cap,Financials,Banking Services,"$18,849,458,647 ","New York City, New York",2001,   -0.71%
+AKAM,Large cap,Information Technology,Software & IT Services,"$18,844,420,658 ","Cambridge, Massachusetts",1998,   -0.31%
+FLT,Large cap,Information Technology,Professional & Commercial Services,"$18,789,362,178 ","Norcross, Georgia",2000,   8.81%
+CNP,Large cap,Utilities,Multiline Utilities,"$18,549,373,005 ","Houston, Texas",1882,   5.59%
+MGM,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$18,370,576,012 ","Paradise, Nevada",1986,   -6.48%
+MRO,Large cap,Energy,Oil & Gas,"$18,305,667,333 ","Houston, Texas",1887,   50.18%
+PWR,Large cap,Industrials,Construction & Engineering,"$18,295,752,061 ","Houston, Texas",1997,   13.15%
+PFG,Large cap,Financials,Insurance,"$18,244,130,346 ","Des Moines, Iowa",1879,   -1.87%
+GPC,Large cap,Consumer Discretionary,Automobiles & Auto Parts,"$18,208,904,460 ","Atlanta, Georgia",1925,   -8.59%
+J,Large cap,Industrials,Construction & Engineering,"$18,076,123,464 ","Dallas, Texas",1947,   -0.68%
+ETSY,Large cap,Consumer Discretionary,Diversified Retail,"$18,072,977,227 ","New York City, New York",2005,   -32.29%
+UDR,Large cap,Real Estate,Residential & Commercial REIT,"$18,067,883,953 ","Highlands Ranch, Colorado",1972,   -6.23%
+TYL,Large cap,Information Technology,Software & IT Services,"$18,009,934,289 ","Plano, Texas",1966,   -17.96%
+PEAK,Large cap,Real Estate,Residential & Commercial REIT,"$17,894,110,934 ","Long Beach, California",1985,   -7.26%
+WAB,Large cap,Industrials,"Machinery, Equipment & Components","$17,887,907,606 ","Pittsburgh, Pennsylvania",1999,   3.89%
+OMC,Large cap,Communication Services,Media & Publishing,"$17,810,278,558 ","New York City, New York",1986,   14.82%
+TRMB,Large cap,Information Technology,Software & IT Services,"$17,781,037,549 ","Sunnyvale, California",1978,   -18.25%
+EXPD,Large cap,Industrials,Freight & Logistics Services,"$17,767,630,513 ","Seattle, Washington",1979,   -20.70%
+BR,Large cap,Information Technology,Professional & Commercial Services,"$17,744,760,193 ","Lake Success, New York",1962,   -16.46%
+TTWO,Large cap,Communication Services,Leisure Products,"$17,453,232,018 ","New York City, New York",1993,   -14.31%
+BIO,Large cap,Health Care,Healthcare Equipment & Supplies,"$17,394,296,877 ","Hercules, California",1952,   -21.99%
+AMCR,Large cap,Materials,Containers & Packaging,"$17,347,313,918 ","Warmley, Bristol, United Kingdom",2019,   -4.66%
+WRB,Large cap,Financials,Insurance,"$17,320,205,845 ","Greenwich, Connecticut",1967,   19.95%
+TECH,Large cap,Health Care,Biotechnology & Medical Research,"$17,217,684,433 ","Minneapolis, Minnesota",1976,   -14.54%
+DGX,Large cap,Health Care,Healthcare Providers & Services,"$17,183,570,247 ","Secaucus, New Jersey",1967,   -16.89%
+INCY,Large cap,Health Care,Biotechnology & Medical Research,"$16,949,082,974 ","Wilmington, Delaware",1991,   6.34%
+IP,Large cap,Materials,Containers & Packaging,"$16,846,072,066 ","Memphis, Tennessee",1898,   -4.02%
+CZR,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$16,806,549,669 ","Reno, Nevada",1973,   -14.39%
+DRI,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$16,754,791,949 ","Orlando, Florida",1938,   -12.37%
+ROL,Large cap,Industrials,Professional & Commercial Services,"$16,631,775,240 ","Atlanta, Georgia",1948,   -1.46%
+KMX,Large cap,Consumer Discretionary,Specialty Retailers,"$16,586,737,453 ","Richmond, Virginia",1993,   -20.87%
+NVR,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,"$16,550,866,464 ","Reston, Virginia",1980,   -17.04%
+FMC,Large cap,Materials,Chemicals,"$16,542,353,077 ","Philadelphia, Pennsylvania",1883,   18.78%
+FDS,Large cap,Financials,Professional & Commercial Services,"$16,537,013,006 ","Norwalk, Connecticut",1978,   -10.33%
+SEDG,Large cap,Information Technology,Renewable Energy,"$16,483,645,852 ","Herzliya, Israel",2006,   15.87%
+CLX,Large cap,Consumer Staples,Personal & Household Products & Services,"$16,448,867,112 ","Oakland, California",1913,   -21.92%
+DISH,Large cap,Communication Services,Media & Publishing,"$16,437,281,000 ","Meridian, Colorado",1980,   -2.56%
+TFX,Large cap,Health Care,Healthcare Equipment & Supplies,"$16,354,624,185 ","Wayne, Pennsylvania",1943,   5.59%
+TXT,Large cap,Industrials,Aerospace & Defense,"$16,287,438,870 ","Providence, Rhode Island",1923,   -2.73%
+EPAM,Large cap,Information Technology,Software & IT Services,"$16,156,349,003 ","Newtown, Pennsylvania",1993,   -54.59%
+CEGR3,Large cap,Utilities,Natural Gas Utilities,"$16,061,648,330 ",#N/A,#N/A,#N/A
+CAH,Large cap,Health Care,Food & Drug Retailing,"$15,958,736,179 ","Dublin, Ohio",1971,   12.16%
+L,Large cap,Financials,Insurance,"$15,882,474,328 ","New York City, New York",1959,   11.72%
+NLOK,Large cap,Information Technology,Software & IT Services,"$15,826,627,550 ","Tempe, Arizona",1982,   5.43%
+XYL,Large cap,Industrials,"Machinery, Equipment & Components","$15,770,133,845 ","White Plains, New York",2011,   -26.04%
+AES,Large cap,Utilities,Electrical Utilities & IPPs,"$15,670,437,934 ","Arlington, Virginia",1981,   -2.39%
+ATO,Large cap,Utilities,Natural Gas Utilities,"$15,607,215,601 ","Dallas, Texas",1906,   8.96%
+CE,Large cap,Materials,Chemicals,"$15,421,177,864 ","Irving, Texas",1918,   -14.51%
+CAG,Large cap,Consumer Staples,Food & Tobacco,"$15,331,139,483 ","Chicago, Illinois",1919,   -5.39%
+HWM,Large cap,Industrials,Aerospace & Defense,"$15,328,581,194 ","Pittsburgh, Pennsylvania",2016,   17.25%
+WDC,Large cap,Information Technology,"Computers, Phones & Household Electronics","$15,317,320,779 ","San Jose, California",1970,   -23.74%
+LNT,Large cap,Utilities,Electrical Utilities & IPPs,"$15,250,713,745 ","Madison, Wisconsin",1917,   -2.54%
+IEX,Large cap,Industrials,"Machinery, Equipment & Components","$15,107,486,584 ","Lake Forest, Illinois",1988,   -16.53%
+EVRG,Large cap,Utilities,Electrical Utilities & IPPs,"$14,900,089,446 ","Kansas City, Missouri",1909,   -5.12%
+PKG,Large cap,Materials,Containers & Packaging,"$14,849,906,449 ","Lake Forest, Illinois",1959,   12.71%
+KIM,Large cap,Real Estate,Residential & Commercial REIT,"$14,799,061,783 ","New Hyde Park, New York",1958,   -0.97%
+IRM,Large cap,Real Estate,Residential & Commercial REIT,"$14,520,907,325 ","Boston, Massachusetts",1951,   -2.64%
+LDOS,Large cap,Industrials,Software & IT Services,"$14,502,695,030 ","Reston, Virginia",1969,   19.71%
+CRL,Large cap,Health Care,Biotechnology & Medical Research,"$14,469,805,931 ","Wilmington, Massachusetts",1947,   -21.60%
+DPZ,Large cap,Consumer Discretionary,Hotels & Entertainment Services,"$14,416,275,409 ","Ann Arbor, Michigan",1960,   -29.68%
+APA,Large cap,Energy,Oil & Gas,"$14,176,218,374 ","Houston, Texas",1954,   50.69%
+EMN,Large cap,Materials,Chemicals,"$14,149,065,895 ","Kingsport, Tennessee",1920,   -8.64%
+IPG,Large cap,Communication Services,Media & Publishing,"$14,131,343,765 ","New York City, New York",1961,   -2.80%
+SJM,Large cap,Consumer Staples,Food & Tobacco,"$14,118,029,147 ","Orrville, Ohio",1897,   -4.06%
+AVY,Large cap,Materials,Containers & Packaging,"$14,081,909,199 ","Glendale, California",1990,   -21.11%
+QRVO,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,"$13,980,089,669 ","Greensboro, North Carolina",2015,   -16.86%
+ABMD,Large cap,Health Care,Healthcare Equipment & Supplies,"$13,961,639,188 ","Danvers, Massachusetts",1981,   -12.76%
+BEN,Large cap,Financials,Investment Banking & Investment Services,"$13,883,739,273 ","San Mateo, California",1947,   -16.12%
+CHRW,Large cap,Industrials,Freight & Logistics Services,"$13,688,979,623 ","Eden Prairie, Minnesota",1905,   -1.44%
+JKHY,Large cap,Information Technology,Software & IT Services,"$13,550,553,890 ","Monett, Missouri",1976,   12.47%
+MAS,Large cap,Industrials,Homebuilding & Construction Supplies,"$13,407,079,241 ","Livonia, Michigan",1929,   -21.39%
+DISCA,Large cap,Communication Services,Media & Publishing,"$13,310,170,603 ","New York City, New York",1985,   14.15%
+DISCK,Large cap,Communication Services,Media & Publishing,"$13,310,170,603 ","New York City, New York",1985,   17.73%
+NDSN,Large cap,Industrials,"Machinery, Equipment & Components","$13,296,202,004 ","Westlake, Ohio",1935,   -9.75%
+UAL,Large cap,Industrials,Passenger Transportation Services,"$13,260,985,662 ","Chicago, Illinois",1967,   -3.61%
+MKTX,Large cap,Financials,Investment Banking & Investment Services,"$13,192,452,851 ","New York City, New York",2000,   -14.30%
+LKQ,Large cap,Consumer Discretionary,Automobiles & Auto Parts,"$13,190,454,260 ","Chicago, Illinois",1998,   -22.26%
+HST,Large cap,Real Estate,Residential & Commercial REIT,"$13,176,069,271 ","Bethesda, Maryland",1993,   6.96%
+RHI,Large cap,Industrials,Professional & Commercial Services,"$13,079,763,202 ","Menlo Park, California",1948,   5.99%
+PTC,Large cap,Information Technology,Software & IT Services,"$13,044,880,074 ","Boston, Massachusetts",1985,   -7.89%
+VTRS,Large cap,Health Care,Pharmaceuticals,"$13,027,136,536 ","Pittsburgh, Pennsylvania",1961,   -19.81%
+NWS,Large cap,Communication Services,Media & Publishing,"$13,023,415,206 ","New York City, New York",2013,   -0.09%
+NWSA,Large cap,Communication Services,Media & Publishing,"$13,023,415,206 ","New York City, New York",2013,   -0.31%
+CPB,Large cap,Consumer Staples,Food & Tobacco,"$12,813,348,155 ","Camden, New Jersey",1869,   -1.08%
+BBWI,Large cap,Consumer Discretionary,Specialty Retailers,"$12,708,317,678 ","Columbus, Ohio",1963,   -28.44%
+CTXS,Large cap,Information Technology,Software & IT Services,"$12,661,826,565 ","Fort Lauderdale, Florida",1989,   6.67%
+AAP,Large cap,Consumer Discretionary,Specialty Retailers,"$12,570,826,879 ","Raleigh, North Carolina",1932,   -12.71%
+UHS,Large cap,Health Care,Healthcare Providers & Services,"$12,538,680,960 ","King of Prussia, Pennsylvania",1979,   13.06%
+FFIV,Large cap,Information Technology,Software & IT Services,"$12,519,958,982 ","Seattle, Washington",1996,   -14.39%
+HAS,Large cap,Consumer Discretionary,Leisure Products,"$12,423,003,259 ","Pawtucket, Rhode Island",1923,   -12.39%
+CMA,Large cap,Financials,Banking Services,"$12,368,590,189 ","Dallas, Texas",1849,   10.38%
+CBOE,Large cap,Financials,Investment Banking & Investment Services,"$12,367,984,576 ","Chicago, Illinois",1973,   -8.39%
+WRK,Large cap,Materials,Containers & Packaging,"$12,347,387,129 ","Atlanta, Georgia",2015,   6.72%
+NI,Large cap,Utilities,Multiline Utilities,"$12,307,488,904 ","Merrillville, Indiana",1912,   9.45%
+HSIC,Large cap,Health Care,Healthcare Equipment & Supplies,"$12,094,525,776 ","Melville, New York",1932,   14.19%
+PHM,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,"$11,569,729,076 ","Atlanta, Georgia",1956,   -18.84%
+REG,Large cap,Real Estate,Residential & Commercial REIT,"$11,560,792,088 ","Jacksonville, Florida",1963,   -8.85%
+TAP,Large cap,Consumer Staples,Beverages,"$11,426,050,771 ","Chicago, Illinois",2005,   14.09%
+JNPR,Large cap,Information Technology,Communications & Networking,"$11,396,602,812 ","Sunnyvale, California",1996,   -0.08%
+SNA,Large cap,Industrials,"Machinery, Equipment & Components","$11,366,578,959 ","Kenosha, Wisconsin",1920,   -1.30%
+RE,Large cap,Financials,Insurance,"$11,267,097,782 ","Hamilton, Bermuda",1973,   6.71%
+LNC,Large cap,Financials,Insurance,"$11,240,598,389 ","Radnor, Pennsylvania",1905,   -1.85%
+LUMN,Large cap,Communication Services,Telecommunications Services,"$11,216,159,575 ","Monroe, Louisiana",1983,   -12.67%
+FBHS,Large cap,Industrials,Homebuilding & Construction Supplies,"$11,167,327,322 ","Deerfield, Illinois",2011,   -22.62%
+AOS,Large cap,Industrials,"Machinery, Equipment & Components","$10,966,499,040 ","Milwaukee, Wisconsin",1916,   -21.03%
+WHR,Large cap,Consumer Discretionary,Household Goods,"$10,948,574,402 ","Benton Harbor, Michigan",1911,   -19.53%
+DVA,Large cap,Health Care,Healthcare Providers & Services,"$10,775,970,000 ","Denver, Colorado",1979,   -2.65%
+XRAY,Large cap,Health Care,Healthcare Equipment & Supplies,"$10,714,549,423 ","Charlotte, North Carolina",2016,   -10.95%
+AAL,Large cap,Industrials,Passenger Transportation Services,"$10,444,986,283 ","Fort Worth, Texas",1934,   -7.80%
+ALLE,Large cap,Industrials,Communications & Networking,"$10,345,019,325 ","New York City, New York",1908,   -11.30%
+ZION,Large cap,Financials,Banking Services,"$10,292,371,456 ","Salt Lake City, Utah",1873,   10.09%
+CDAY,Large cap,Information Technology,Software & IT Services,"$10,245,107,034 ","Minneapolis, Minnesota",1992,   -33.85%
+AIZ,Large cap,Financials,Insurance,"$10,152,110,010 ","New York City, New York",1892,   15.24%
+SEE,Large cap,Materials,Containers & Packaging,"$10,138,461,725 ","Charlotte, North Carolina",1960,   1.36%
+TPR,Mid cap,Consumer Discretionary,Specialty Retailers,"$9,999,930,556 ","New York City, New York",2017,   -6.77%
+GL,Mid cap,Financials,Insurance,"$9,885,164,284 ","McKinney, Texas",1900,   8.18%
+IVZ,Mid cap,Financials,Investment Banking & Investment Services,"$9,809,381,040 ","Atlanta, Georgia",1935,   -6.04%
+NWL,Mid cap,Consumer Discretionary,Household Goods,"$9,456,642,000 ","Atlanta, Georgia",1903,   1.79%
+PNR,Mid cap,Industrials,"Machinery, Equipment & Components","$9,385,869,452 ","Worsley, England",1966,   -21.43%
+FRT,Mid cap,Real Estate,Residential & Commercial REIT,"$9,228,041,745 ","Rockville, Maryland",1962,   -12.98%
+BWA,Mid cap,Consumer Discretionary,Automobiles & Auto Parts,"$9,202,421,535 ","Auburn Hills, Michigan",1880,   -14.69%
+PBCT,Mid cap,Financials,Banking Services,"$9,147,701,658 ","Bridgeport, Connecticut",1842,   21.83%
+MHK,Mid cap,Consumer Discretionary,Household Goods,"$9,085,868,338 ","Calhoun, Georgia",1878,   -23.67%
+WYNN,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,"$9,074,868,523 ","Paradise, Nevada",2002,   -6.01%
+NRG,Mid cap,Utilities,Electrical Utilities & IPPs,"$9,005,678,958 ","Houston, Texas",1992,   -12.79%
+OGN,Mid cap,Health Care,Pharmaceuticals,"$8,815,934,508 ","Jersey City, New Jersey",2021,   16.09%
+VNO,Mid cap,Real Estate,Residential & Commercial REIT,"$8,779,229,447 ","New York City, New York",1982,   9.82%
+RL,Mid cap,Consumer Discretionary,Textiles & Apparel,"$8,662,408,776 ","New York City, New York",1967,   -1.33%
+PNW,Mid cap,Utilities,Electrical Utilities & IPPs,"$8,368,255,939 ","Phoenix, Arizona",1985,   4.01%
+NLSN,Mid cap,Industrials,Media & Publishing,"$8,181,874,913 ","New York City, New York",1923,   13.26%
+DXC,Mid cap,Information Technology,Software & IT Services,"$8,065,324,964 ","Tysons Corner, Virginia",2017,   3.95%
+HII,Mid cap,Industrials,Aerospace & Defense,"$8,024,597,045 ","Newport News, Virginia",2011,   7.66%
+LW,Mid cap,Consumer Staples,Food & Tobacco,"$7,912,144,164 ","Eagle, Idaho",2016,-12%
+UA,Mid cap,Consumer Discretionary,Textiles & Apparel,"$7,428,901,920 ","Baltimore, Maryland",1996,   -14.69%
+UAA,Mid cap,Consumer Discretionary,Textiles & Apparel,"$7,428,901,920 ","Baltimore, Maryland",1996,   -19.16%
+PENN,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,"$7,290,052,542 ","Wyomissing, Pennsylvania",1972,   -15.18%
+ALK,Mid cap,Industrials,Passenger Transportation Services,"$6,766,533,773 ","Seattle, Washington",1985,   4.66%
+IPGP,Mid cap,Information Technology,Electronic Equipment & Parts,"$6,179,614,178 ","Oxford, Massachusetts",1990,   -31.21%
+PVH,Mid cap,Consumer Discretionary,Textiles & Apparel,"$5,685,682,844 ","New York City, New York",1881,   -23.54%
+NCLH,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,"$4,218,487,000 ","Miami, Florida",2011,   -4.00%
