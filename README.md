@@ -1,7 +1,7 @@
 # project-alexanderarnbergbockgoldware
 project-alexanderarnbergbockgoldware created by GitHub Classroom
 Description of project: 
-Stockle - a game where you guess a stock ticker and then the application compares your guess to the correct answer based on several attributes, including sector, industry, HQ location, number of characters in the ticker, and one year return. User has 6 opportunities to answer.
+Stockle - a game where you guess a stock ticker and then the application compares your guess to the correct answer based on several attributes, including sector, industry, HQ location, number of characters in the ticker, year founded, and one year return. User has 6 opportunities to answer.
 
 What user stories were completed this iteration?
 What user stories do you intend to complete next iteration?
