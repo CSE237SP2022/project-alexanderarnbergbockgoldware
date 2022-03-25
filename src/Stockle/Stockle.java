@@ -23,10 +23,22 @@ public class Stockle {
 		game.loadData();
 		
 		ArgsProcessor ap = new ArgsProcessor (args);
-
+		
+		System.out.println("How to Play: "
+				+ "Guess any company in the S&P 500 by their stock ticker (Apple = AAPL)");
+		System.out.println("After guessing, you'll see the following characteristics with hints:");
+		System.out.println("Industry: bold if same as answer, italics if in same sector but different industry");
+		System.out.println("Headquarters: bold if same city, italics if same state");
+		System.out.println("Market Cap: bold if within 5%, italics if within 15%");
+		System.out.println("Size: bold if same, nothing if different");
+		System.out.println("Year Founded: bold if same decade, italics if within three decades");
+		System.out.println("One Year Return: bold if within 2%, italics if same sign (negative or positive)");
+		
 		String userGuess = ap.nextString("Guess the Company's Ticker (All Caps)");
 		
 		NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance();
+		
+		System.out.println(" ");
 		
 		System.out.println("Industry: " + game.allCompanies.get(userGuess).getIndustry());
 		System.out.println("Headquarters: " + game.allCompanies.get(userGuess).getHeadquarters());
