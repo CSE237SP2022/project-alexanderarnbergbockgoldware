@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
+import support.cse131.ArgsProcessor;
 
 import company.Company;
 
@@ -19,6 +20,11 @@ public class Stockle {
 	public static void main(String[] args) {
 		Stockle game = new Stockle();
 		game.loadData();
+		
+		ArgsProcessor ap = new ArgsProcessor (args);
+
+		String userGuess = ap.nextString("Guess the Company's Ticker");
+		System.out.println(game.allCompanies.get(userGuess).getIndustry());
 		// To-do:
 		// game.randomlySelectAnswer();
 		// game.printPlayingInstructions();
