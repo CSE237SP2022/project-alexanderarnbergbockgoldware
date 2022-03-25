@@ -2,6 +2,7 @@ package Stockle;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -23,8 +24,17 @@ public class Stockle {
 		
 		ArgsProcessor ap = new ArgsProcessor (args);
 
-		String userGuess = ap.nextString("Guess the Company's Ticker");
-		System.out.println(game.allCompanies.get(userGuess).getIndustry());
+		String userGuess = ap.nextString("Guess the Company's Ticker (All Caps)");
+		
+		NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance();
+		
+		System.out.println("Industry: " + game.allCompanies.get(userGuess).getIndustry());
+		System.out.println("Headquarters: " + game.allCompanies.get(userGuess).getHeadquarters());
+		System.out.println("Market Cap: " + currencyFormatter.format(game.allCompanies.get(userGuess).getMarketCap()));
+		System.out.println("Size: " + game.allCompanies.get(userGuess).getSize());
+		System.out.println("Year Founded: " + game.allCompanies.get(userGuess).getYearFounded());
+		System.out.println("One Year Return: " + game.allCompanies.get(userGuess).getOneYearReturn() + "%");
+
 		// To-do:
 		// game.randomlySelectAnswer();
 		// game.printPlayingInstructions();
