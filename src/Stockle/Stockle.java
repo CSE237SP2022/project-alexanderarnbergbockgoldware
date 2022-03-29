@@ -2,6 +2,7 @@ package Stockle;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -20,15 +21,46 @@ public class Stockle {
 	public static void main(String[] args) {
 		Stockle game = new Stockle();
 		game.loadData();
+		instructions();
+		play(args);
 		
+	}
+	
+	public static void instructions() {
+		System.out.println("How to Play: "
+				+ "Guess any company in the S&P 500 by their stock ticker (Apple = AAPL)");
+		System.out.println("After guessing, you'll see the following characteristics with hints:");
+		System.out.println("Industry: bold if same as answer, italics if in same sector but different industry");
+		System.out.println("Headquarters: bold if same city, italics if same state");
+		System.out.println("Market Cap: bold if within 5%, italics if within 15%");
+		System.out.println("Size: bold if same, nothing if different");
+		System.out.println("Year Founded: bold if same decade, italics if within three decades");
+		System.out.println("One Year Return: bold if within 2%, italics if same sign (negative or positive)");
+		
+	}
+	
+	public static void play(String[] args) {
 		ArgsProcessor ap = new ArgsProcessor (args);
+		String userGuess = ap.nextString("Guess the Company's Ticker (All Caps)");
+		print(userGuess);
+	}
+	
+	public static void print(String userGuess) {
+		Stockle game = new Stockle();
+		
+		game.loadData();
+		
+		NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance();
+		
+		System.out.println(" ");
+		
+		System.out.println("Industry: " + game.allCompanies.get(userGuess).getIndustry());
+		System.out.println("Headquarters: " + game.allCompanies.get(userGuess).getHeadquarters());
+		System.out.println("Market Cap: " + currencyFormatter.format(game.allCompanies.get(userGuess).getMarketCap()));
+		System.out.println("Size: " + game.allCompanies.get(userGuess).getSize());
+		System.out.println("Year Founded: " + game.allCompanies.get(userGuess).getYearFounded());
+		System.out.println("One Year Return: " + game.allCompanies.get(userGuess).getOneYearReturn() + "%");
 
-		String userGuess = ap.nextString("Guess the Company's Ticker");
-		System.out.println(game.allCompanies.get(userGuess).getIndustry());
-		// To-do:
-		// game.randomlySelectAnswer();
-		// game.printPlayingInstructions();
-		// game.play();
 	}
 	
 	/**
