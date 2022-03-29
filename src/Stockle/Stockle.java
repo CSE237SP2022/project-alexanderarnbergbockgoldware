@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Random;
 import java.util.Scanner;
 import support.cse131.ArgsProcessor;
 
@@ -14,8 +15,12 @@ public class Stockle {
 	
 	private HashMap<String, Company> allCompanies;
 	
+	private static Company answer; //steve new
+	
+	
 	public Stockle() {
 		this.allCompanies = new HashMap<String, Company>();
+		this.answer = null;
 	}
 	
 	public static void main(String[] args) {
@@ -42,6 +47,7 @@ public class Stockle {
 	public static void play(String[] args) {
 		ArgsProcessor ap = new ArgsProcessor (args);
 		String userGuess = ap.nextString("Guess the Company's Ticker (All Caps)");
+		userGuess.toUpperCase();
 		print(userGuess);
 	}
 	
@@ -52,14 +58,19 @@ public class Stockle {
 		
 		NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance();
 		
+		
+		Company userGuessCompany = game.allCompanies.get(userGuess);
+		
+		Comparison(userGuessCompany);
+		
 		System.out.println(" ");
 		
-		System.out.println("Industry: " + game.allCompanies.get(userGuess).getIndustry());
-		System.out.println("Headquarters: " + game.allCompanies.get(userGuess).getHeadquarters());
-		System.out.println("Market Cap: " + currencyFormatter.format(game.allCompanies.get(userGuess).getMarketCap()));
-		System.out.println("Size: " + game.allCompanies.get(userGuess).getSize());
-		System.out.println("Year Founded: " + game.allCompanies.get(userGuess).getYearFounded());
-		System.out.println("One Year Return: " + game.allCompanies.get(userGuess).getOneYearReturn() + "%");
+//		System.out.println("Industry: " + game.allCompanies.get(userGuess).getIndustry());
+//		System.out.println("Headquarters: " + game.allCompanies.get(userGuess).getHeadquarters());
+//		System.out.println("Market Cap: " + currencyFormatter.format(game.allCompanies.get(userGuess).getMarketCap()));
+//		System.out.println("Size: " + game.allCompanies.get(userGuess).getSize());
+//		System.out.println("Year Founded: " + game.allCompanies.get(userGuess).getYearFounded());
+//		System.out.println("One Year Return: " + game.allCompanies.get(userGuess).getOneYearReturn() + "%");
 
 	}
 	
@@ -117,5 +128,84 @@ public class Stockle {
 		
 		return answer;
 	}
+	
+	public static void Comparison(Company userGuessCompany) {
+		//compare each attribute of the guess to the attribute of the correct answer
+		//if they are the same then bold? Not sure if we can bold in Java sysout
+		
+		if (userGuessCompany.getSymbol() == answer.getSymbol()) {
+			System.out.println(answer.getSymbol());
+			
+		}
+		else {
+			System.out.println(userGuessCompany.getSymbol());
+		}
+		
+		if (userGuessCompany.getSector() == answer.getSector()) {
+			System.out.println("Sector: "+ answer.getSector());
+			
+			System.out.println("Correct Sector!");
+		}
+		else {
+			System.out.println("Sector: "+ userGuessCompany.getSector());
+		}
+		
+		if (userGuessCompany.getIndustry() == answer.getIndustry()) {
+			System.out.println("Industry: "+ answer.getIndustry());
+			System.out.println("Correct Industry!");
+		}
+		else {
+			System.out.println("Industry: "+ userGuessCompany.getIndustry());
+		}
+		if (userGuessCompany.getMarketCap() == answer.getMarketCap()) {
+			//sys print, if within a billion then bold if within 10 billion italicize; maybe percentage instead?
+			
+			System.out.println("Market Cap: "+ answer.getMarketCap());
+			
+			System.out.println("Correct Market Cap!");
+		}
+		else {
+			System.out.println("Market Cap: "+ userGuessCompany.getMarketCap());
+		}
+		if (userGuessCompany.getSize() == answer.getSize()) {
+			System.out.println("Size: "+ answer.getSize());
+			
+			System.out.println("Correct Size!");
+		}
+		else {
+			System.out.println("Size: "+ userGuessCompany.getSize());
+		}
+		if (userGuessCompany.getHeadquarters() == answer.getHeadquarters()) {
+			System.out.println("HQ Location: "+ answer.getHeadquarters());
+			
+			System.out.println("Correct Headquarters!");
+		}
+		else {
+			System.out.println("HQ Location: "+ userGuessCompany.getHeadquarters());
+		}
+		if (userGuessCompany.getYearFounded() == answer.getYearFounded()) {
+			System.out.println("Year Founded: "+ answer.getYearFounded());
+			
+			System.out.println("Correct Year Founded!");
+		}
+		else {
+			System.out.println("Year Founded: "+ userGuessCompany.getYearFounded());
+		}
+		if (userGuessCompany.getOneYearReturn() == answer.getOneYearReturn()) {
+			System.out.println("One Year Return: "+ answer.getOneYearReturn());
+			System.out.println("Correct One Year Return!");
+		}
+		else {
+			System.out.println("One Year Return: "+ userGuessCompany.getOneYearReturn());
+		}
+		
+		if (userGuessCompany.getSymbol() == answer.getSymbol() && userGuessCompany.getSector() == answer.getSector()) {
+			System.out.println("Congratulations! You guessed the correct stock!");
+		}
+	}
+	
+	
+	
+	
 
 }
