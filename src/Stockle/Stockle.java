@@ -107,6 +107,15 @@ public class Stockle {
 	public HashMap<String, Company> getAllCompanies() {
 		return allCompanies;
 	}
-
+	
+	public Company answerGenerator() {
+		// random HashMap element selection via https://crunchify.com/java-how-to-get-random-key-value-element-from-hashmap/
+		Object[] allKeys = allCompanies.keySet().toArray();
+		Object randomKey = allKeys[new Random().nextInt(allKeys.length)];
+		answer = allCompanies.get(randomKey);
+		System.out.println("Answer: " + answer.getSymbol());
+		
+		return answer;
+	}
 
 }
