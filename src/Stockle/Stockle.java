@@ -122,8 +122,6 @@ public class Stockle {
 		return allCompanies;
 	}
 	
-
-	
 	public Company answerGenerator() {
 		// random HashMap element selection via https://crunchify.com/java-how-to-get-random-key-value-element-from-hashmap/
 		Object[] allKeys = allCompanies.keySet().toArray();
@@ -133,9 +131,7 @@ public class Stockle {
 		
 		return answer;
 	}
-	
 
-	
 	
 	public static void Comparison(Company userGuessCompany) {
 		//compare each attribute of the guess to the attribute of the correct answer
