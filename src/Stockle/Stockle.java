@@ -21,9 +21,12 @@ public class Stockle {
 	public static void main(String[] args) {
 		Stockle game = new Stockle();
 		game.loadData();
+		instructions();
+		play(args);
 		
-		ArgsProcessor ap = new ArgsProcessor (args);
-		
+	}
+	
+	public static void instructions() {
 		System.out.println("How to Play: "
 				+ "Guess any company in the S&P 500 by their stock ticker (Apple = AAPL)");
 		System.out.println("After guessing, you'll see the following characteristics with hints:");
@@ -34,7 +37,18 @@ public class Stockle {
 		System.out.println("Year Founded: bold if same decade, italics if within three decades");
 		System.out.println("One Year Return: bold if within 2%, italics if same sign (negative or positive)");
 		
+	}
+	
+	public static void play(String[] args) {
+		ArgsProcessor ap = new ArgsProcessor (args);
 		String userGuess = ap.nextString("Guess the Company's Ticker (All Caps)");
+		print(userGuess);
+	}
+	
+	public static void print(String userGuess) {
+		Stockle game = new Stockle();
+		
+		game.loadData();
 		
 		NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance();
 		
@@ -47,10 +61,6 @@ public class Stockle {
 		System.out.println("Year Founded: " + game.allCompanies.get(userGuess).getYearFounded());
 		System.out.println("One Year Return: " + game.allCompanies.get(userGuess).getOneYearReturn() + "%");
 
-		// To-do:
-		// game.randomlySelectAnswer();
-		// game.printPlayingInstructions();
-		// game.play();
 	}
 	
 	/**
