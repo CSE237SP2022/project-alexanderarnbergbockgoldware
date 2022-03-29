@@ -108,4 +108,5 @@ public class Stockle {
 		return allCompanies;
 	}
 
+
 }
