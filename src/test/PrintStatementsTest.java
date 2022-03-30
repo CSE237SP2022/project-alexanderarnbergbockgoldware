@@ -9,10 +9,12 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import Stockle.Stockle;
 import company.Company;
+import stockle.Stockle;
 
-class PrintStatements {
+class PrintStatementsTest {
+	
+	// Print statement unit testing inspired by and modified from https://stackoverflow.com/a/1119559
 	
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 	private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
