@@ -4,11 +4,14 @@ Stockle is a game inspired by Wordle where you guess a random S&P 500 stock tick
 
 # Use
 
-Run stockle.sh to start a game:
+Run stockle.sh to start a game after cloning the repository:
 
 ```
+git clone https://github.com/CSE237SP2022/project-alexanderarnbergbockgoldware.git
+cd project-alexanderarnbergbockgoldware
 ./stockle.sh
 ```
+A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatability errors).
 
 # Iteration 1
 
@@ -29,12 +32,16 @@ What user stories do you intend to complete next iteration?
 Is there anything that you implemented but doesn't currently work?
 
 - Currently, gameplay only allows a singular guess before the game ends, and we will continue developing gameplay in future iterations to allow for multiple consecutive guesses.
+- Additionally, our script to start a game (stockle.sh) doesn't correctly execute for one team member who is using Windows, so in the next iteration we will continue to explore this compatability issue and ensure that Stockle functions correctly on all operating systems. If the script currently poses any issue during testing/grading, the game can also be initiated by running Stockle.java in Eclipse.
 
 What commands are needed to compile and run your code from the command line (or better yet, provide a script that people can use to run your program!)
 
 ```
+git clone https://github.com/CSE237SP2022/project-alexanderarnbergbockgoldware.git
+cd project-alexanderarnbergbockgoldware
 ./stockle.sh
 ```
+A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatability errors).
 
 ## References
 
