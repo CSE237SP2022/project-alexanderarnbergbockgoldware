@@ -13,6 +13,7 @@ public class ImageRaster extends BufferedImage{
 	/**
 	 * 
 	 */
+	@SuppressWarnings("deprecation")
 	private static Applet applet;
 	private static final long serialVersionUID = 1L;
 	int width, height;
