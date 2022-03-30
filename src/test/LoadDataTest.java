@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import Stockle.Stockle;
 import company.Company;
+import stockle.Stockle;
 
 class LoadDataTest {
 	
