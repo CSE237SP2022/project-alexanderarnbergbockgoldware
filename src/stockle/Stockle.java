@@ -1,4 +1,4 @@
-package stockle;
+package Stockle;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -15,19 +15,29 @@ public class Stockle {
 	
 	private HashMap<String, Company> allCompanies;
 	private Company answer;
+	int guesses = 0;
 	
 	public Stockle() {
 		this.allCompanies = new HashMap<String, Company>();
 		this.answer = null;
 	}
 	
+	
 	public static void main(String[] args) {
 		Stockle game = new Stockle();
 		game.loadData();
 		game.generateAnswer();
 		game.displayInstructions();
-		game.play(args);
+		
+		while (game.guesses < 6) {
+			game.play(args);
+		}
 	}
+	
+	
+	
+	
+	
 	
 	/**
 	 * Load data of all companies from 'Stockle Data.csv'
@@ -100,6 +110,9 @@ public class Stockle {
 	public void displayInstructions() {
 		System.out.println("How to Play: "
 				+ "Guess any company in the S&P 500 by their stock ticker (ex: Apple = AAPL)");
+		
+		System.out.println();
+		
 //		Future instructions for once we eventually format the terminal output and need to provide more details:
 //		System.out.println("After guessing, you'll see the following characteristics with hints:");
 //		System.out.println("Industry: bold if same as answer, italics if in same sector but different industry");
@@ -120,6 +133,9 @@ public class Stockle {
 		String userGuess = ap.nextString("Guess any company in the S&P 500 by their stock ticker (ex: Apple = AAPL)");
 		userGuess = userGuess.toUpperCase();
 		game.printResult(userGuess);
+		
+		game.guesses += 1;
+		
 	}
 	
 	/**
@@ -150,6 +166,7 @@ public class Stockle {
 	public boolean compareGuessToAnswer(Company userGuessCompany) {
 		//compare each attribute of the guess to the attribute of the correct answer
 		System.out.println("You guessed " + userGuessCompany.getSymbol() + ".");
+		System.out.println();
 		System.out.println("————————————————————");
 		compareSectors(userGuessCompany, answer);
 		System.out.println("————————————————————");
@@ -193,7 +210,7 @@ public class Stockle {
 	}
 	public boolean compareMarketCaps(Company userGuessCompany, Company answer) {
 		if (userGuessCompany.getMarketCap() == answer.getMarketCap()) {
-			System.out.println("Market Cap: "+ answer.getMarketCap());
+			System.out.println("Market Cap: $"+ answer.getMarketCap());
 			System.out.println("Correct market cap!");
 			return true;
 		}
@@ -254,11 +271,18 @@ public class Stockle {
 	public boolean isCorrectAnswer(Company userGuessCompany, Company answer) {
 		if (userGuessCompany.getSymbol().equals(answer.getSymbol())) {
 			System.out.println("Congratulations! You guessed the correct stock!");
+			
+			guesses = 6;
+			
+			System.out.println();
 			return true;
 		}
 		else {
 			System.out.println(userGuessCompany.getSymbol() + " was not correct...");
+			
 			System.out.println("The correct answer was " + answer.getSymbol() + ".");
+			
+			System.out.println();
 			return false;
 		}
 	}
