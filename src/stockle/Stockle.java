@@ -1,4 +1,4 @@
-package Stockle;
+package stockle;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -134,7 +134,7 @@ public class Stockle {
 		userGuess = userGuess.toUpperCase();
 		game.printResult(userGuess);
 		
-		game.guesses += 1;
+//		game.guesses += 1;
 		
 	}
 	
@@ -148,6 +148,7 @@ public class Stockle {
 		if (allCompanies.containsKey(userGuess)) {
 			Company userGuessCompany = allCompanies.get(userGuess);
 			game.compareGuessToAnswer(userGuessCompany);
+			game.guesses += 1;
 			return true;
 		}
 		else {
