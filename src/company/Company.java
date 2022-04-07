@@ -16,6 +16,8 @@ public class Company {
 	private long marketCap;
 	private String headquarters;
 	private int yearFounded;
+	private String country;
+	private String state;
 
 	private double oneYearReturn;
 	
@@ -28,6 +30,8 @@ public class Company {
 		this.headquarters = companyData[5];
 		this.yearFounded = Integer.parseInt(companyData[6]);
 		this.oneYearReturn = Double.parseDouble(companyData[7]);
+		this.country = companyData[8];
+		this.state = companyData[9];
 	}
 	
 	public String getSymbol() {
@@ -62,6 +66,14 @@ public class Company {
 		return oneYearReturn;
 	}
 	
+	public String getCountry() {
+		return country;
+	}
+	
+	public String getState() {
+		return state;
+	}
+
 	/**
 	 * Auto-generated Company equality function (for use within unit testing)
 	 */
@@ -74,11 +86,12 @@ public class Company {
 		if (getClass() != obj.getClass())
 			return false;
 		Company other = (Company) obj;
-		return Objects.equals(headquarters, other.headquarters) && Objects.equals(industry, other.industry)
-				&& marketCap == other.marketCap
+		return Objects.equals(country, other.country) && Objects.equals(headquarters, other.headquarters)
+				&& Objects.equals(industry, other.industry) && marketCap == other.marketCap
 				&& Double.doubleToLongBits(oneYearReturn) == Double.doubleToLongBits(other.oneYearReturn)
 				&& Objects.equals(sector, other.sector) && Objects.equals(size, other.size)
-				&& Objects.equals(symbol, other.symbol) && yearFounded == other.yearFounded;
+				&& Objects.equals(state, other.state) && Objects.equals(symbol, other.symbol)
+				&& yearFounded == other.yearFounded;
 	}
 	
 }
