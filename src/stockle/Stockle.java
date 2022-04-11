@@ -7,7 +7,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
-import support.cse131.ArgsProcessor;
 
 import company.Company;
 
@@ -34,11 +33,6 @@ public class Stockle {
 			game.play(args);
 		}
 	}
-	
-	
-	
-	
-	
 	
 	/**
 	 * Load data of all companies from 'Stockle Data.csv'
@@ -109,19 +103,8 @@ public class Stockle {
 	 * Print out game instructions
 	 */
 	public void displayInstructions() {
-		System.out.println("How to Play: "
-				+ "Guess any company in the S&P 500 by their stock ticker (ex: Apple = AAPL)");
-		
-		System.out.println();
-		
-//		Future instructions for once we eventually format the terminal output and need to provide more details:
-//		System.out.println("After guessing, you'll see the following characteristics with hints:");
-//		System.out.println("Industry: bold if same as answer, italics if in same sector but different industry");
-//		System.out.println("Headquarters: bold if same city, italics if same state");
-//		System.out.println("Market Cap: bold if within 5%, italics if within 15%");
-//		System.out.println("Size: bold if same, nothing if different");
-//		System.out.println("Year Founded: bold if same decade, italics if within three decades");
-//		System.out.println("One Year Return: bold if within 2%, italics if same sign (negative or positive)");
+		System.out.println("How to Play:");
+		System.out.println("Guess any company in the S&P 500 by their stock ticker (ex: Apple = AAPL)");
 	}
 	
 	/**
@@ -130,13 +113,10 @@ public class Stockle {
 	 */
 	public void play(String[] args) {
 		Stockle game = this;
-		ArgsProcessor ap = new ArgsProcessor(args);
-		String userGuess = ap.nextString("Guess any company in the S&P 500 by their stock ticker (ex: Apple = AAPL)");
+		Scanner scanner = new Scanner(System.in);
+		String userGuess = scanner.nextLine();
 		userGuess = userGuess.toUpperCase();
 		game.printResult(userGuess);
-		
-//		game.guesses += 1;
-		
 	}
 	
 	/**
@@ -154,7 +134,7 @@ public class Stockle {
 		}
 		else {
 			System.out.println("'" + userGuess + "' is not a valid S&P 500 stock ticker.");
-			System.out.println("Stuck? Try playing again with AAPL, MSFT, or AMZN.");
+			System.out.println("Stuck? Try again with AAPL, MSFT, or AMZN.");
 			return false;
 		}
 		
