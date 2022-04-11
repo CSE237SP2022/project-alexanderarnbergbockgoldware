@@ -1,506 +1,506 @@
-﻿Symbol,Size,Sector,Industry,Market cap ($),Headquarters,Year Founded,One-Year Return (%)
-AAPL,Large cap,Information Technology,"Computers, Phones & Household Electronics",2698909152580,"Cupertino, California",1977,-4.9300
-MSFT,Large cap,Information Technology,Software & IT Services,2242762560600,"Redmond, Washington",1975,-9.5900
-GOOG,Large cap,Communication Services,Software & IT Services,1842926528307,"Mountain View, California",1998,-3.0400
-GOOGL,Large cap,Communication Services,Software & IT Services,1842926528307,"Mountain View, California",1998,-3.4400
-AMZN,Large cap,Consumer Discretionary,Diversified Retail,1643480940750,"Seattle, Washington",1994,-1.1000
-TSLA,Large cap,Consumer Discretionary,Automobiles & Auto Parts,925088611068,"Palo Alto, California",2003,-5.9400
-BRK.B,Large cap,Financials,Consumer Goods Conglomerates,772947306186,"Omaha, Nebraska",1839,17.0300
-NVDA,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,668350000000,"Santa Clara, California",1993,-9.8200
-FB,Large cap,Communication Services,Software & IT Services,603592487071,"Menlo Park, California",2004,-35.5900
-V,Large cap,Information Technology,Software & IT Services,478356160000,"San Francisco, California",1958,0.8100
-UNH,Large cap,Health Care,Healthcare Providers & Services,477656860458,"Minnetonka, Minnesota",1977,0.6300
-JNJ,Large cap,Health Care,Pharmaceuticals,462304220221,"New Brunswick, New Jersey",1886,2.3000
-JPM,Large cap,Financials,Banking Services,412359772661,"New York City, New York",2000,-9.9300
-WMT,Large cap,Consumer Staples,Food & Drug Retailing,400076489997,"Bentonville, Arkansas",1962,-0.6200
-PG,Large cap,Consumer Staples,Personal & Household Products & Services,364734535280,"Cincinnati, Ohio",1837,-7.1500
-XOM,Large cap,Energy,Oil & Gas,348001297664,"Irving, Texas",1999,33.7500
-BAC,Large cap,Financials,Banking Services,345498381774,"Charlotte, North Carolina",1998,-0.7000
-HD,Large cap,Consumer Discretionary,Specialty Retailers,343941057728,"Atlanta, Georgia",1978,-20.5500
-MA,Large cap,Information Technology,Software & IT Services,335119105059,"Harrison, New York",1966,-2.7200
-CVX,Large cap,Energy,Oil & Gas,320645182885,"San Ramon, California",1879,39.8300
-PFE,Large cap,Health Care,Pharmaceuticals,306052897987,"New York City, New York",1849,-10.1800
-ABBV,Large cap,Health Care,Pharmaceuticals,283089050331,"North Chicago, Illinois",2013,18.1800
-LLY,Large cap,Health Care,Pharmaceuticals,275837821575,"Indianapolis, Indiana",1876,3.1900
-KO,Large cap,Consumer Staples,Beverages,262613992254,"Atlanta, Georgia",1886,2.6900
-DIS,Large cap,Communication Services,Media & Publishing,252376203017,"Burbank, California",1923,-9.5400
-COST,Large cap,Consumer Staples,Diversified Retail,246224389824,"Issaquah, Washington",1976,-1.4600
-AVGO,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,245495384709,"San Jose, California",1961,-8.1300
-CSCO,Large cap,Information Technology,Communications & Networking,232633408000,"San Jose, California",1984,-11.3600
-TMO,Large cap,Health Care,Healthcare Equipment & Supplies,230529310061,"Waltham, Massachusetts",2006,-11.9700
-PEP,Large cap,Consumer Staples,Beverages,224764062414,"Purchase, New York",1898,-5.3900
-ORCL,Large cap,Information Technology,Software & IT Services,216013990720,"Austin, Texas",1977,-6.2000
-ACN,Large cap,Information Technology,Software & IT Services,214959935218,"Dublin, Ireland",1989,-21.0100
-ABT,Large cap,Health Care,Healthcare Equipment & Supplies,214721600830,"North Chicago, Illinois",1888,-13.3900
-VZ,Large cap,Communication Services,Telecommunications Services,214508789128,"New York City, New York",1983,-1.8500
-ADBE,Large cap,Information Technology,Software & IT Services,214253567167,"San Jose, California",1982,-17.7400
-CRM,Large cap,Information Technology,Software & IT Services,211582800000,"San Francisco, California",1999,-14.1300
-CMCSA,Large cap,Communication Services,Media & Publishing,211125090287,"Philadelphia, Pennsylvania",1963,-6.1800
-DHR,Large cap,Health Care,Healthcare Equipment & Supplies,206930042552,"Washington, D.C.",1969,-10.6700
-NKE,Large cap,Consumer Discretionary,Textiles & Apparel,204376169783,"Washington County, Oregon",1964,-20.1500
-MRK,Large cap,Health Care,Pharmaceuticals,199701127580,"Kenilworth, New Jersey",1891,3.4700
-WFC,Large cap,Financials,Banking Services,194413241362,"San Francisco, California",1852,11.2800
-INTC,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,192972080000,"Santa Clara, California",1968,-6.0400
-UPS,Large cap,Industrials,Freight & Logistics Services,188923264000,"Sandy Springs, Georgia",1907,1.9000
-QCOM,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,175051435719,"San Diego, California",1985,-13.8100
-MCD,Large cap,Consumer Discretionary,Hotels & Entertainment Services,174980355840,"Chicago, Illinois",1940,-11.1700
-UNP,Large cap,Industrials,Freight & Logistics Services,168466143116,"Omaha, Nebraska",1862,5.5300
-SCHW,Large cap,Financials,Investment Banking & Investment Services,167256905103,"Westlake, Texas",1971,9.6300
-TXN,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,166542481229,"Dallas, Texas",1930,-3.2500
-MS,Large cap,Financials,Investment Banking & Investment Services,166180491060,"New York City, New York",1935,-4.0100
-NFLX,Large cap,Communication Services,Software & IT Services,165491992047,"Los Gatos, California",1997,-36.4400
-T,Large cap,Communication Services,Telecommunications Services,165429395882,"Dallas, Texas",1983,-5.6500
-NEE,Large cap,Utilities,Electrical Utilities & IPPs,160251922074,"Juno Beach, Florida",1984,-11.2600
-LIN,Large cap,Materials,Chemicals,159250754922,"Guildford, England",1879,-9.9000
-TMUS,Large cap,Communication Services,Telecommunications Services,157373055505,"Bellevue, Washington",1994,8.3700
-BMY,Large cap,Health Care,Pharmaceuticals,154868595861,"New York City, New York",1989,13.5800
-LOW,Large cap,Consumer Discretionary,Specialty Retailers,153344860216,"Mooresville, North Carolina",1904,-11.6100
-RTX,Large cap,Industrials,Aerospace & Defense,148937421597,"Waltham, Massachusetts",1922,17.8000
-PM,Large cap,Consumer Staples,Food & Tobacco,145900790692,"New York City, New York",2008,-1.4200
-MDT,Large cap,Health Care,Healthcare Equipment & Supplies,145892385608,"Dublin, Ireland",1949,5.3400
-AXP,Large cap,Financials,Banking Services,143195759236,"New York City, New York",1850,16.9500
-CVS,Large cap,Health Care,Healthcare Providers & Services,140950494648,"Woonsocket, Rhode Island",1996,3.9500
-AMD,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,139023252678,"Santa Clara, California",1969,-20.2400
-PYPL,Large cap,Information Technology,Software & IT Services,133567813275,"San Jose, California",1998,-37.5000
-COP,Large cap,Energy,Oil & Gas,133539385888,"Houston, Texas",2002,40.9900
-AMGN,Large cap,Health Care,Pharmaceuticals,133110997961,"Thousand Oaks, California",1980,5.1100
-HON,Large cap,Industrials,Consumer Goods Conglomerates,132311678506,"Charlotte, North Carolina",1906,-6.4600
-DE,Large cap,Industrials,"Machinery, Equipment & Components",129551953449,"Moline, Illinois",1837,24.6900
-INTU,Large cap,Information Technology,Financial Technology (Fintech) & Infrastructure,127841988768,"Mountain View, California",1983,-26.0000
-ANTM,Large cap,Health Care,Healthcare Providers & Services,120553851068,"Indianapolis, Indiana",2014,1.7300
-CAT,Large cap,Industrials,"Machinery, Equipment & Components",119883515889,"Deerfield, Illinois",1925,7.7200
-AMAT,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,118551560554,"Santa Clara, California",1967,-13.9000
-PLD,Large cap,Real Estate,Residential & Commercial REIT,117600800000,"San Francisco, California",1983,-5.7600
-LMT,Large cap,Industrials,Aerospace & Defense,117275003560,"Bethesda, Maryland",1995,23.9700
-IBM,Large cap,Information Technology,Software & IT Services,115201609207,"Armonk, New York",1911,-3.4400
-NOW,Large cap,Information Technology,Software & IT Services,113960000000,"Santa Clara, California",2003,-9.3100
-GS,Large cap,Financials,Investment Banking & Investment Services,113494820220,"New York City, New York",1869,-10.3400
-C,Large cap,Financials,Banking Services,112871375049,"New York City, New York",1998,-4.7900
-BLK,Large cap,Financials,Investment Banking & Investment Services,111573275126,"New York City, New York",1988,-18.4200
-AMT,Large cap,Real Estate,Residential & Commercial REIT,110160004522,"Boston, Massachusetts",1995,-18.0600
-BA,Large cap,Industrials,Aerospace & Defense,109752542314,"Chicago, Illinois",1916,-5.1100
-CHTR,Large cap,Communication Services,Telecommunications Services,108340814129,"Stamford, Connecticut",1993,-11.8600
-GE,Large cap,Industrials,Consumer Goods Conglomerates,104237700851,"Boston, Massachusetts",1892,0.4600
-TGT,Large cap,Consumer Discretionary,Diversified Retail,103119230725,"Minneapolis, Minnesota",1902,-3.7500
-ISRG,Large cap,Health Care,Healthcare Equipment & Supplies,101752713425,"Sunnyvale, California",1995,-20.2800
-SYK,Large cap,Health Care,Healthcare Equipment & Supplies,100347602092,"Kalamazoo, Michigan",1941,-0.1700
-SBUX,Large cap,Consumer Discretionary,Hotels & Entertainment Services,99915058000,"Seattle, Washington",1971,-24.8600
-EL,Large cap,Consumer Staples,Personal & Household Products & Services,99069471982,"New York City, New York",1946,-23.8500
-SPGI,Large cap,Financials,Professional & Commercial Services,97547160000,"New York City, New York",1917,-12.2200
-MO,Large cap,Consumer Staples,Food & Tobacco,94951695075,"Richmond, Virginia",1985,12.4900
-ZTS,Large cap,Health Care,Pharmaceuticals,91897391632,"Parsippany, New Jersey",1952,-19.3200
-CB,Large cap,Financials,Insurance,90774044224,"Zurich, Switzerland",1985,10.5200
-CME,Large cap,Financials,Investment Banking & Investment Services,90128023539,"Chicago, Illinois",1848,8.5500
-ADP,Large cap,Information Technology,Software & IT Services,89272220170,"Roseland, New Jersey",1949,-12.7200
-BKNG,Large cap,Consumer Discretionary,Hotels & Entertainment Services,88754205844,"Norwalk, Connecticut",1996,-8.2200
-MU,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,87734536569,"Boise, Idaho",1978,-15.0600
-ADI,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,85938810649,"Wilmington, Massachusetts",1965,-6.2600
-MDLZ,Large cap,Consumer Staples,Food & Tobacco,85609439741,"Chicago, Illinois",2012,-7.1500
-MMM,Large cap,Industrials,Consumer Goods Conglomerates,84854038000,"Saint Paul, Minnesota",1902,-15.5900
-USB,Large cap,Financials,Banking Services,83399767214,"Minneapolis, Minnesota",1968,1.5100
-DUK,Large cap,Utilities,Electrical Utilities & IPPs,81672879404,"Charlotte, North Carolina",1904,1.2300
-MMC,Large cap,Financials,Insurance,81372617054,"New York City, New York",1905,-6.3400
-CSX,Large cap,Industrials,Freight & Logistics Services,80848334906,"Jacksonville, Florida",1980,-2.1800
-PNC,Large cap,Financials,Banking Services,80765960755,"Pittsburgh, Pennsylvania",1845,-1.5700
-HCA,Large cap,Health Care,Healthcare Providers & Services,78995931919,"Nashville, Tennessee",1968,1.3400
-CI,Large cap,Health Care,Healthcare Providers & Services,78155324690,"Bloomfield, Connecticut",1982,6.0500
-TFC,Large cap,Financials,Banking Services,77905587715,"Charlotte, North Carolina",1872,1.9800
-ICE,Large cap,Financials,Investment Banking & Investment Services,76395058591,"Atlanta, Georgia",2000,-0.2700
-BDX,Large cap,Health Care,Healthcare Equipment & Supplies,76204740205,"Franklin Lakes, New Jersey",1897,5.3200
-CCI,Large cap,Real Estate,Residential & Commercial REIT,75680770857,"Houston, Texas",1994,-16.6300
-LRCX,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,74892046771,"Fremont, California",1980,-23.9700
-GILD,Large cap,Health Care,Biotechnology & Medical Research,74806881954,"Foster City, California",1987,-17.3900
-REGN,Large cap,Health Care,Biotechnology & Medical Research,73284920302,"Tarrytown, New York",1988,9.6800
-SO,Large cap,Utilities,Electrical Utilities & IPPs,73039009578,"Atlanta, Georgia",1945,0.3500
-TJX,Large cap,Consumer Discretionary,Diversified Retail,72753653250,"Framingham, Massachusetts",1987,-19.4800
-FCX,Large cap,Materials,Metals & Mining,72026210033,"Phoenix, Arizona",1912,19.4800
-EOG,Large cap,Energy,Oil & Gas,71686792659,"Houston, Texas",1999,37.5700
-MRNA,Large cap,Health Care,Biotechnology & Medical Research,70681685482,"Cambridge, Massachusetts",2010,-26.4800
-NSC,Large cap,Industrials,Freight & Logistics Services,70645925525,"Norfolk, Virginia",1881,-6.3000
-AON,Large cap,Financials,Insurance,70043671867,"London, UK",1982,4.8800
-NOC,Large cap,Industrials,Aerospace & Defense,69715123724,"West Falls Church, Virginia",1994,15.3000
-EW,Large cap,Health Care,Healthcare Equipment & Supplies,69644513029,"Irvine, California",1958,-12.8100
-ITW,Large cap,Industrials,Consumer Goods Conglomerates,66337381799,"Glenview, Illinois",1912,-13.9000
-D,Large cap,Utilities,Electrical Utilities & IPPs,66158517723,"Richmond, Virginia",1983,3.9500
-FISV,Large cap,Information Technology,Professional & Commercial Services,65732690752,"Brookfield, Wisconsin",1984,-3.1700
-PGR,Large cap,Financials,Insurance,65608308768,"Mayfield Village, Ohio",1937,10.4200
-GD,Large cap,Industrials,Aerospace & Defense,65556159070,"Falls Church, Virginia",1899,14.0800
-EQIX,Large cap,Real Estate,Residential & Commercial REIT,65115025742,"Redwood City, California",1998,-14.9800
-F,Large cap,Consumer Discretionary,Automobiles & Auto Parts,64822357444,"Dearborn, Michigan",1903,-17.7200
-WM,Large cap,Industrials,Professional & Commercial Services,64687965610,"Houston, Texas",1968,-7.2300
-PSA,Large cap,Real Estate,Residential & Commercial REIT,64454117841,"Glendale, California",1972,-1.1200
-SHW,Large cap,Materials,Chemicals,64047820373,"Cleveland, Ohio",1866,-28.9600
-VRTX,Large cap,Health Care,Biotechnology & Medical Research,63710362690,"Cambridge, Massachusetts",1989,14.7000
-GM,Large cap,Consumer Discretionary,Automobiles & Auto Parts,63366260507,"Detroit, Michigan",1908,-24.0000
-BSX,Large cap,Health Care,Healthcare Equipment & Supplies,63232439236,"Marlborough, Massachusetts",1979,2.9700
-CL,Large cap,Consumer Staples,Personal & Household Products & Services,62322127511,"New York City, New York",1806,-12.7000
-ETN,Large cap,Industrials,"Machinery, Equipment & Components",61654480000,"Dublin, Ireland",1911,-10.1700
-ATVI,Large cap,Communication Services,Software & IT Services,61434878570,"Santa Monica, California",2008,19.1900
-PXD,Large cap,Energy,Oil & Gas,61007606888,"Irving, Texas",1997,38.1800
-MCO,Large cap,Financials,Professional & Commercial Services,60583125020,"New York City, New York",1909,-15.2600
-NEM,Large cap,Materials,Metals & Mining,60471525095,"Denver, Colorado",1921,22.5900
-EMR,Large cap,Industrials,"Machinery, Equipment & Components",58419180000,"Ferguson, Missouri",1890,5.4300
-SLB,Large cap,Energy,Oil & Gas Related Equipment and Services,58202265626,"CuraÁao, Kingdom of the Netherlands",1926,37.5600
-FIS,Large cap,Information Technology,Financial Technology (Fintech) & Infrastructure,57892829444,"Jacksonville, Florida",1968,-11.2000
-FDX,Large cap,Industrials,Freight & Logistics Services,57579035355,"Memphis, Tennessee",1971,-12.4000
-COF,Large cap,Financials,Banking Services,57220629478,"Tysons Corner, Virginia",1994,-4.7700
-OXY,Large cap,Energy,Oil & Gas,56940540769,"Houston, Texas",1920,105.7300
-MET,Large cap,Financials,Insurance,56740630840,"New York City, New York",1868,12.5300
-MAR,Large cap,Consumer Discretionary,Hotels & Entertainment Services,55456573314,"Bethesda, Maryland",1927,3.2300
-HUM,Large cap,Health Care,Healthcare Providers & Services,55370337607,"Louisville, Kentucky",1961,-5.4800
-ILMN,Large cap,Health Care,Healthcare Equipment & Supplies,54479000000,"San Diego, California",1998,-7.9500
-KLAC,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,53696862404,"Milpitas, California",1975,-16.0600
-DG,Large cap,Consumer Discretionary,Diversified Retail,52921765514,"Goodlettsville, Tennessee",1939,-4.1400
-APD,Large cap,Materials,Chemicals,51926212035,"Allentown, Pennsylvania",1940,-22.2600
-AIG,Large cap,Financials,Insurance,51262574318,"New York City, New York",1919,10.2400
-SRE,Large cap,Utilities,Multiline Utilities,50853036712,"San Diego, California",1998,19.5400
-FTNT,Large cap,Information Technology,Software & IT Services,50581282230,"Sunnyvale, California",2000,-9.3800
-CNC,Large cap,Health Care,Healthcare Providers & Services,50564409286,"St. Louis, Missouri",1984,6.2700
-NXPI,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,50016144100,"Eindhoven, Netherlands",1953,-17.5700
-LHX,Large cap,Industrials,Aerospace & Defense,49010160320,"Melbourne, Florida",2019,18.1700
-ADM,Large cap,Consumer Staples,Food & Tobacco,48998438416,"Chicago, Illinois",1902,29.5500
-ECL,Large cap,Materials,Chemicals,48954221372,"Saint Paul, Minnesota",1923,-24.8300
-ROP,Large cap,Industrials,Software & IT Services,48859263669,"Sarasota, Florida",1981,-5.6900
-SNPS,Large cap,Information Technology,Software & IT Services,48120457740,"Mountain View, California",1986,-11.7400
-CTSH,Large cap,Information Technology,Software & IT Services,47937237931,"Teaneck, New Jersey",1994,4.9600
-AEP,Large cap,Utilities,Electrical Utilities & IPPs,47775540280,"Columbus, Ohio",1906,7.0600
-DOW,Large cap,Materials,Chemicals,46560337929,"Midland, Michigan",2019,12.0400
-JCI,Large cap,Industrials,"Machinery, Equipment & Components",46307476055,"Cork, Ireland",1885,-19.2700
-ADSK,Large cap,Information Technology,Software & IT Services,46151867518,"San Rafael, California",1982,-22.9500
-KHC,Large cap,Consumer Staples,Food & Tobacco,46037106437,"Chicago, Illinois",2015,5.7100
-PAYX,Large cap,Information Technology,Professional & Commercial Services,45693480353,"Penfield, New York",1971,-6.6300
-ORLY,Large cap,Consumer Discretionary,Specialty Retailers,45652931261,"Springfield, Missouri",1957,-2.7200
-APH,Large cap,Information Technology,Pharmaceuticals,45549369737,"Wallingford, Connecticut",1932,-13.4500
-IDXX,Large cap,Health Care,Healthcare Equipment & Supplies,45459963775,"Westbrook, Maine",1983,-16.1000
-MCK,Large cap,Health Care,Food & Drug Retailing,44930525497,"Irving, Texas",1833,20.6600
-DXCM,Large cap,Health Care,Healthcare Equipment & Supplies,44683193956,"San Diego, California",1999,-13.4500
-MPC,Large cap,Energy,Oil & Gas,44674785231,"Findlay, Ohio",2009,23.8500
-TRV,Large cap,Financials,Insurance,44083543619,"New York City, New York",1853,16.7900
-PRU,Large cap,Financials,Insurance,43649840000,"Newark, New Jersey",1875,9.9400
-CDNS,Large cap,Information technology,Software & IT Services,43597219200,"San Jose, California",1988,-14.0300
-HSY,Large cap,Consumer Staples,Food & Tobacco,43368467120,"Hershey, Pennsylvania",1894,7.6700
-IQV,Large cap,Health Care,Biotechnology & Medical Research,43331994119,"Durham, North Carolina",1982,-18.8600
-CMG,Large cap,Consumer Discretionary,Hotels & Entertainment Services,43175086629,"Newport Beach, California",1993,-10.8600
-TEL,Large cap,Information Technology,"Machinery, Equipment & Components",43076625994,"Schaffhausen, Switzerland",2007,-18.2900
-EXC,Large cap,Utilities,Electrical Utilities & IPPs,42792780023,"Chicago, Illinois",2000,5.9000
-MCHP,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,42572210120,"Chandler, Arizona",1989,-12.2600
-SPG,Large cap,Real Estate,Residential & Commercial REIT,42407581606,"Indianapolis, Indiana",2003,-16.8600
-STZ,Large cap,Consumer Staples,Beverages,42292901187,"Victor, New York",1945,-9.2600
-BK,Large cap,Financials,Investment Banking & Investment Services,42114803290,"New York City, New York",1784,-9.2800
-HLT,Large cap,Consumer Discretionary,Hotels & Entertainment Services,41968560979,"Tysons Corner, Virginia",1919,-2.9300
-MNST,Large cap,Consumer Staples,Beverages,41819349940,"Corona, California",2012,-15.3500
-RSG,Large cap,Industrials,Professional & Commercial Services,41620215334,"Phoenix, Arizona",1998,-7.1200
-A,Large cap,Health Care,Healthcare Equipment & Supplies,41492574435,"Santa Clara, California",1999,-12.7500
-WELL,Large cap,Real Estate,Residential & Commercial REIT,41462822813,"Toledo, Ohio",1970,7.9900
-CTVA,Large cap,Materials,Food & Tobacco,41403845950,"Wilmington, Delaware",2019,19.4600
-SYY,Large cap,Consumer Staples,Food & Drug Retailing,41396999697,"Houston, Texas",1969,3.2600
-MSCI,Large cap,Financials,Professional & Commercial Services,41202829863,"New York City, New York",1969,-16.8000
-AFL,Large cap,Financials,Insurance,41201179475,"Columbus, Georgia",1955,10.4000
-KMI,Large cap,Energy,Oil & Gas Related Equipment and Services,40973445945,"Houston, Texas",1997,13.0500
-KR,Large cap,Consumer Staples,Food & Drug Retailing,40939029804,"Cincinnati, Ohio",1883,24.9900
-WBA,Large cap,Consumer Staples,Food & Drug Retailing,40901828639,"Deerfield, Illinois",2014,-9.0700
-DVN,Large cap,Energy,Oil & Gas,40808448000,"Oklahoma City, Oklahoma",1971,37.6400
-KMB,Large cap,Consumer Staples,Personal & Household Products & Services,40677363438,"Irving, Texas",1872,-14.3600
-ANET,Large cap,Information Technology,Communications & Networking,40609799967,"Santa Clara, California",2004,-5.3800
-CTAS,Large cap,Industrials,Professional & Commercial Services,40590556989,"Mason, Ohio",1929,-11.3200
-CARR,Large cap,Industrials,"Machinery, Equipment & Components",40500753036,"Palm Beach Gardens, Florida",2020,-12.4400
-AZO,Large cap,Consumer Discretionary,Specialty Retailers,40003697181,"Memphis, Tennessee",1979,-7.1300
-BAX,Large cap,Health Care,Healthcare Equipment & Supplies,39579816511,"Deerfield, Illinois",1931,-9.1200
-HPQ,Large cap,Information Technology,"Computers, Phones & Household Electronics",39543352132,"Palo Alto, California",1939,1.4900
-WMB,Large cap,Energy,Oil & Gas Related Equipment and Services,39506765708,"Tulsa, Oklahoma",1908,23.3500
-O,Large cap,Real Estate,Residential & Commercial REIT,39370122419,"San Diego, California",1969,-5.7800
-DD,Large cap,Materials,Chemicals,39365649397,"Wilmington, Delaware",2017,-4.6400
-MSI,Large cap,Information Technology,Communications & Networking,39036283284,"Chicago, Illinois",1928,-14.5800
-DLR,Large cap,Real Estate,Residential & Commercial REIT,38929963214,"Austin, Texas",2004,-21.7400
-VLO,Large cap,Energy,Oil & Gas,38591620216,"San Antonio, Texas",1980,24.6000
-NUE,Large cap,Materials,Metals & Mining,38417574193,"Charlotte, North Carolina",1940,26.1500
-GIS,Large cap,Consumer Staples,Food & Tobacco,37893444894,"Golden Valley, Minnesota",1856,-6.9800
-GPN,Large cap,Information Technology,Professional & Commercial Services,37858282157,"Atlanta, Georgia",2000,1.3100
-XEL,Large cap,Utilities,Electrical Utilities & IPPs,37724895764,"Minneapolis, Minnesota",1909,2.2300
-RMD,Large cap,Health Care,Healthcare Equipment & Supplies,37574888996,"San Diego, California",1989,-2.0800
-BKR,Large cap,Energy,Oil & Gas Related Equipment and Services,37496392800,"Houston, Texas",2017,51.8700
-ALL,Large cap,Financials,Insurance,37445895452,"Northfield Township, Illinois",1931,16.4800
-PH,Large cap,Industrials,"Machinery, Equipment & Components",37069651738,"Cleveland, Ohio",1917,-8.7700
-ODFL,Large cap,Industrials,Freight & Logistics Services,36732295561,"Thomasville, North Carolina",1934,-9.8900
-TT,Large cap,Industrials,"Machinery, Equipment & Components",36509009766,"Dublin, Ireland",1871,-22.1700
-TDG,Large cap,Industrials,Aerospace & Defense,36343747058,"Cleveland, Ohio",1993,5.5600
-SBAC,Large cap,Real Estate,Residential & Commercial REIT,35354473409,"Boca Raton, Florida",1989,-17.0400
-PSX,Large cap,Energy,Oil & Gas,35353157518,"Houston, Texas",2012,10.1200
-EA,Large cap,Communication Services,Software & IT Services,35310267970,"Redwood City, California",1982,-3.0100
-DLTR,Large cap,Consumer Discretionary,Diversified Retail,34883096582,"Chesapeake, Virginia",1986,11.5100
-AJG,Large cap,Financials,Insurance,34747268040,"Rolling Meadows, Illinois",1927,-1.2200
-LYB,Large cap,Materials,Chemicals,34421325640,"Rotterdam, Netherlands",2007,13.3900
-YUM,Large cap,Consumer Discretionary,Hotels & Entertainment Services,34255805606,"Louisville, Kentucky",1997,-14.5400
-AVB,Large cap,Real Estate,Residential & Commercial REIT,34215601147,"Arlington, Virginia[3]",1978,-3.7700
-ALGN,Large cap,Health Care,Healthcare Equipment & Supplies,34076687290,"San Jose, California",1997,-30.4600
-VRSK,Large cap,Industrials,Software & IT Services,33921028361,"Jersey City, New Jersey",1971,-7.6900
-PEG,Large cap,Utilities,Multiline Utilities,33865156716,"Newark, New Jersey",1903,0.5500
-HAL,Large cap,Energy,Oil & Gas Related Equipment and Services,33768317609,"Houston, Texas",1919,62.1800
-EQR,Large cap,Real Estate,Residential & Commercial REIT,33415283641,"Chicago, Illinois",1969,-2.6500
-SIVB,Large cap,Financials,Banking Services,33257406717,"Santa Clara, California",1983,-13.3300
-FAST,Large cap,Industrials,"Machinery, Equipment & Components",33243772159,"Winona, Minnesota",1967,-9.8500
-TROW,Large cap,Financials,Investment Banking & Investment Services,33226349554,"Baltimore, Maryland",1937,-24.0000
-AMP,Large cap,Financials,Investment Banking & Investment Services,33097919913,"Minneapolis, Minnesota",1894,1.9300
-OTIS,Large cap,Industrials,"Machinery, Equipment & Components",32862338989,"Farmington, Connecticut",2020,-10.9600
-EBAY,Large cap,Consumer Discretionary,Software & IT Services,32502099578,"San Jose, California",1995,-16.1700
-STT,Large cap,Financials,Investment Banking & Investment Services,32345710074,"Boston, Massachusetts",1792,-2.8700
-IFF,Large cap,Materials,Food & Tobacco,32235442352,"New York City, New York",1958,-15.3300
-ROST,Large cap,Consumer Discretionary,Specialty Retailers,32177738966,"Dublin, California",1982,-19.7800
-HES,Large cap,Energy,Oil & Gas,32165137942,"New York City, New York",1919,37.2300
-ABC,Large cap,Health Care,Healthcare Equipment & Supplies,32035671374,"Chesterbrook, Pennsylvania",1985,14.4600
-GLW,Large cap,Information Technology,Electronic Equipment & Parts,31973111024,"Corning, New York",1851,2.9800
-DFS,Large cap,Financials,Banking Services,31946250423,"Riverwoods, Illinois",1985,-0.7100
-FITB,Large cap,Financials,Banking Services,31774201080,"Cincinnati, Ohio",1858,8.8600
-ED,Large cap,Utilities,Electrical Utilities & IPPs,31715877307,"New York City, New York",1823,4.6500
-ROK,Large cap,Industrials,"Machinery, Equipment & Components",31711084201,"Milwaukee, Wisconsin",1903,-21.4100
-MTD,Large cap,Health Care,Office Equipment,31707281170,"Columbus, Ohio",1945,-17.5400
-TSN,Large cap,Consumer Staples,Food & Tobacco,31526894880,"Springdale, Arkansas",1935,-0.4400
-APTV,Large cap,Consumer Discretionary,Automobiles & Auto Parts,31477654981,"Dublin, Ireland",1994,-28.2800
-AME,Large cap,Industrials,"Machinery, Equipment & Components",31136405827,"Berwyn, Pennsylvania",1930,-8.4500
-ARE,Large cap,Real Estate,Residential & Commercial REIT,30955432282,"Pasadena, California",1994,-13.3200
-PCAR,Large cap,Industrials,"Machinery, Equipment & Components",30845698763,"Bellevue, Washington",1905,1.0200
-WST,Large cap,Health Care,Healthcare Equipment & Supplies,30652297701,"Exton, Pennsylvania",1923,-11.8400
-BF.B,Large cap,Consumer Staples,Beverages,30583305421,"Louisville, Kentucky",1870,-9.2500
-OKE,Large cap,Energy,Oil & Gas Related Equipment and Services,30574534288,"Tulsa, Oklahoma",1906,16.2400
-PPG,Large cap,Materials,Chemicals,30441854278,"Pittsburgh, Pennsylvania",1883,-24.3400
-BIIB,Large cap,Health Care,Pharmaceuticals,30393375220,"Cambridge, Massachusetts",1978,-12.0900
-WEC,Large cap,Utilities,Electrical Utilities & IPPs,30187084617,"Milwaukee, Wisconsin",1896,-1.7500
-BLL,Large cap,Materials,Containers & Packaging,30059039173,"Broomfield, Colorado",1880,-2.1600
-CBRE,Large cap,Real Estate,Real Estate Operations,29998759206,"Dallas, Texas",1906,-15.6000
-CPRT,Large cap,Industrials,Specialty Retailers,29986409477,"Dallas, Texas",1982,-15.9900
-TWTR,Large cap,Communication Services,Software & IT Services,29976005255,"San Francisco, California",2006,-11.0800
-LVS,Large cap,Consumer Discretionary,Hotels & Entertainment Services,29558763505,"Las Vegas, Nevada",1988,3.6700
-DHI,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,29383379042,"Arlington, Texas",1978,-23.6600
-CMI,Large cap,Industrials,Automobiles & Auto Parts,29361271420,"Columbus, Indiana",1919,-3.8800
-WY,Large cap,Real Estate,Residential & Commercial REIT,29248711890,"Seattle, Washington",1900,-3.8500
-NDAQ,Large cap,Financials,Investment Banking & Investment Services,29206167931,"New York City, New York",1971,-15.4800
-KEYS,Large cap,Information Technology,"Machinery, Equipment & Components",29166962296,"Santa Rosa, California",2014,-23.0700
-ES,Large cap,Utilities,Electrical Utilities & IPPs,29112060771,"Hartford, Connecticut",1966,-7.4500
-EFX,Large cap,Industrials,Professional & Commercial Services,29036601978,"Atlanta, Georgia",1899,-18.1700
-FRC,Large cap,Financials,Banking Services,28901332980,"San Francisco, California",1985,-17.4200
-EXPE,Large cap,Consumer Discretionary,Hotels & Entertainment Services,28570913513,"Seattle, Washington",1996,6.0800
-MTCH,Large cap,Communication Services,Software & IT Services,28523383249,"Dallas, Texas",1986,-21.1300
-AWK,Large cap,Utilities,Water Utilities,28503241813,"Camden, New Jersey",1886,-17.0900
-CERN,Large cap,Health Care,Healthcare Equipment & Supplies,27459940265,"North Kansas City, Missouri",1979,0.8400
-WTW,Large cap,Financials,Personal & Household Products & Services,27240449881,"London, England",2016,-1.3100
-HRL,Large cap,Consumer Staples,Food & Tobacco,27113631098,"Austin, Minnesota",1891,1.8800
-ANSS,Large cap,Information Technology,Software & IT Services,27097996704,"Canonsburg, Pennsylvania",1969,-20.8700
-EXR,Large cap,Real Estate,Residential & Commercial REIT,26283165637,"Salt Lake City, Utah",1977,-13.6700
-TSCO,Large cap,Consumer Discretionary,Specialty Retailers,26116948305,"Brentwood, Tennessee",1938,-2.8500
-GWW,Large cap,Industrials,"Machinery, Equipment & Components",25871490844,"Lake Forest, Illinois",1927,-2.9900
-LH,Large cap,Health Care,Healthcare Providers & Services,25840044000,"Burlington, North Carolina",1978,-11.7000
-LEN,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,25818839747,"Miami, Florida",1954,-23.9600
-MKC,Large cap,Consumer Staples,Food & Tobacco,25798223094,"Hunt Valley, Maryland",1889,0.1800
-LYV,Large cap,Communication Services,Hotels & Entertainment Services,25591619787,"Beverly Hills, California",2010,-1.4300
-LUV,Large cap,Industrials,Passenger Transportation Services,25322333621,"Dallas, Texas",1967,0.5100
-ZBH,Large cap,Health Care,Healthcare Equipment & Supplies,25318837943,"Warsaw, Indiana",1927,-5.1600
-URI,Large cap,Industrials,Professional & Commercial Services,25108397425,"Stamford, Connecticut",1997,7.2400
-FE,Large cap,Utilities,Electrical Utilities & IPPs,24867015360,"Akron, Ohio",1997,4.7100
-EIX,Large cap,Utilities,Electrical Utilities & IPPs,24847882047,"Rosemead, California",1886,-3.3800
-ENPH,Large cap,Information Technology,Renewable Energy,24838352198,"Fremont, California",2006,3.4500
-FANG,Large cap,Energy,Oil & Gas,24816805864,"Midland, Texas",2007,27.3500
-MOS,Large cap,Materials,Chemicals,24750383280,"Tampa, Florida",2004,67.1700
-DTE,Large cap,Utilities,Electrical Utilities & IPPs,24624591677,"Detroit, Michigan",1995,5.1600
-IT,Large cap,Information Technology,Software & IT Services,24416317921,"Stamford, Connecticut",1979,-10.1300
-SWK,Large cap,Industrials,"Machinery, Equipment & Components",24222485311,"New Britain, Connecticut",1843,-22.6400
-VMC,Large cap,Materials,Construction Materials,24212015501,"Birmingham, Alabama",1909,-12.3000
-CDW,Large cap,Information Technology,Software & IT Services,24126696403,"Lincolnshire, Illinois",1984,-13.0000
-MAA,Large cap,Real Estate,Residential & Commercial REIT,23873285768,"Memphis, Tennessee",1977,-10.4400
-MLM,Large cap,Materials,Construction Materials,23870299444,"Raleigh, North Carolina",1993,-12.8300
-BBY,Large cap,Consumer Discretionary,Specialty Retailers,23825151338,"Richfield, Minnesota",1966,-2.2600
-NTRS,Large cap,Financials,Investment Banking & Investment Services,23811660684,"Chicago, Illinois",1889,-2.0000
-VTR,Large cap,Real Estate,Residential & Commercial REIT,23738060163,"Chicago, Illinois",1998,17.8200
-PARA,Large cap,Communication Services,#FIELD!,23717171121,"New York City, New York",2019,24.0200
-HIG,Large cap,Financials,Insurance,23716065242,"Hartford, Connecticut",1810,3.9700
-VRSN,Large cap,Information Technology,Software & IT Services,23677185775,"Dulles, Virginia",1995,-14.0800
-CHD,Large cap,Consumer Staples,Personal & Household Products & Services,23672143443,"Ewing, New Jersey",1847,-4.5300
-STE,Large cap,Health Care,Healthcare Equipment & Supplies,23423758104,"Dublin, Ireland",1985,-3.3000
-MTB,Large cap,Financials,Banking Services,23304935189,"Buffalo, New York",1856,20.1300
-ALB,Large cap,Materials,Chemicals,23252834668,"Charlotte, North Carolina",1994,-12.0500
-DAL,Large cap,Industrials,Passenger Transportation Services,23095065038,"Atlanta, Georgia",1929,-5.3700
-AEE,Large cap,Utilities,Multiline Utilities,23056059087,"St. Louis, Missouri",1902,-0.4800
-ZBRA,Large cap,Information Technology,Electronic Equipment & Parts,22799871520,"Lincolnshire, Illinois",1969,-27.1400
-PKI,Large cap,Health Care,Healthcare Equipment & Supplies,22789068762,"Waltham, Massachusetts",1937,-8.2200
-DOV,Large cap,Industrials,"Machinery, Equipment & Components",22783676643,"Downers Grove, Illinois",1955,-12.2300
-GRMN,Large cap,Consumer Discretionary,Communications & Networking,22498252236,"Schaffhausen, Switzerland",1989,-12.9500
-JBHT,Large cap,Industrials,Freight & Logistics Services,22468772546,"Lowell, Arkansas",1961,4.6200
-COO,Large cap,Health Care,Healthcare Equipment & Supplies,22300104642,"San Ramon, California",1958,-0.0800
-ETR,Large cap,Utilities,Electrical Utilities & IPPs,22262698379,"New Orleans, Louisiana",1913,-2.6400
-FOXA,Large cap,Communication Services,Media & Publishing,22176682916,"New York City, New York",2019,11.3800
-FOXA,Large cap,Communication Services,Media & Publishing,22176682916,"New York City, New York",2019,11.3800
-HPE,Large cap,Information Technology,"Computers, Phones & Household Electronics",22167314367,"Houston, Texas",2015,8.6200
-KEY,Large cap,Financials,Banking Services,22164211031,"Cleveland, Ohio",1825,5.1900
-SWKS,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,22065335758,"Woburn, Massachusetts",2002,-11.3600
-FTV,Large cap,Industrials,"Machinery, Equipment & Components",22039495386,"Everett, Washington",2016,-19.4900
-ESS,Large cap,Real Estate,Residential & Commercial REIT,22012053566,"San Mateo, California",1971,-4.7100
-RJF,Large cap,Financials,Investment Banking & Investment Services,21960144109,"St. Petersburg, Florida",1962,7.1700
-VFC,Large cap,Consumer Discretionary,Textiles & Apparel,21957388119,"Denver, Colorado",1899,-22.5500
-HBAN,Large cap,Financials,Banking Services,21787985686,"Columbus, Ohio",1866,0.0000
-MPWR,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,21600174870,"Kirkland, Washington",1997,-4.7000
-DRE,Large cap,Real Estate,Residential & Commercial REIT,21457957935,"Indianapolis, Indiana",1972,-14.5600
-RF,Large cap,Financials,Banking Services,21348188933,"Birmingham, Alabama",1971,7.4800
-PAYC,Large cap,Information Technology,Software & IT Services,21187330931,"Oklahoma City, Oklahoma",1998,-13.9600
-TDY,Large cap,Information Technology,Electronic Equipment & Parts,21178190513,"Thousand Oaks, California",1960,2.9600
-CINF,Large cap,Financials,Insurance,21034471454,"Fairfield, Ohio",1950,15.5900
-CF,Large cap,Materials,Chemicals,21002057595,"Deerfield, Illinois",1946,41.2800
-CCL,Large cap,Consumer Discretionary,Hotels & Entertainment Services,20920610803,"Miami, Florida",1972,-5.9100
-ULTA,Large cap,Consumer Discretionary,Specialty Retailers,20872527121,"Bolingbrook, Illinois",1990,-5.4800
-IR,Large cap,Industrials,"Machinery, Equipment & Components",20741981566,"Davidson, North Carolina",1859,-17.9400
-K,Large cap,Consumer Staples,Food & Tobacco,20732534043,"Battle Creek, Michigan",1906,-5.1800
-CFG,Large cap,Financials,Banking Services,20718766906,"Providence, Rhode Island",1828,5.7400
-WAT,Large cap,Health Care,Healthcare Equipment & Supplies,20635141824,"Milford, Massachusetts",1958,-8.8000
-CTRA,Large cap,Energy,Oil & Gas,20567242714,"Houston, Texas",2021,34.6300
-STX,Large cap,Information Technology,"Computers, Phones & Household Electronics",20197749740,"Dublin, Ireland",1979,-17.0900
-GNRC,Large cap,Industrials,"Machinery, Equipment & Components",19903050458,"Waukesha, Wisconsin",1959,-7.9600
-PPL,Large cap,Utilities,Multiline Utilities,19781234707,"Allentown, Pennsylvania",1920,-10.6500
-MOH,Large cap,Health Care,Healthcare Providers & Services,19700656000,"Long Beach, California",1980,6.3200
-NTAP,Large cap,Information Technology,"Computers, Phones & Household Electronics",19694476356,"Sunnyvale, California",1992,-4.7600
-TER,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,19642717543,"North Reading, Massachusetts",1960,-26.0100
-BRO,Large cap,Financials,Insurance,19616807329,"Daytona Beach, Florida",1939,-1.5200
-BXP,Large cap,Real Estate,Residential & Commercial REIT,19605533541,"Boston, Massachusetts",1970,8.8900
-CMS,Large cap,Utilities,Multiline Utilities,19411040152,"Jackson, Michigan",1886,3.0100
-CTLT,Large cap,Health Care,Pharmaceuticals,19302056724,"Somerset, New Jersey",2007,-15.7300
-RCL,Large cap,Consumer Discretionary,Hotels & Entertainment Services,19290959626,"Miami, Florida",1997,0.0000
-POOL,Large cap,Consumer Discretionary,Leisure Products,19112786769,"Covington, Louisiana",1993,-15.7500
-SYF,Large cap,Financials,Banking Services,18963869830,"Stamford, Connecticut",2003,-18.9500
-HOLX,Large cap,Health Care,Healthcare Equipment & Supplies,18946296152,"Marlborough, Massachusetts",1985,-0.5200
-SBNY,Large cap,Financials,Banking Services,18849458647,"New York City, New York",2001,-0.7100
-AKAM,Large cap,Information Technology,Software & IT Services,18844420658,"Cambridge, Massachusetts",1998,-0.3100
-FLT,Large cap,Information Technology,Professional & Commercial Services,18789362178,"Norcross, Georgia",2000,8.8100
-CNP,Large cap,Utilities,Multiline Utilities,18549373005,"Houston, Texas",1882,5.5900
-MGM,Large cap,Consumer Discretionary,Hotels & Entertainment Services,18370576012,"Paradise, Nevada",1986,-6.4800
-MRO,Large cap,Energy,Oil & Gas,18305667333,"Houston, Texas",1887,50.1800
-PWR,Large cap,Industrials,Construction & Engineering,18295752061,"Houston, Texas",1997,13.1500
-PFG,Large cap,Financials,Insurance,18244130346,"Des Moines, Iowa",1879,-1.8700
-GPC,Large cap,Consumer Discretionary,Automobiles & Auto Parts,18208904460,"Atlanta, Georgia",1925,-8.5900
-J,Large cap,Industrials,Construction & Engineering,18076123464,"Dallas, Texas",1947,-0.6800
-ETSY,Large cap,Consumer Discretionary,Diversified Retail,18072977227,"New York City, New York",2005,-32.2900
-UDR,Large cap,Real Estate,Residential & Commercial REIT,18067883953,"Highlands Ranch, Colorado",1972,-6.2300
-TYL,Large cap,Information Technology,Software & IT Services,18009934289,"Plano, Texas",1966,-17.9600
-PEAK,Large cap,Real Estate,Residential & Commercial REIT,17894110934,"Long Beach, California",1985,-7.2600
-WAB,Large cap,Industrials,"Machinery, Equipment & Components",17887907606,"Pittsburgh, Pennsylvania",1999,3.8900
-OMC,Large cap,Communication Services,Media & Publishing,17810278558,"New York City, New York",1986,14.8200
-TRMB,Large cap,Information Technology,Software & IT Services,17781037549,"Sunnyvale, California",1978,-18.2500
-EXPD,Large cap,Industrials,Freight & Logistics Services,17767630513,"Seattle, Washington",1979,-20.7000
-BR,Large cap,Information Technology,Professional & Commercial Services,17744760193,"Lake Success, New York",1962,-16.4600
-TTWO,Large cap,Communication Services,Leisure Products,17453232018,"New York City, New York",1993,-14.3100
-BIO,Large cap,Health Care,Healthcare Equipment & Supplies,17394296877,"Hercules, California",1952,-21.9900
-AMCR,Large cap,Materials,Containers & Packaging,17347313918,"Bristol, United Kingdom",2019,-4.6600
-WRB,Large cap,Financials,Insurance,17320205845,"Greenwich, Connecticut",1967,19.9500
-TECH,Large cap,Health Care,Biotechnology & Medical Research,17217684433,"Minneapolis, Minnesota",1976,-14.5400
-DGX,Large cap,Health Care,Healthcare Providers & Services,17183570247,"Secaucus, New Jersey",1967,-16.8900
-INCY,Large cap,Health Care,Biotechnology & Medical Research,16949082974,"Wilmington, Delaware",1991,6.3400
-IP,Large cap,Materials,Containers & Packaging,16846072066,"Memphis, Tennessee",1898,-4.0200
-CZR,Large cap,Consumer Discretionary,Hotels & Entertainment Services,16806549669,"Reno, Nevada",1973,-14.3900
-DRI,Large cap,Consumer Discretionary,Hotels & Entertainment Services,16754791949,"Orlando, Florida",1938,-12.3700
-ROL,Large cap,Industrials,Professional & Commercial Services,16631775240,"Atlanta, Georgia",1948,-1.4600
-KMX,Large cap,Consumer Discretionary,Specialty Retailers,16586737453,"Richmond, Virginia",1993,-20.8700
-NVR,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,16550866464,"Reston, Virginia",1980,-17.0400
-FMC,Large cap,Materials,Chemicals,16542353077,"Philadelphia, Pennsylvania",1883,18.7800
-FDS,Large cap,Financials,Professional & Commercial Services,16537013006,"Norwalk, Connecticut",1978,-10.3300
-SEDG,Large cap,Information Technology,Renewable Energy,16483645852,"Herzliya, Israel",2006,15.8700
-CLX,Large cap,Consumer Staples,Personal & Household Products & Services,16448867112,"Oakland, California",1913,-21.9200
-DISH,Large cap,Communication Services,Media & Publishing,16437281000,"Meridian, Colorado",1980,-2.5600
-TFX,Large cap,Health Care,Healthcare Equipment & Supplies,16354624185,"Wayne, Pennsylvania",1943,5.5900
-TXT,Large cap,Industrials,Aerospace & Defense,16287438870,"Providence, Rhode Island",1923,-2.7300
-EPAM,Large cap,Information Technology,Software & IT Services,16156349003,"Newtown, Pennsylvania",1993,-54.5900
-CEGR3,Large cap,Utilities,Natural Gas Utilities,16061648330,"Rio de Janeiro, Brazil",1969,-5.5900
-CAH,Large cap,Health Care,Food & Drug Retailing,15958736179,"Dublin, Ohio",1971,12.1600
-L,Large cap,Financials,Insurance,15882474328,"New York City, New York",1959,11.7200
-NLOK,Large cap,Information Technology,Software & IT Services,15826627550,"Tempe, Arizona",1982,5.4300
-XYL,Large cap,Industrials,"Machinery, Equipment & Components",15770133845,"White Plains, New York",2011,-26.0400
-AES,Large cap,Utilities,Electrical Utilities & IPPs,15670437934,"Arlington, Virginia",1981,-2.3900
-ATO,Large cap,Utilities,Natural Gas Utilities,15607215601,"Dallas, Texas",1906,8.9600
-CE,Large cap,Materials,Chemicals,15421177864,"Irving, Texas",1918,-14.5100
-CAG,Large cap,Consumer Staples,Food & Tobacco,15331139483,"Chicago, Illinois",1919,-5.3900
-HWM,Large cap,Industrials,Aerospace & Defense,15328581194,"Pittsburgh, Pennsylvania",2016,17.2500
-WDC,Large cap,Information Technology,"Computers, Phones & Household Electronics",15317320779,"San Jose, California",1970,-23.7400
-LNT,Large cap,Utilities,Electrical Utilities & IPPs,15250713745,"Madison, Wisconsin",1917,-2.5400
-IEX,Large cap,Industrials,"Machinery, Equipment & Components",15107486584,"Lake Forest, Illinois",1988,-16.5300
-EVRG,Large cap,Utilities,Electrical Utilities & IPPs,14900089446,"Kansas City, Missouri",1909,-5.1200
-PKG,Large cap,Materials,Containers & Packaging,14849906449,"Lake Forest, Illinois",1959,12.7100
-KIM,Large cap,Real Estate,Residential & Commercial REIT,14799061783,"New Hyde Park, New York",1958,-0.9700
-IRM,Large cap,Real Estate,Residential & Commercial REIT,14520907325,"Boston, Massachusetts",1951,-2.6400
-LDOS,Large cap,Industrials,Software & IT Services,14502695030,"Reston, Virginia",1969,19.7100
-CRL,Large cap,Health Care,Biotechnology & Medical Research,14469805931,"Wilmington, Massachusetts",1947,-21.6000
-DPZ,Large cap,Consumer Discretionary,Hotels & Entertainment Services,14416275409,"Ann Arbor, Michigan",1960,-29.6800
-APA,Large cap,Energy,Oil & Gas,14176218374,"Houston, Texas",1954,50.6900
-EMN,Large cap,Materials,Chemicals,14149065895,"Kingsport, Tennessee",1920,-8.6400
-IPG,Large cap,Communication Services,Media & Publishing,14131343765,"New York City, New York",1961,-2.8000
-SJM,Large cap,Consumer Staples,Food & Tobacco,14118029147,"Orrville, Ohio",1897,-4.0600
-AVY,Large cap,Materials,Containers & Packaging,14081909199,"Glendale, California",1990,-21.1100
-QRVO,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,13980089669,"Greensboro, North Carolina",2015,-16.8600
-ABMD,Large cap,Health Care,Healthcare Equipment & Supplies,13961639188,"Danvers, Massachusetts",1981,-12.7600
-BEN,Large cap,Financials,Investment Banking & Investment Services,13883739273,"San Mateo, California",1947,-16.1200
-CHRW,Large cap,Industrials,Freight & Logistics Services,13688979623,"Eden Prairie, Minnesota",1905,-1.4400
-JKHY,Large cap,Information Technology,Software & IT Services,13550553890,"Monett, Missouri",1976,12.4700
-MAS,Large cap,Industrials,Homebuilding & Construction Supplies,13407079241,"Livonia, Michigan",1929,-21.3900
-DISCA,Large cap,Communication Services,Media & Publishing,13310170603,"New York City, New York",1985,14.1500
-DISCK,Large cap,Communication Services,Media & Publishing,13310170603,"New York City, New York",1985,17.7300
-NDSN,Large cap,Industrials,"Machinery, Equipment & Components",13296202004,"Westlake, Ohio",1935,-9.7500
-UAL,Large cap,Industrials,Passenger Transportation Services,13260985662,"Chicago, Illinois",1967,-3.6100
-MKTX,Large cap,Financials,Investment Banking & Investment Services,13192452851,"New York City, New York",2000,-14.3000
-LKQ,Large cap,Consumer Discretionary,Automobiles & Auto Parts,13190454260,"Chicago, Illinois",1998,-22.2600
-HST,Large cap,Real Estate,Residential & Commercial REIT,13176069271,"Bethesda, Maryland",1993,6.9600
-RHI,Large cap,Industrials,Professional & Commercial Services,13079763202,"Menlo Park, California",1948,5.9900
-PTC,Large cap,Information Technology,Software & IT Services,13044880074,"Boston, Massachusetts",1985,-7.8900
-VTRS,Large cap,Health Care,Pharmaceuticals,13027136536,"Pittsburgh, Pennsylvania",1961,-19.8100
-NWS,Large cap,Communication Services,Media & Publishing,13023415206,"New York City, New York",2013,-0.0900
-NWSA,Large cap,Communication Services,Media & Publishing,13023415206,"New York City, New York",2013,-0.3100
-CPB,Large cap,Consumer Staples,Food & Tobacco,12813348155,"Camden, New Jersey",1869,-1.0800
-BBWI,Large cap,Consumer Discretionary,Specialty Retailers,12708317678,"Columbus, Ohio",1963,-28.4400
-CTXS,Large cap,Information Technology,Software & IT Services,12661826565,"Fort Lauderdale, Florida",1989,6.6700
-AAP,Large cap,Consumer Discretionary,Specialty Retailers,12570826879,"Raleigh, North Carolina",1932,-12.7100
-UHS,Large cap,Health Care,Healthcare Providers & Services,12538680960,"King of Prussia, Pennsylvania",1979,13.0600
-FFIV,Large cap,Information Technology,Software & IT Services,12519958982,"Seattle, Washington",1996,-14.3900
-HAS,Large cap,Consumer Discretionary,Leisure Products,12423003259,"Pawtucket, Rhode Island",1923,-12.3900
-CMA,Large cap,Financials,Banking Services,12368590189,"Dallas, Texas",1849,10.3800
-CBOE,Large cap,Financials,Investment Banking & Investment Services,12367984576,"Chicago, Illinois",1973,-8.3900
-WRK,Large cap,Materials,Containers & Packaging,12347387129,"Atlanta, Georgia",2015,6.7200
-NI,Large cap,Utilities,Multiline Utilities,12307488904,"Merrillville, Indiana",1912,9.4500
-HSIC,Large cap,Health Care,Healthcare Equipment & Supplies,12094525776,"Melville, New York",1932,14.1900
-PHM,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,11569729076,"Atlanta, Georgia",1956,-18.8400
-REG,Large cap,Real Estate,Residential & Commercial REIT,11560792088,"Jacksonville, Florida",1963,-8.8500
-TAP,Large cap,Consumer Staples,Beverages,11426050771,"Chicago, Illinois",2005,14.0900
-JNPR,Large cap,Information Technology,Communications & Networking,11396602812,"Sunnyvale, California",1996,-0.0800
-SNA,Large cap,Industrials,"Machinery, Equipment & Components",11366578959,"Kenosha, Wisconsin",1920,-1.3000
-RE,Large cap,Financials,Insurance,11267097782,"Hamilton, Bermuda",1973,6.7100
-LNC,Large cap,Financials,Insurance,11240598389,"Radnor, Pennsylvania",1905,-1.8500
-LUMN,Large cap,Communication Services,Telecommunications Services,11216159575,"Monroe, Louisiana",1983,-12.6700
-FBHS,Large cap,Industrials,Homebuilding & Construction Supplies,11167327322,"Deerfield, Illinois",2011,-22.6200
-AOS,Large cap,Industrials,"Machinery, Equipment & Components",10966499040,"Milwaukee, Wisconsin",1916,-21.0300
-WHR,Large cap,Consumer Discretionary,Household Goods,10948574402,"Benton Harbor, Michigan",1911,-19.5300
-DVA,Large cap,Health Care,Healthcare Providers & Services,10775970000,"Denver, Colorado",1979,-2.6500
-XRAY,Large cap,Health Care,Healthcare Equipment & Supplies,10714549423,"Charlotte, North Carolina",2016,-10.9500
-AAL,Large cap,Industrials,Passenger Transportation Services,10444986283,"Fort Worth, Texas",1934,-7.8000
-ALLE,Large cap,Industrials,Communications & Networking,10345019325,"New York City, New York",1908,-11.3000
-ZION,Large cap,Financials,Banking Services,10292371456,"Salt Lake City, Utah",1873,10.0900
-CDAY,Large cap,Information Technology,Software & IT Services,10245107034,"Minneapolis, Minnesota",1992,-33.8500
-AIZ,Large cap,Financials,Insurance,10152110010,"New York City, New York",1892,15.2400
-SEE,Large cap,Materials,Containers & Packaging,10138461725,"Charlotte, North Carolina",1960,1.3600
-TPR,Mid cap,Consumer Discretionary,Specialty Retailers,9999930556,"New York City, New York",2017,-6.7700
-GL,Mid cap,Financials,Insurance,9885164284,"McKinney, Texas",1900,8.1800
-IVZ,Mid cap,Financials,Investment Banking & Investment Services,9809381040,"Atlanta, Georgia",1935,-6.0400
-NWL,Mid cap,Consumer Discretionary,Household Goods,9456642000,"Atlanta, Georgia",1903,1.7900
-PNR,Mid cap,Industrials,"Machinery, Equipment & Components",9385869452,"Worsley, England",1966,-21.4300
-FRT,Mid cap,Real Estate,Residential & Commercial REIT,9228041745,"Rockville, Maryland",1962,-12.9800
-BWA,Mid cap,Consumer Discretionary,Automobiles & Auto Parts,9202421535,"Auburn Hills, Michigan",1880,-14.6900
-PBCT,Mid cap,Financials,Banking Services,9147701658,"Bridgeport, Connecticut",1842,21.8300
-MHK,Mid cap,Consumer Discretionary,Household Goods,9085868338,"Calhoun, Georgia",1878,-23.6700
-WYNN,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,9074868523,"Paradise, Nevada",2002,-6.0100
-NRG,Mid cap,Utilities,Electrical Utilities & IPPs,9005678958,"Houston, Texas",1992,-12.7900
-OGN,Mid cap,Health Care,Pharmaceuticals,8815934508,"Jersey City, New Jersey",2021,16.0900
-VNO,Mid cap,Real Estate,Residential & Commercial REIT,8779229447,"New York City, New York",1982,9.8200
-RL,Mid cap,Consumer Discretionary,Textiles & Apparel,8662408776,"New York City, New York",1967,-1.3300
-PNW,Mid cap,Utilities,Electrical Utilities & IPPs,8368255939,"Phoenix, Arizona",1985,4.0100
-NLSN,Mid cap,Industrials,Media & Publishing,8181874913,"New York City, New York",1923,13.2600
-DXC,Mid cap,Information Technology,Software & IT Services,8065324964,"Tysons Corner, Virginia",2017,3.9500
-HII,Mid cap,Industrials,Aerospace & Defense,8024597045,"Newport News, Virginia",2011,7.6600
-LW,Mid cap,Consumer Staples,Food & Tobacco,7912144164,"Eagle, Idaho",2016,-12.0000
-UA,Mid cap,Consumer Discretionary,Textiles & Apparel,7428901920,"Baltimore, Maryland",1996,-14.6900
-UAA,Mid cap,Consumer Discretionary,Textiles & Apparel,7428901920,"Baltimore, Maryland",1996,-19.1600
-PENN,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,7290052542,"Wyomissing, Pennsylvania",1972,-15.1800
-ALK,Mid cap,Industrials,Passenger Transportation Services,6766533773,"Seattle, Washington",1985,4.6600
-IPGP,Mid cap,Information Technology,Electronic Equipment & Parts,6179614178,"Oxford, Massachusetts",1990,-31.2100
-PVH,Mid cap,Consumer Discretionary,Textiles & Apparel,5685682844,"New York City, New York",1881,-23.5400
-NCLH,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,4218487000,"Miami, Florida",2011,-4.0000
+﻿Symbol,Size,Sector,Industry,Market cap ($),Headquarters,Year Founded,One-Year Return (%),Country,State
+AAPL,Large cap,Information Technology,"Computers, Phones & Household Electronics",2698910000000,Cupertino,1977,-4.93,United States,California
+MSFT,Large cap,Information Technology,Software & IT Services,2242760000000,Redmond,1975,-9.59,United States,Washington
+GOOG,Large cap,Communication Services,Software & IT Services,1842930000000,Mountain View,1998,-3.04,United States,California
+GOOGL,Large cap,Communication Services,Software & IT Services,1842930000000,Mountain View,1998,-3.44,United States,California
+AMZN,Large cap,Consumer Discretionary,Diversified Retail,1643480000000,Seattle,1994,-1.1,United States,Washington
+TSLA,Large cap,Consumer Discretionary,Automobiles & Auto Parts,925089000000,Palo Alto,2003,-5.94,United States,California
+BRK.B,Large cap,Financials,Consumer Goods Conglomerates,772947000000,Omaha,1839,17.03,United States,Nebraska
+NVDA,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,668350000000,Santa Clara,1993,-9.82,United States,California
+FB,Large cap,Communication Services,Software & IT Services,603592000000,Menlo Park,2004,-35.59,United States,California
+V,Large cap,Information Technology,Software & IT Services,478356000000,San Francisco,1958,0.81,United States,California
+UNH,Large cap,Health Care,Healthcare Providers & Services,477657000000,Minnetonka,1977,0.63,United States,Minnesota
+JNJ,Large cap,Health Care,Pharmaceuticals,462304000000,New Brunswick,1886,2.3,United States,New Jersey
+JPM,Large cap,Financials,Banking Services,412360000000,New York,2000,-9.93,United States,New York
+WMT,Large cap,Consumer Staples,Food & Drug Retailing,400076000000,Bentonville,1962,-0.62,United States,Arkansas
+PG,Large cap,Consumer Staples,Personal & Household Products & Services,364735000000,Cincinnati,1837,-7.15,United States,Ohio
+XOM,Large cap,Energy,Oil & Gas,348001000000,Irving,1999,33.75,United States,Texas
+BAC,Large cap,Financials,Banking Services,345498000000,Charlotte,1998,-0.7,United States,North Carolina
+HD,Large cap,Consumer Discretionary,Specialty Retailers,343941000000,Atlanta,1978,-20.55,United States,Georgia
+MA,Large cap,Information Technology,Software & IT Services,335119000000,Harrison,1966,-2.72,United States,New York
+CVX,Large cap,Energy,Oil & Gas,320645000000,San Ramon,1879,39.83,United States,California
+PFE,Large cap,Health Care,Pharmaceuticals,306053000000,New York,1849,-10.18,United States,New York
+ABBV,Large cap,Health Care,Pharmaceuticals,283089000000,North Chicago,2013,18.18,United States,Illinois
+LLY,Large cap,Health Care,Pharmaceuticals,275838000000,Indianapolis,1876,3.19,United States,Indiana
+KO,Large cap,Consumer Staples,Beverages,262614000000,Atlanta,1886,2.69,United States,Georgia
+DIS,Large cap,Communication Services,Media & Publishing,252376000000,Burbank,1923,-9.54,United States,California
+COST,Large cap,Consumer Staples,Diversified Retail,246224000000,Issaquah,1976,-1.46,United States,Washington
+AVGO,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,245495000000,San Jose,1961,-8.13,United States,California
+CSCO,Large cap,Information Technology,Communications & Networking,232633000000,San Jose,1984,-11.36,United States,California
+TMO,Large cap,Health Care,Healthcare Equipment & Supplies,230529000000,Waltham,2006,-11.97,United States,Massachusetts
+PEP,Large cap,Consumer Staples,Beverages,224764000000,Purchase,1898,-5.39,United States,New York
+ORCL,Large cap,Information Technology,Software & IT Services,216014000000,Austin,1977,-6.2,United States,Texas
+ACN,Large cap,Information Technology,Software & IT Services,214960000000,Dublin,1989,-21.01,Ireland, 
+ABT,Large cap,Health Care,Healthcare Equipment & Supplies,214722000000,North Chicago,1888,-13.39,United States,Illinois
+VZ,Large cap,Communication Services,Telecommunications Services,214509000000,New York,1983,-1.85,United States,New York
+ADBE,Large cap,Information Technology,Software & IT Services,214254000000,San Jose,1982,-17.74,United States,California
+CRM,Large cap,Information Technology,Software & IT Services,211583000000,San Francisco,1999,-14.13,United States,California
+CMCSA,Large cap,Communication Services,Media & Publishing,211125000000,Philadelphia,1963,-6.18,United States,Pennsylvania
+DHR,Large cap,Health Care,Healthcare Equipment & Supplies,206930000000,Washington,1969,-10.67,United States, 
+NKE,Large cap,Consumer Discretionary,Textiles & Apparel,204376000000,Washington,1964,-20.15,United States,Oregon
+MRK,Large cap,Health Care,Pharmaceuticals,199701000000,Kenilworth,1891,3.47,United States,New Jersey
+WFC,Large cap,Financials,Banking Services,194413000000,San Francisco,1852,11.28,United States,California
+INTC,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,192972000000,Santa Clara,1968,-6.04,United States,California
+UPS,Large cap,Industrials,Freight & Logistics Services,188923000000,Sandy Springs,1907,1.9,United States,Georgia
+QCOM,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,175051000000,San Diego,1985,-13.81,United States,California
+MCD,Large cap,Consumer Discretionary,Hotels & Entertainment Services,174980000000,Chicago,1940,-11.17,United States,Illinois
+UNP,Large cap,Industrials,Freight & Logistics Services,168466000000,Omaha,1862,5.53,United States,Nebraska
+SCHW,Large cap,Financials,Investment Banking & Investment Services,167257000000,Westlake,1971,9.63,United States,Texas
+TXN,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,166542000000,Dallas,1930,-3.25,United States,Texas
+MS,Large cap,Financials,Investment Banking & Investment Services,166180000000,New York,1935,-4.01,United States,New York
+NFLX,Large cap,Communication Services,Software & IT Services,165492000000,Los Gatos,1997,-36.44,United States,California
+T,Large cap,Communication Services,Telecommunications Services,165429000000,Dallas,1983,-5.65,United States,Texas
+NEE,Large cap,Utilities,Electrical Utilities & IPPs,160252000000,Juno Beach,1984,-11.26,United States,Florida
+LIN,Large cap,Materials,Chemicals,159251000000,Guildford,1879,-9.9,United Kingdom,England
+TMUS,Large cap,Communication Services,Telecommunications Services,157373000000,Bellevue,1994,8.37,United States,Washington
+BMY,Large cap,Health Care,Pharmaceuticals,154869000000,New York,1989,13.58,United States,New York
+LOW,Large cap,Consumer Discretionary,Specialty Retailers,153345000000,Mooresville,1904,-11.61,United States,North Carolina
+RTX,Large cap,Industrials,Aerospace & Defense,148937000000,Waltham,1922,17.8,United States,Massachusetts
+PM,Large cap,Consumer Staples,Food & Tobacco,145901000000,New York,2008,-1.42,United States,New York
+MDT,Large cap,Health Care,Healthcare Equipment & Supplies,145892000000,Dublin,1949,5.34,Ireland, 
+AXP,Large cap,Financials,Banking Services,143196000000,New York,1850,16.95,United States,New York
+CVS,Large cap,Health Care,Healthcare Providers & Services,140950000000,Woonsocket,1996,3.95,United States,Rhode Island
+AMD,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,139023000000,Santa Clara,1969,-20.24,United States,California
+PYPL,Large cap,Information Technology,Software & IT Services,133568000000,San Jose,1998,-37.5,United States,California
+COP,Large cap,Energy,Oil & Gas,133539000000,Houston,2002,40.99,United States,Texas
+AMGN,Large cap,Health Care,Pharmaceuticals,133111000000,Thousand Oaks,1980,5.11,United States,California
+HON,Large cap,Industrials,Consumer Goods Conglomerates,132312000000,Charlotte,1906,-6.46,United States,North Carolina
+DE,Large cap,Industrials,"Machinery, Equipment & Components",129552000000,Moline,1837,24.69,United States,Illinois
+INTU,Large cap,Information Technology,Financial Technology (Fintech) & Infrastructure,127842000000,Mountain View,1983,-26,United States,California
+ANTM,Large cap,Health Care,Healthcare Providers & Services,120554000000,Indianapolis,2014,1.73,United States,Indiana
+CAT,Large cap,Industrials,"Machinery, Equipment & Components",119884000000,Deerfield,1925,7.72,United States,Illinois
+AMAT,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,118552000000,Santa Clara,1967,-13.9,United States,California
+PLD,Large cap,Real Estate,Residential & Commercial REIT,117601000000,San Francisco,1983,-5.76,United States,California
+LMT,Large cap,Industrials,Aerospace & Defense,117275000000,Bethesda,1995,23.97,United States,Maryland
+IBM,Large cap,Information Technology,Software & IT Services,115202000000,Armonk,1911,-3.44,United States,New York
+NOW,Large cap,Information Technology,Software & IT Services,113960000000,Santa Clara,2003,-9.31,United States,California
+GS,Large cap,Financials,Investment Banking & Investment Services,113495000000,New York,1869,-10.34,United States,New York
+C,Large cap,Financials,Banking Services,112871000000,New York,1998,-4.79,United States,New York
+BLK,Large cap,Financials,Investment Banking & Investment Services,111573000000,New York,1988,-18.42,United States,New York
+AMT,Large cap,Real Estate,Residential & Commercial REIT,110160000000,Boston,1995,-18.06,United States,Massachusetts
+BA,Large cap,Industrials,Aerospace & Defense,109753000000,Chicago,1916,-5.11,United States,Illinois
+CHTR,Large cap,Communication Services,Telecommunications Services,108341000000,Stamford,1993,-11.86,United States,Connecticut
+GE,Large cap,Industrials,Consumer Goods Conglomerates,104238000000,Boston,1892,0.46,United States,Massachusetts
+TGT,Large cap,Consumer Discretionary,Diversified Retail,103119000000,Minneapolis,1902,-3.75,United States,Minnesota
+ISRG,Large cap,Health Care,Healthcare Equipment & Supplies,101753000000,Sunnyvale,1995,-20.28,United States,California
+SYK,Large cap,Health Care,Healthcare Equipment & Supplies,100348000000,Kalamazoo,1941,-0.17,United States,Michigan
+SBUX,Large cap,Consumer Discretionary,Hotels & Entertainment Services,99915058000,Seattle,1971,-24.86,United States,Washington
+EL,Large cap,Consumer Staples,Personal & Household Products & Services,99069471982,New York,1946,-23.85,United States,New York
+SPGI,Large cap,Financials,Professional & Commercial Services,97547160000,New York,1917,-12.22,United States,New York
+MO,Large cap,Consumer Staples,Food & Tobacco,94951695075,Richmond,1985,12.49,United States,Virginia
+ZTS,Large cap,Health Care,Pharmaceuticals,91897391632,Parsippany-Troy Hills,1952,-19.32,United States,New Jersey
+CB,Large cap,Financials,Insurance,90774044224,Zürich,1985,10.52,Switzerland,Canton of Zürich
+CME,Large cap,Financials,Investment Banking & Investment Services,90128023539,Chicago,1848,8.55,United States,Illinois
+ADP,Large cap,Information Technology,Software & IT Services,89272220170,Roseland,1949,-12.72,United States,New Jersey
+BKNG,Large cap,Consumer Discretionary,Hotels & Entertainment Services,88754205844,Norwalk,1996,-8.22,United States,Connecticut
+MU,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,87734536569,Boise,1978,-15.06,United States,Idaho
+ADI,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,85938810649,Wilmington,1965,-6.26,United States,Massachusetts
+MDLZ,Large cap,Consumer Staples,Food & Tobacco,85609439741,Chicago,2012,-7.15,United States,Illinois
+MMM,Large cap,Industrials,Consumer Goods Conglomerates,84854038000,Saint Paul,1902,-15.59,United States,Minnesota
+USB,Large cap,Financials,Banking Services,83399767214,Minneapolis,1968,1.51,United States,Minnesota
+DUK,Large cap,Utilities,Electrical Utilities & IPPs,81672879404,Charlotte,1904,1.23,United States,North Carolina
+MMC,Large cap,Financials,Insurance,81372617054,New York,1905,-6.34,United States,New York
+CSX,Large cap,Industrials,Freight & Logistics Services,80848334906,Jacksonville,1980,-2.18,United States,Florida
+PNC,Large cap,Financials,Banking Services,80765960755,Pittsburgh,1845,-1.57,United States,Pennsylvania
+HCA,Large cap,Health Care,Healthcare Providers & Services,78995931919,Nashville,1968,1.34,United States,Tennessee
+CI,Large cap,Health Care,Healthcare Providers & Services,78155324690,Bloomfield,1982,6.05,United States,Connecticut
+TFC,Large cap,Financials,Banking Services,77905587715,Charlotte,1872,1.98,United States,North Carolina
+ICE,Large cap,Financials,Investment Banking & Investment Services,76395058591,Atlanta,2000,-0.27,United States,Georgia
+BDX,Large cap,Health Care,Healthcare Equipment & Supplies,76204740205,Franklin Lakes,1897,5.32,United States,New Jersey
+CCI,Large cap,Real Estate,Residential & Commercial REIT,75680770857,Houston,1994,-16.63,United States,Texas
+LRCX,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,74892046771,Fremont,1980,-23.97,United States,California
+GILD,Large cap,Health Care,Biotechnology & Medical Research,74806881954,Foster City,1987,-17.39,United States,California
+REGN,Large cap,Health Care,Biotechnology & Medical Research,73284920302,Tarrytown,1988,9.68,United States,New York
+SO,Large cap,Utilities,Electrical Utilities & IPPs,73039009578,Atlanta,1945,0.35,United States,Georgia
+TJX,Large cap,Consumer Discretionary,Diversified Retail,72753653250,Framingham,1987,-19.48,United States,Massachusetts
+FCX,Large cap,Materials,Metals & Mining,72026210033,Phoenix,1912,19.48,United States,Arizona
+EOG,Large cap,Energy,Oil & Gas,71686792659,Houston,1999,37.57,United States,Texas
+MRNA,Large cap,Health Care,Biotechnology & Medical Research,70681685482,Cambridge,2010,-26.48,United States,Massachusetts
+NSC,Large cap,Industrials,Freight & Logistics Services,70645925525,Norfolk,1881,-6.3,United States,Virginia
+AON,Large cap,Financials,Insurance,70043671867,London,1982,4.88,United Kingdom,England
+NOC,Large cap,Industrials,Aerospace & Defense,69715123724,West Falls Church,1994,15.3,United States,Virginia
+EW,Large cap,Health Care,Healthcare Equipment & Supplies,69644513029,Irvine,1958,-12.81,United States,California
+ITW,Large cap,Industrials,Consumer Goods Conglomerates,66337381799,Glenview,1912,-13.9,United States,Illinois
+D,Large cap,Utilities,Electrical Utilities & IPPs,66158517723,Richmond,1983,3.95,United States,Virginia
+FISV,Large cap,Information Technology,Professional & Commercial Services,65732690752,Brookfield,1984,-3.17,United States,Wisconsin
+PGR,Large cap,Financials,Insurance,65608308768,Mayfield,1937,10.42,United States,Ohio
+GD,Large cap,Industrials,Aerospace & Defense,65556159070,Falls Church,1899,14.08,United States,Virginia
+EQIX,Large cap,Real Estate,Residential & Commercial REIT,65115025742,Redwood City,1998,-14.98,United States,California
+F,Large cap,Consumer Discretionary,Automobiles & Auto Parts,64822357444,Dearborn,1903,-17.72,United States,Michigan
+WM,Large cap,Industrials,Professional & Commercial Services,64687965610,Houston,1968,-7.23,United States,Texas
+PSA,Large cap,Real Estate,Residential & Commercial REIT,64454117841,Glendale,1972,-1.12,United States,California
+SHW,Large cap,Materials,Chemicals,64047820373,Cleveland,1866,-28.96,United States,Ohio
+VRTX,Large cap,Health Care,Biotechnology & Medical Research,63710362690,Cambridge,1989,14.7,United States,Massachusetts
+GM,Large cap,Consumer Discretionary,Automobiles & Auto Parts,63366260507,Detroit,1908,-24,United States,Michigan
+BSX,Large cap,Health Care,Healthcare Equipment & Supplies,63232439236,Marlborough,1979,2.97,United States,Massachusetts
+CL,Large cap,Consumer Staples,Personal & Household Products & Services,62322127511,New York,1806,-12.7,United States,New York
+ETN,Large cap,Industrials,"Machinery, Equipment & Components",61654480000,Dublin,1911,-10.17,Ireland, 
+ATVI,Large cap,Communication Services,Software & IT Services,61434878570,Santa Monica,2008,19.19,United States,California
+PXD,Large cap,Energy,Oil & Gas,61007606888,Irving,1997,38.18,United States,Texas
+MCO,Large cap,Financials,Professional & Commercial Services,60583125020,New York,1909,-15.26,United States,New York
+NEM,Large cap,Materials,Metals & Mining,60471525095,Denver,1921,22.59,United States,Colorado
+EMR,Large cap,Industrials,"Machinery, Equipment & Components",58419180000,Ferguson,1890,5.43,United States,Missouri
+SLB,Large cap,Energy,Oil & Gas Related Equipment and Services,58202265626,Curaçao,1926,37.56,Curaçao, 
+FIS,Large cap,Information Technology,Financial Technology (Fintech) & Infrastructure,57892829444,Jacksonville,1968,-11.2,United States,Florida
+FDX,Large cap,Industrials,Freight & Logistics Services,57579035355,Memphis,1971,-12.4,United States,Tennessee
+COF,Large cap,Financials,Banking Services,57220629478,Tysons Corner,1994,-4.77,United States,Virginia
+OXY,Large cap,Energy,Oil & Gas,56940540769,Houston,1920,105.73,United States,Texas
+MET,Large cap,Financials,Insurance,56740630840,New York,1868,12.53,United States,New York
+MAR,Large cap,Consumer Discretionary,Hotels & Entertainment Services,55456573314,Bethesda,1927,3.23,United States,Maryland
+HUM,Large cap,Health Care,Healthcare Providers & Services,55370337607,Louisville,1961,-5.48,United States,Kentucky
+ILMN,Large cap,Health Care,Healthcare Equipment & Supplies,54479000000,San Diego,1998,-7.95,United States,California
+KLAC,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,53696862404,Milpitas,1975,-16.06,United States,California
+DG,Large cap,Consumer Discretionary,Diversified Retail,52921765514,Goodlettsville,1939,-4.14,United States,Tennessee
+APD,Large cap,Materials,Chemicals,51926212035,Allentown,1940,-22.26,United States,Pennsylvania
+AIG,Large cap,Financials,Insurance,51262574318,New York,1919,10.24,United States,New York
+SRE,Large cap,Utilities,Multiline Utilities,50853036712,San Diego,1998,19.54,United States,California
+FTNT,Large cap,Information Technology,Software & IT Services,50581282230,Sunnyvale,2000,-9.38,United States,California
+CNC,Large cap,Health Care,Healthcare Providers & Services,50564409286,St. Louis,1984,6.27,United States,Missouri
+NXPI,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,50016144100,Eindhoven,1953,-17.57,Netherlands,North Brabant
+LHX,Large cap,Industrials,Aerospace & Defense,49010160320,Melbourne,2019,18.17,United States,Florida
+ADM,Large cap,Consumer Staples,Food & Tobacco,48998438416,Chicago,1902,29.55,United States,Illinois
+ECL,Large cap,Materials,Chemicals,48954221372,Saint Paul,1923,-24.83,United States,Minnesota
+ROP,Large cap,Industrials,Software & IT Services,48859263669,Sarasota,1981,-5.69,United States,Florida
+SNPS,Large cap,Information Technology,Software & IT Services,48120457740,Mountain View,1986,-11.74,United States,California
+CTSH,Large cap,Information Technology,Software & IT Services,47937237931,Teaneck,1994,4.96,United States,New Jersey
+AEP,Large cap,Utilities,Electrical Utilities & IPPs,47775540280,Columbus,1906,7.06,United States,Ohio
+DOW,Large cap,Materials,Chemicals,46560337929,Midland,2019,12.04,United States,Michigan
+JCI,Large cap,Industrials,"Machinery, Equipment & Components",46307476055,Cork,1885,-19.27,Ireland,County Cork
+ADSK,Large cap,Information Technology,Software & IT Services,46151867518,San Rafael,1982,-22.95,United States,California
+KHC,Large cap,Consumer Staples,Food & Tobacco,46037106437,Chicago,2015,5.71,United States,Illinois
+PAYX,Large cap,Information Technology,Professional & Commercial Services,45693480353,Penfield,1971,-6.63,United States,New York
+ORLY,Large cap,Consumer Discretionary,Specialty Retailers,45652931261,Springfield,1957,-2.72,United States,Missouri
+APH,Large cap,Information Technology,Pharmaceuticals,45549369737,Wallingford,1932,-13.45,United States,Connecticut
+IDXX,Large cap,Health Care,Healthcare Equipment & Supplies,45459963775,Westbrook,1983,-16.1,United States,Maine
+MCK,Large cap,Health Care,Food & Drug Retailing,44930525497,Irving,1833,20.66,United States,Texas
+DXCM,Large cap,Health Care,Healthcare Equipment & Supplies,44683193956,San Diego,1999,-13.45,United States,California
+MPC,Large cap,Energy,Oil & Gas,44674785231,Findlay,2009,23.85,United States,Ohio
+TRV,Large cap,Financials,Insurance,44083543619,New York,1853,16.79,United States,New York
+PRU,Large cap,Financials,Insurance,43649840000,Newark,1875,9.94,United States,New Jersey
+CDNS,Large cap,Information technology,Software & IT Services,43597219200,San Jose,1988,-14.03,United States,California
+HSY,Large cap,Consumer Staples,Food & Tobacco,43368467120,Hershey,1894,7.67,United States,Pennsylvania
+IQV,Large cap,Health Care,Biotechnology & Medical Research,43331994119,Durham,1982,-18.86,United States,North Carolina
+CMG,Large cap,Consumer Discretionary,Hotels & Entertainment Services,43175086629,Newport Beach,1993,-10.86,United States,California
+TEL,Large cap,Information Technology,"Machinery, Equipment & Components",43076625994,Schaffhausen,2007,-18.29,Switzerland,Canton of Bern
+EXC,Large cap,Utilities,Electrical Utilities & IPPs,42792780023,Chicago,2000,5.9,United States,Illinois
+MCHP,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,42572210120,Chandler,1989,-12.26,United States,Arizona
+SPG,Large cap,Real Estate,Residential & Commercial REIT,42407581606,Indianapolis,2003,-16.86,United States,Indiana
+STZ,Large cap,Consumer Staples,Beverages,42292901187,Victor,1945,-9.26,United States,New York
+BK,Large cap,Financials,Investment Banking & Investment Services,42114803290,New York,1784,-9.28,United States,New York
+HLT,Large cap,Consumer Discretionary,Hotels & Entertainment Services,41968560979,Tysons Corner,1919,-2.93,United States,Virginia
+MNST,Large cap,Consumer Staples,Beverages,41819349940,Corona,2012,-15.35,United States,California
+RSG,Large cap,Industrials,Professional & Commercial Services,41620215334,Phoenix,1998,-7.12,United States,Arizona
+A,Large cap,Health Care,Healthcare Equipment & Supplies,41492574435,Santa Clara,1999,-12.75,United States,California
+WELL,Large cap,Real Estate,Residential & Commercial REIT,41462822813,Toledo,1970,7.99,United States,Ohio
+CTVA,Large cap,Materials,Food & Tobacco,41403845950,Wilmington,2019,19.46,United States,Delaware
+SYY,Large cap,Consumer Staples,Food & Drug Retailing,41396999697,Houston,1969,3.26,United States,Texas
+MSCI,Large cap,Financials,Professional & Commercial Services,41202829863,New York,1969,-16.8,United States,New York
+AFL,Large cap,Financials,Insurance,41201179475,Columbus,1955,10.4,United States,Georgia
+KMI,Large cap,Energy,Oil & Gas Related Equipment and Services,40973445945,Houston,1997,13.05,United States,Texas
+KR,Large cap,Consumer Staples,Food & Drug Retailing,40939029804,Cincinnati,1883,24.99,United States,Ohio
+WBA,Large cap,Consumer Staples,Food & Drug Retailing,40901828639,Deerfield,2014,-9.07,United States,Illinois
+DVN,Large cap,Energy,Oil & Gas,40808448000,Oklahoma City,1971,37.64,United States,Oklahoma
+KMB,Large cap,Consumer Staples,Personal & Household Products & Services,40677363438,Irving,1872,-14.36,United States,Texas
+ANET,Large cap,Information Technology,Communications & Networking,40609799967,Santa Clara,2004,-5.38,United States,California
+CTAS,Large cap,Industrials,Professional & Commercial Services,40590556989,Mason,1929,-11.32,United States,Ohio
+CARR,Large cap,Industrials,"Machinery, Equipment & Components",40500753036,Palm Beach Gardens,2020,-12.44,United States,Florida
+AZO,Large cap,Consumer Discretionary,Specialty Retailers,40003697181,Memphis,1979,-7.13,United States,Tennessee
+BAX,Large cap,Health Care,Healthcare Equipment & Supplies,39579816511,Deerfield,1931,-9.12,United States,Illinois
+HPQ,Large cap,Information Technology,"Computers, Phones & Household Electronics",39543352132,Palo Alto,1939,1.49,United States,California
+WMB,Large cap,Energy,Oil & Gas Related Equipment and Services,39506765708,Tulsa,1908,23.35,United States,Oklahoma
+O,Large cap,Real Estate,Residential & Commercial REIT,39370122419,San Diego,1969,-5.78,United States,California
+DD,Large cap,Materials,Chemicals,39365649397,Wilmington,2017,-4.64,United States,Delaware
+MSI,Large cap,Information Technology,Communications & Networking,39036283284,Chicago,1928,-14.58,United States,Illinois
+DLR,Large cap,Real Estate,Residential & Commercial REIT,38929963214,Austin,2004,-21.74,United States,Texas
+VLO,Large cap,Energy,Oil & Gas,38591620216,San Antonio,1980,24.6,United States,Texas
+NUE,Large cap,Materials,Metals & Mining,38417574193,Charlotte,1940,26.15,United States,North Carolina
+GIS,Large cap,Consumer Staples,Food & Tobacco,37893444894,Golden Valley,1856,-6.98,United States,Minnesota
+GPN,Large cap,Information Technology,Professional & Commercial Services,37858282157,Atlanta,2000,1.31,United States,Georgia
+XEL,Large cap,Utilities,Electrical Utilities & IPPs,37724895764,Minneapolis,1909,2.23,United States,Minnesota
+RMD,Large cap,Health Care,Healthcare Equipment & Supplies,37574888996,San Diego,1989,-2.08,United States,California
+BKR,Large cap,Energy,Oil & Gas Related Equipment and Services,37496392800,Houston,2017,51.87,United States,Texas
+ALL,Large cap,Financials,Insurance,37445895452,Northfield Township,1931,16.48,United States,Illinois
+PH,Large cap,Industrials,"Machinery, Equipment & Components",37069651738,Cleveland,1917,-8.77,United States,Ohio
+ODFL,Large cap,Industrials,Freight & Logistics Services,36732295561,Thomasville,1934,-9.89,United States,North Carolina
+TT,Large cap,Industrials,"Machinery, Equipment & Components",36509009766,Dublin,1871,-22.17,Ireland, 
+TDG,Large cap,Industrials,Aerospace & Defense,36343747058,Cleveland,1993,5.56,United States,Ohio
+SBAC,Large cap,Real Estate,Residential & Commercial REIT,35354473409,Boca Raton,1989,-17.04,United States,Florida
+PSX,Large cap,Energy,Oil & Gas,35353157518,Houston,2012,10.12,United States,Texas
+EA,Large cap,Communication Services,Software & IT Services,35310267970,Redwood City,1982,-3.01,United States,California
+DLTR,Large cap,Consumer Discretionary,Diversified Retail,34883096582,Chesapeake,1986,11.51,United States,Virginia
+AJG,Large cap,Financials,Insurance,34747268040,Rolling Meadows,1927,-1.22,United States,Illinois
+LYB,Large cap,Materials,Chemicals,34421325640,Rotterdam,2007,13.39,Netherlands,South Holland
+YUM,Large cap,Consumer Discretionary,Hotels & Entertainment Services,34255805606,Louisville,1997,-14.54,United States,Kentucky
+AVB,Large cap,Real Estate,Residential & Commercial REIT,34215601147,Arlington,1978,-3.77,United States,Virginia
+ALGN,Large cap,Health Care,Healthcare Equipment & Supplies,34076687290,San Jose,1997,-30.46,United States,California
+VRSK,Large cap,Industrials,Software & IT Services,33921028361,Jersey City,1971,-7.69,United States,New Jersey
+PEG,Large cap,Utilities,Multiline Utilities,33865156716,Newark,1903,0.55,United States,New Jersey
+HAL,Large cap,Energy,Oil & Gas Related Equipment and Services,33768317609,Houston,1919,62.18,United States,Texas
+EQR,Large cap,Real Estate,Residential & Commercial REIT,33415283641,Chicago,1969,-2.65,United States,Illinois
+SIVB,Large cap,Financials,Banking Services,33257406717,Santa Clara,1983,-13.33,United States,California
+FAST,Large cap,Industrials,"Machinery, Equipment & Components",33243772159,Winona,1967,-9.85,United States,Minnesota
+TROW,Large cap,Financials,Investment Banking & Investment Services,33226349554,Baltimore,1937,-24,United States,Maryland
+AMP,Large cap,Financials,Investment Banking & Investment Services,33097919913,Minneapolis,1894,1.93,United States,Minnesota
+OTIS,Large cap,Industrials,"Machinery, Equipment & Components",32862338989,Farmington,2020,-10.96,United States,Connecticut
+EBAY,Large cap,Consumer Discretionary,Software & IT Services,32502099578,San Jose,1995,-16.17,United States,California
+STT,Large cap,Financials,Investment Banking & Investment Services,32345710074,Boston,1792,-2.87,United States,Massachusetts
+IFF,Large cap,Materials,Food & Tobacco,32235442352,New York,1958,-15.33,United States,New York
+ROST,Large cap,Consumer Discretionary,Specialty Retailers,32177738966,Dublin,1982,-19.78,United States,California
+HES,Large cap,Energy,Oil & Gas,32165137942,New York,1919,37.23,United States,New York
+ABC,Large cap,Health Care,Healthcare Equipment & Supplies,32035671374,Chesterbrook,1985,14.46,United States,Pennsylvania
+GLW,Large cap,Information Technology,Electronic Equipment & Parts,31973111024,Corning,1851,2.98,United States,New York
+DFS,Large cap,Financials,Banking Services,31946250423,Riverwoods,1985,-0.71,United States,Illinois
+FITB,Large cap,Financials,Banking Services,31774201080,Cincinnati,1858,8.86,United States,Ohio
+ED,Large cap,Utilities,Electrical Utilities & IPPs,31715877307,New York,1823,4.65,United States,New York
+ROK,Large cap,Industrials,"Machinery, Equipment & Components",31711084201,Milwaukee,1903,-21.41,United States,Wisconsin
+MTD,Large cap,Health Care,Office Equipment,31707281170,Columbus,1945,-17.54,United States,Ohio
+TSN,Large cap,Consumer Staples,Food & Tobacco,31526894880,Springdale,1935,-0.44,United States,Arkansas
+APTV,Large cap,Consumer Discretionary,Automobiles & Auto Parts,31477654981,Dublin,1994,-28.28,Ireland, 
+AME,Large cap,Industrials,"Machinery, Equipment & Components",31136405827,Berwyn,1930,-8.45,United States,Pennsylvania
+ARE,Large cap,Real Estate,Residential & Commercial REIT,30955432282,Pasadena,1994,-13.32,United States,California
+PCAR,Large cap,Industrials,"Machinery, Equipment & Components",30845698763,Bellevue,1905,1.02,United States,Washington
+WST,Large cap,Health Care,Healthcare Equipment & Supplies,30652297701,Exton,1923,-11.84,United States,Pennsylvania
+BF.B,Large cap,Consumer Staples,Beverages,30583305421,Louisville,1870,-9.25,United States,Kentucky
+OKE,Large cap,Energy,Oil & Gas Related Equipment and Services,30574534288,Tulsa,1906,16.24,United States,Oklahoma
+PPG,Large cap,Materials,Chemicals,30441854278,Pittsburgh,1883,-24.34,United States,Pennsylvania
+BIIB,Large cap,Health Care,Pharmaceuticals,30393375220,Cambridge,1978,-12.09,United States,Massachusetts
+WEC,Large cap,Utilities,Electrical Utilities & IPPs,30187084617,Milwaukee,1896,-1.75,United States,Wisconsin
+BLL,Large cap,Materials,Containers & Packaging,30059039173,Broomfield,1880,-2.16,United States,Colorado
+CBRE,Large cap,Real Estate,Real Estate Operations,29998759206,Dallas,1906,-15.6,United States,Texas
+CPRT,Large cap,Industrials,Specialty Retailers,29986409477,Dallas,1982,-15.99,United States,Texas
+TWTR,Large cap,Communication Services,Software & IT Services,29976005255,San Francisco,2006,-11.08,United States,California
+LVS,Large cap,Consumer Discretionary,Hotels & Entertainment Services,29558763505,Las Vegas,1988,3.67,United States,Nevada
+DHI,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,29383379042,Arlington,1978,-23.66,United States,Texas
+CMI,Large cap,Industrials,Automobiles & Auto Parts,29361271420,Columbus,1919,-3.88,United States,Indiana
+WY,Large cap,Real Estate,Residential & Commercial REIT,29248711890,Seattle,1900,-3.85,United States,Washington
+NDAQ,Large cap,Financials,Investment Banking & Investment Services,29206167931,New York,1971,-15.48,United States,New York
+KEYS,Large cap,Information Technology,"Machinery, Equipment & Components",29166962296,Santa Rosa,2014,-23.07,United States,California
+ES,Large cap,Utilities,Electrical Utilities & IPPs,29112060771,Hartford,1966,-7.45,United States,Connecticut
+EFX,Large cap,Industrials,Professional & Commercial Services,29036601978,Atlanta,1899,-18.17,United States,Georgia
+FRC,Large cap,Financials,Banking Services,28901332980,San Francisco,1985,-17.42,United States,California
+EXPE,Large cap,Consumer Discretionary,Hotels & Entertainment Services,28570913513,Seattle,1996,6.08,United States,Washington
+MTCH,Large cap,Communication Services,Software & IT Services,28523383249,Dallas,1986,-21.13,United States,Texas
+AWK,Large cap,Utilities,Water Utilities,28503241813,Camden,1886,-17.09,United States,New Jersey
+CERN,Large cap,Health Care,Healthcare Equipment & Supplies,27459940265,North Kansas City,1979,0.84,United States,Missouri
+WTW,Large cap,Financials,Personal & Household Products & Services,27240449881,London,2016,-1.31,United Kingdom,England
+HRL,Large cap,Consumer Staples,Food & Tobacco,27113631098,Austin,1891,1.88,United States,Minnesota
+ANSS,Large cap,Information Technology,Software & IT Services,27097996704,Canonsburg,1969,-20.87,United States,Pennsylvania
+EXR,Large cap,Real Estate,Residential & Commercial REIT,26283165637,Salt Lake City,1977,-13.67,United States,Utah
+TSCO,Large cap,Consumer Discretionary,Specialty Retailers,26116948305,Brentwood,1938,-2.85,United States,Tennessee
+GWW,Large cap,Industrials,"Machinery, Equipment & Components",25871490844,Lake Forest,1927,-2.99,United States,Illinois
+LH,Large cap,Health Care,Healthcare Providers & Services,25840044000,Burlington,1978,-11.7,United States,North Carolina
+LEN,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,25818839747,Miami,1954,-23.96,United States,Florida
+MKC,Large cap,Consumer Staples,Food & Tobacco,25798223094,Hunt Valley,1889,0.18,United States,Maryland
+LYV,Large cap,Communication Services,Hotels & Entertainment Services,25591619787,Beverly Hills,2010,-1.43,United States,California
+LUV,Large cap,Industrials,Passenger Transportation Services,25322333621,Dallas,1967,0.51,United States,Texas
+ZBH,Large cap,Health Care,Healthcare Equipment & Supplies,25318837943,Warsaw,1927,-5.16,United States,Indiana
+URI,Large cap,Industrials,Professional & Commercial Services,25108397425,Stamford,1997,7.24,United States,Connecticut
+FE,Large cap,Utilities,Electrical Utilities & IPPs,24867015360,Akron,1997,4.71,United States,Ohio
+EIX,Large cap,Utilities,Electrical Utilities & IPPs,24847882047,Rosemead,1886,-3.38,United States,California
+ENPH,Large cap,Information Technology,Renewable Energy,24838352198,Fremont,2006,3.45,United States,California
+FANG,Large cap,Energy,Oil & Gas,24816805864,Midland,2007,27.35,United States,Texas
+MOS,Large cap,Materials,Chemicals,24750383280,Tampa,2004,67.17,United States,Florida
+DTE,Large cap,Utilities,Electrical Utilities & IPPs,24624591677,Detroit,1995,5.16,United States,Michigan
+IT,Large cap,Information Technology,Software & IT Services,24416317921,Stamford,1979,-10.13,United States,Connecticut
+SWK,Large cap,Industrials,"Machinery, Equipment & Components",24222485311,New Britain,1843,-22.64,United States,Connecticut
+VMC,Large cap,Materials,Construction Materials,24212015501,Birmingham,1909,-12.3,United States,Alabama
+CDW,Large cap,Information Technology,Software & IT Services,24126696403,Lincolnshire,1984,-13,United States,Illinois
+MAA,Large cap,Real Estate,Residential & Commercial REIT,23873285768,Memphis,1977,-10.44,United States,Tennessee
+MLM,Large cap,Materials,Construction Materials,23870299444,Raleigh,1993,-12.83,United States,North Carolina
+BBY,Large cap,Consumer Discretionary,Specialty Retailers,23825151338,Richfield,1966,-2.26,United States,Minnesota
+NTRS,Large cap,Financials,Investment Banking & Investment Services,23811660684,Chicago,1889,-2,United States,Illinois
+VTR,Large cap,Real Estate,Residential & Commercial REIT,23738060163,Chicago,1998,17.82,United States,Illinois
+PARA,Large cap,Communication Services,Communication Services,23717171121,New York,2019,24.02,United States,New York
+HIG,Large cap,Financials,Insurance,23716065242,Hartford,1810,3.97,United States,Connecticut
+VRSN,Large cap,Information Technology,Software & IT Services,23677185775,Dulles,1995,-14.08,United States,Virginia
+CHD,Large cap,Consumer Staples,Personal & Household Products & Services,23672143443,Ewing,1847,-4.53,United States,New Jersey
+STE,Large cap,Health Care,Healthcare Equipment & Supplies,23423758104,Dublin,1985,-3.3,Ireland, 
+MTB,Large cap,Financials,Banking Services,23304935189,Buffalo,1856,20.13,United States,New York
+ALB,Large cap,Materials,Chemicals,23252834668,Charlotte,1994,-12.05,United States,North Carolina
+DAL,Large cap,Industrials,Passenger Transportation Services,23095065038,Atlanta,1929,-5.37,United States,Georgia
+AEE,Large cap,Utilities,Multiline Utilities,23056059087,St. Louis,1902,-0.48,United States,Missouri
+ZBRA,Large cap,Information Technology,Electronic Equipment & Parts,22799871520,Lincolnshire,1969,-27.14,United States,Illinois
+PKI,Large cap,Health Care,Healthcare Equipment & Supplies,22789068762,Waltham,1937,-8.22,United States,Massachusetts
+DOV,Large cap,Industrials,"Machinery, Equipment & Components",22783676643,Downers Grove,1955,-12.23,United States,Illinois
+GRMN,Large cap,Consumer Discretionary,Communications & Networking,22498252236,Schaffhausen,1989,-12.95,Switzerland,Canton of Bern
+JBHT,Large cap,Industrials,Freight & Logistics Services,22468772546,Lowell,1961,4.62,United States,Arkansas
+COO,Large cap,Health Care,Healthcare Equipment & Supplies,22300104642,San Ramon,1958,-0.08,United States,California
+ETR,Large cap,Utilities,Electrical Utilities & IPPs,22262698379,New Orleans,1913,-2.64,United States,Louisiana
+FOXA,Large cap,Communication Services,Media & Publishing,22176682916,New York,2019,11.38,United States,New York
+FOXA,Large cap,Communication Services,Media & Publishing,22176682916,New York,2019,11.38,United States,New York
+HPE,Large cap,Information Technology,"Computers, Phones & Household Electronics",22167314367,Houston,2015,8.62,United States,Texas
+KEY,Large cap,Financials,Banking Services,22164211031,Cleveland,1825,5.19,United States,Ohio
+SWKS,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,22065335758,Woburn,2002,-11.36,United States,Massachusetts
+FTV,Large cap,Industrials,"Machinery, Equipment & Components",22039495386,Everett,2016,-19.49,United States,Washington
+ESS,Large cap,Real Estate,Residential & Commercial REIT,22012053566,San Mateo,1971,-4.71,United States,California
+RJF,Large cap,Financials,Investment Banking & Investment Services,21960144109,St. Petersburg,1962,7.17,United States,Florida
+VFC,Large cap,Consumer Discretionary,Textiles & Apparel,21957388119,Denver,1899,-22.55,United States,Colorado
+HBAN,Large cap,Financials,Banking Services,21787985686,Columbus,1866,0,United States,Ohio
+MPWR,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,21600174870,Kirkland,1997,-4.7,United States,Washington
+DRE,Large cap,Real Estate,Residential & Commercial REIT,21457957935,Indianapolis,1972,-14.56,United States,Indiana
+RF,Large cap,Financials,Banking Services,21348188933,Birmingham,1971,7.48,United States,Alabama
+PAYC,Large cap,Information Technology,Software & IT Services,21187330931,Oklahoma City,1998,-13.96,United States,Oklahoma
+TDY,Large cap,Information Technology,Electronic Equipment & Parts,21178190513,Thousand Oaks,1960,2.96,United States,California
+CINF,Large cap,Financials,Insurance,21034471454,Fairfield,1950,15.59,United States,Ohio
+CF,Large cap,Materials,Chemicals,21002057595,Deerfield,1946,41.28,United States,Illinois
+CCL,Large cap,Consumer Discretionary,Hotels & Entertainment Services,20920610803,Miami,1972,-5.91,United States,Florida
+ULTA,Large cap,Consumer Discretionary,Specialty Retailers,20872527121,Bolingbrook,1990,-5.48,United States,Illinois
+IR,Large cap,Industrials,"Machinery, Equipment & Components",20741981566,Davidson,1859,-17.94,United States,North Carolina
+K,Large cap,Consumer Staples,Food & Tobacco,20732534043,Battle Creek,1906,-5.18,United States,Michigan
+CFG,Large cap,Financials,Banking Services,20718766906,Providence,1828,5.74,United States,Rhode Island
+WAT,Large cap,Health Care,Healthcare Equipment & Supplies,20635141824,Milford,1958,-8.8,United States,Massachusetts
+CTRA,Large cap,Energy,Oil & Gas,20567242714,Houston,2021,34.63,United States,Texas
+STX,Large cap,Information Technology,"Computers, Phones & Household Electronics",20197749740,Dublin,1979,-17.09,Ireland, 
+GNRC,Large cap,Industrials,"Machinery, Equipment & Components",19903050458,Waukesha,1959,-7.96,United States,Wisconsin
+PPL,Large cap,Utilities,Multiline Utilities,19781234707,Allentown,1920,-10.65,United States,Pennsylvania
+MOH,Large cap,Health Care,Healthcare Providers & Services,19700656000,Long Beach,1980,6.32,United States,California
+NTAP,Large cap,Information Technology,"Computers, Phones & Household Electronics",19694476356,Sunnyvale,1992,-4.76,United States,California
+TER,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,19642717543,North Reading,1960,-26.01,United States,Massachusetts
+BRO,Large cap,Financials,Insurance,19616807329,Daytona Beach,1939,-1.52,United States,Florida
+BXP,Large cap,Real Estate,Residential & Commercial REIT,19605533541,Boston,1970,8.89,United States,Massachusetts
+CMS,Large cap,Utilities,Multiline Utilities,19411040152,Jackson,1886,3.01,United States,Michigan
+CTLT,Large cap,Health Care,Pharmaceuticals,19302056724,Somerset,2007,-15.73,United States,New Jersey
+RCL,Large cap,Consumer Discretionary,Hotels & Entertainment Services,19290959626,Miami,1997,0,United States,Florida
+POOL,Large cap,Consumer Discretionary,Leisure Products,19112786769,Covington,1993,-15.75,United States,Louisiana
+SYF,Large cap,Financials,Banking Services,18963869830,Stamford,2003,-18.95,United States,Connecticut
+HOLX,Large cap,Health Care,Healthcare Equipment & Supplies,18946296152,Marlborough,1985,-0.52,United States,Massachusetts
+SBNY,Large cap,Financials,Banking Services,18849458647,New York,2001,-0.71,United States,New York
+AKAM,Large cap,Information Technology,Software & IT Services,18844420658,Cambridge,1998,-0.31,United States,Massachusetts
+FLT,Large cap,Information Technology,Professional & Commercial Services,18789362178,Norcross,2000,8.81,United States,Georgia
+CNP,Large cap,Utilities,Multiline Utilities,18549373005,Houston,1882,5.59,United States,Texas
+MGM,Large cap,Consumer Discretionary,Hotels & Entertainment Services,18370576012,Paradise,1986,-6.48,United States,Nevada
+MRO,Large cap,Energy,Oil & Gas,18305667333,Houston,1887,50.18,United States,Texas
+PWR,Large cap,Industrials,Construction & Engineering,18295752061,Houston,1997,13.15,United States,Texas
+PFG,Large cap,Financials,Insurance,18244130346,Des Moines,1879,-1.87,United States,Iowa
+GPC,Large cap,Consumer Discretionary,Automobiles & Auto Parts,18208904460,Atlanta,1925,-8.59,United States,Georgia
+J,Large cap,Industrials,Construction & Engineering,18076123464,Dallas,1947,-0.68,United States,Texas
+ETSY,Large cap,Consumer Discretionary,Diversified Retail,18072977227,New York,2005,-32.29,United States,New York
+UDR,Large cap,Real Estate,Residential & Commercial REIT,18067883953,Highlands Ranch,1972,-6.23,United States,Colorado
+TYL,Large cap,Information Technology,Software & IT Services,18009934289,Plano,1966,-17.96,United States,Texas
+PEAK,Large cap,Real Estate,Residential & Commercial REIT,17894110934,Long Beach,1985,-7.26,United States,California
+WAB,Large cap,Industrials,"Machinery, Equipment & Components",17887907606,Pittsburgh,1999,3.89,United States,Pennsylvania
+OMC,Large cap,Communication Services,Media & Publishing,17810278558,New York,1986,14.82,United States,New York
+TRMB,Large cap,Information Technology,Software & IT Services,17781037549,Sunnyvale,1978,-18.25,United States,California
+EXPD,Large cap,Industrials,Freight & Logistics Services,17767630513,Seattle,1979,-20.7,United States,Washington
+BR,Large cap,Information Technology,Professional & Commercial Services,17744760193,Lake Success,1962,-16.46,United States,New York
+TTWO,Large cap,Communication Services,Leisure Products,17453232018,New York,1993,-14.31,United States,New York
+BIO,Large cap,Health Care,Healthcare Equipment & Supplies,17394296877,Hercules,1952,-21.99,United States,California
+AMCR,Large cap,Materials,Containers & Packaging,17347313918,Bristol,2019,-4.66,United Kingdom,England
+WRB,Large cap,Financials,Insurance,17320205845,Greenwich,1967,19.95,United States,Connecticut
+TECH,Large cap,Health Care,Biotechnology & Medical Research,17217684433,Minneapolis,1976,-14.54,United States,Minnesota
+DGX,Large cap,Health Care,Healthcare Providers & Services,17183570247,Secaucus,1967,-16.89,United States,New Jersey
+INCY,Large cap,Health Care,Biotechnology & Medical Research,16949082974,Wilmington,1991,6.34,United States,Delaware
+IP,Large cap,Materials,Containers & Packaging,16846072066,Memphis,1898,-4.02,United States,Tennessee
+CZR,Large cap,Consumer Discretionary,Hotels & Entertainment Services,16806549669,Reno,1973,-14.39,United States,Nevada
+DRI,Large cap,Consumer Discretionary,Hotels & Entertainment Services,16754791949,Orlando,1938,-12.37,United States,Florida
+ROL,Large cap,Industrials,Professional & Commercial Services,16631775240,Atlanta,1948,-1.46,United States,Georgia
+KMX,Large cap,Consumer Discretionary,Specialty Retailers,16586737453,Richmond,1993,-20.87,United States,Virginia
+NVR,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,16550866464,Reston,1980,-17.04,United States,Virginia
+FMC,Large cap,Materials,Chemicals,16542353077,Philadelphia,1883,18.78,United States,Pennsylvania
+FDS,Large cap,Financials,Professional & Commercial Services,16537013006,Norwalk,1978,-10.33,United States,Connecticut
+SEDG,Large cap,Information Technology,Renewable Energy,16483645852,Herzliya,2006,15.87,Israel,Tel Aviv District
+CLX,Large cap,Consumer Staples,Personal & Household Products & Services,16448867112,Oakland,1913,-21.92,United States,California
+DISH,Large cap,Communication Services,Media & Publishing,16437281000,Meridian,1980,-2.56,United States,Colorado
+TFX,Large cap,Health Care,Healthcare Equipment & Supplies,16354624185,Wayne,1943,5.59,United States,Pennsylvania
+TXT,Large cap,Industrials,Aerospace & Defense,16287438870,Providence,1923,-2.73,United States,Rhode Island
+EPAM,Large cap,Information Technology,Software & IT Services,16156349003,Newtown,1993,-54.59,United States,Pennsylvania
+CEGR3,Large cap,Utilities,Natural Gas Utilities,16061648330,Rio de Janeiro,1969,-5.59,Brazil,Rio de Janeiro
+CAH,Large cap,Health Care,Food & Drug Retailing,15958736179,Dublin,1971,12.16,United States,Ohio
+L,Large cap,Financials,Insurance,15882474328,New York,1959,11.72,United States,New York
+NLOK,Large cap,Information Technology,Software & IT Services,15826627550,Tempe,1982,5.43,United States,Arizona
+XYL,Large cap,Industrials,"Machinery, Equipment & Components",15770133845,White Plains,2011,-26.04,United States,New York
+AES,Large cap,Utilities,Electrical Utilities & IPPs,15670437934,Arlington,1981,-2.39,United States,Virginia
+ATO,Large cap,Utilities,Natural Gas Utilities,15607215601,Dallas,1906,8.96,United States,Texas
+CE,Large cap,Materials,Chemicals,15421177864,Irving,1918,-14.51,United States,Texas
+CAG,Large cap,Consumer Staples,Food & Tobacco,15331139483,Chicago,1919,-5.39,United States,Illinois
+HWM,Large cap,Industrials,Aerospace & Defense,15328581194,Pittsburgh,2016,17.25,United States,Pennsylvania
+WDC,Large cap,Information Technology,"Computers, Phones & Household Electronics",15317320779,San Jose,1970,-23.74,United States,California
+LNT,Large cap,Utilities,Electrical Utilities & IPPs,15250713745,Madison,1917,-2.54,United States,Wisconsin
+IEX,Large cap,Industrials,"Machinery, Equipment & Components",15107486584,Lake Forest,1988,-16.53,United States,Illinois
+EVRG,Large cap,Utilities,Electrical Utilities & IPPs,14900089446,Kansas City,1909,-5.12,United States,Missouri
+PKG,Large cap,Materials,Containers & Packaging,14849906449,Lake Forest,1959,12.71,United States,Illinois
+KIM,Large cap,Real Estate,Residential & Commercial REIT,14799061783,New Hyde Park,1958,-0.97,United States,New York
+IRM,Large cap,Real Estate,Residential & Commercial REIT,14520907325,Boston,1951,-2.64,United States,Massachusetts
+LDOS,Large cap,Industrials,Software & IT Services,14502695030,Reston,1969,19.71,United States,Virginia
+CRL,Large cap,Health Care,Biotechnology & Medical Research,14469805931,Wilmington,1947,-21.6,United States,Massachusetts
+DPZ,Large cap,Consumer Discretionary,Hotels & Entertainment Services,14416275409,Ann Arbor,1960,-29.68,United States,Michigan
+APA,Large cap,Energy,Oil & Gas,14176218374,Houston,1954,50.69,United States,Texas
+EMN,Large cap,Materials,Chemicals,14149065895,Kingsport,1920,-8.64,United States,Tennessee
+IPG,Large cap,Communication Services,Media & Publishing,14131343765,New York,1961,-2.8,United States,New York
+SJM,Large cap,Consumer Staples,Food & Tobacco,14118029147,Orrville,1897,-4.06,United States,Ohio
+AVY,Large cap,Materials,Containers & Packaging,14081909199,Glendale,1990,-21.11,United States,California
+QRVO,Large cap,Information Technology,Semiconductors & Semiconductor Equipment,13980089669,Greensboro,2015,-16.86,United States,North Carolina
+ABMD,Large cap,Health Care,Healthcare Equipment & Supplies,13961639188,Danvers,1981,-12.76,United States,Massachusetts
+BEN,Large cap,Financials,Investment Banking & Investment Services,13883739273,San Mateo,1947,-16.12,United States,California
+CHRW,Large cap,Industrials,Freight & Logistics Services,13688979623,Eden Prairie,1905,-1.44,United States,Minnesota
+JKHY,Large cap,Information Technology,Software & IT Services,13550553890,Monett,1976,12.47,United States,Missouri
+MAS,Large cap,Industrials,Homebuilding & Construction Supplies,13407079241,Livonia,1929,-21.39,United States,Michigan
+DISCA,Large cap,Communication Services,Media & Publishing,13310170603,New York,1985,14.15,United States,New York
+DISCK,Large cap,Communication Services,Media & Publishing,13310170603,New York,1985,17.73,United States,New York
+NDSN,Large cap,Industrials,"Machinery, Equipment & Components",13296202004,Westlake,1935,-9.75,United States,Ohio
+UAL,Large cap,Industrials,Passenger Transportation Services,13260985662,Chicago,1967,-3.61,United States,Illinois
+MKTX,Large cap,Financials,Investment Banking & Investment Services,13192452851,New York,2000,-14.3,United States,New York
+LKQ,Large cap,Consumer Discretionary,Automobiles & Auto Parts,13190454260,Chicago,1998,-22.26,United States,Illinois
+HST,Large cap,Real Estate,Residential & Commercial REIT,13176069271,Bethesda,1993,6.96,United States,Maryland
+RHI,Large cap,Industrials,Professional & Commercial Services,13079763202,Menlo Park,1948,5.99,United States,California
+PTC,Large cap,Information Technology,Software & IT Services,13044880074,Boston,1985,-7.89,United States,Massachusetts
+VTRS,Large cap,Health Care,Pharmaceuticals,13027136536,Pittsburgh,1961,-19.81,United States,Pennsylvania
+NWS,Large cap,Communication Services,Media & Publishing,13023415206,New York,2013,-0.09,United States,New York
+NWSA,Large cap,Communication Services,Media & Publishing,13023415206,New York,2013,-0.31,United States,New York
+CPB,Large cap,Consumer Staples,Food & Tobacco,12813348155,Camden,1869,-1.08,United States,New Jersey
+BBWI,Large cap,Consumer Discretionary,Specialty Retailers,12708317678,Columbus,1963,-28.44,United States,Ohio
+CTXS,Large cap,Information Technology,Software & IT Services,12661826565,Fort Lauderdale,1989,6.67,United States,Florida
+AAP,Large cap,Consumer Discretionary,Specialty Retailers,12570826879,Raleigh,1932,-12.71,United States,North Carolina
+UHS,Large cap,Health Care,Healthcare Providers & Services,12538680960,King of Prussia,1979,13.06,United States,Pennsylvania
+FFIV,Large cap,Information Technology,Software & IT Services,12519958982,Seattle,1996,-14.39,United States,Washington
+HAS,Large cap,Consumer Discretionary,Leisure Products,12423003259,Pawtucket,1923,-12.39,United States,Rhode Island
+CMA,Large cap,Financials,Banking Services,12368590189,Dallas,1849,10.38,United States,Texas
+CBOE,Large cap,Financials,Investment Banking & Investment Services,12367984576,Chicago,1973,-8.39,United States,Illinois
+WRK,Large cap,Materials,Containers & Packaging,12347387129,Atlanta,2015,6.72,United States,Georgia
+NI,Large cap,Utilities,Multiline Utilities,12307488904,Merrillville,1912,9.45,United States,Indiana
+HSIC,Large cap,Health Care,Healthcare Equipment & Supplies,12094525776,Melville,1932,14.19,United States,New York
+PHM,Large cap,Consumer Discretionary,Homebuilding & Construction Supplies,11569729076,Atlanta,1956,-18.84,United States,Georgia
+REG,Large cap,Real Estate,Residential & Commercial REIT,11560792088,Jacksonville,1963,-8.85,United States,Florida
+TAP,Large cap,Consumer Staples,Beverages,11426050771,Chicago,2005,14.09,United States,Illinois
+JNPR,Large cap,Information Technology,Communications & Networking,11396602812,Sunnyvale,1996,-0.08,United States,California
+SNA,Large cap,Industrials,"Machinery, Equipment & Components",11366578959,Kenosha,1920,-1.3,United States,Wisconsin
+RE,Large cap,Financials,Insurance,11267097782,Hamilton,1973,6.71,United States, 
+LNC,Large cap,Financials,Insurance,11240598389,Radnor,1905,-1.85,United States,Pennsylvania
+LUMN,Large cap,Communication Services,Telecommunications Services,11216159575,Monroe,1983,-12.67,United States,Louisiana
+FBHS,Large cap,Industrials,Homebuilding & Construction Supplies,11167327322,Deerfield,2011,-22.62,United States,Illinois
+AOS,Large cap,Industrials,"Machinery, Equipment & Components",10966499040,Milwaukee,1916,-21.03,United States,Wisconsin
+WHR,Large cap,Consumer Discretionary,Household Goods,10948574402,Benton Harbor,1911,-19.53,United States,Michigan
+DVA,Large cap,Health Care,Healthcare Providers & Services,10775970000,Denver,1979,-2.65,United States,Colorado
+XRAY,Large cap,Health Care,Healthcare Equipment & Supplies,10714549423,Charlotte,2016,-10.95,United States,North Carolina
+AAL,Large cap,Industrials,Passenger Transportation Services,10444986283,Fort Worth,1934,-7.8,United States,Texas
+ALLE,Large cap,Industrials,Communications & Networking,10345019325,New York,1908,-11.3,United States,New York
+ZION,Large cap,Financials,Banking Services,10292371456,Salt Lake City,1873,10.09,United States,Utah
+CDAY,Large cap,Information Technology,Software & IT Services,10245107034,Minneapolis,1992,-33.85,United States,Minnesota
+AIZ,Large cap,Financials,Insurance,10152110010,New York,1892,15.24,United States,New York
+SEE,Large cap,Materials,Containers & Packaging,10138461725,Charlotte,1960,1.36,United States,North Carolina
+TPR,Mid cap,Consumer Discretionary,Specialty Retailers,9999930556,New York,2017,-6.77,United States,New York
+GL,Mid cap,Financials,Insurance,9885164284,McKinney,1900,8.18,United States,Texas
+IVZ,Mid cap,Financials,Investment Banking & Investment Services,9809381040,Atlanta,1935,-6.04,United States,Georgia
+NWL,Mid cap,Consumer Discretionary,Household Goods,9456642000,Atlanta,1903,1.79,United States,Georgia
+PNR,Mid cap,Industrials,"Machinery, Equipment & Components",9385869452,Worsley,1966,-21.43,United Kingdom,England
+FRT,Mid cap,Real Estate,Residential & Commercial REIT,9228041745,Rockville,1962,-12.98,United States,Maryland
+BWA,Mid cap,Consumer Discretionary,Automobiles & Auto Parts,9202421535,Auburn Hills,1880,-14.69,United States,Michigan
+PBCT,Mid cap,Financials,Banking Services,9147701658,Bridgeport,1842,21.83,United States,Connecticut
+MHK,Mid cap,Consumer Discretionary,Household Goods,9085868338,Calhoun,1878,-23.67,United States,Georgia
+WYNN,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,9074868523,Paradise,2002,-6.01,United States,Nevada
+NRG,Mid cap,Utilities,Electrical Utilities & IPPs,9005678958,Houston,1992,-12.79,United States,Texas
+OGN,Mid cap,Health Care,Pharmaceuticals,8815934508,Jersey City,2021,16.09,United States,New Jersey
+VNO,Mid cap,Real Estate,Residential & Commercial REIT,8779229447,New York,1982,9.82,United States,New York
+RL,Mid cap,Consumer Discretionary,Textiles & Apparel,8662408776,New York,1967,-1.33,United States,New York
+PNW,Mid cap,Utilities,Electrical Utilities & IPPs,8368255939,Phoenix,1985,4.01,United States,Arizona
+NLSN,Mid cap,Industrials,Media & Publishing,8181874913,New York,1923,13.26,United States,New York
+DXC,Mid cap,Information Technology,Software & IT Services,8065324964,Tysons Corner,2017,3.95,United States,Virginia
+HII,Mid cap,Industrials,Aerospace & Defense,8024597045,Newport News,2011,7.66,United States,Virginia
+LW,Mid cap,Consumer Staples,Food & Tobacco,7912144164,Eagle,2016,-12,United States,Idaho
+UA,Mid cap,Consumer Discretionary,Textiles & Apparel,7428901920,Baltimore,1996,-14.69,United States,Maryland
+UAA,Mid cap,Consumer Discretionary,Textiles & Apparel,7428901920,Baltimore,1996,-19.16,United States,Maryland
+PENN,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,7290052542,Wyomissing,1972,-15.18,United States,Pennsylvania
+ALK,Mid cap,Industrials,Passenger Transportation Services,6766533773,Seattle,1985,4.66,United States,Washington
+IPGP,Mid cap,Information Technology,Electronic Equipment & Parts,6179614178,Oxford,1990,-31.21,United States,Massachusetts
+PVH,Mid cap,Consumer Discretionary,Textiles & Apparel,5685682844,New York,1881,-23.54,United States,New York
+NCLH,Mid cap,Consumer Discretionary,Hotels & Entertainment Services,4218487000,Miami,2011,-4,United States,Florida

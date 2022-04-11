@@ -23,7 +23,7 @@ class LoadDataTest {
 	 */
 	@Test
 	void testCompanyCreation() {
-		String[] appleData = {"AAPL", "Large cap", "Information Technology", "Computers, Phones & Household Electronics", "2698909152580", "Cupertino, California", "1977", "-4.9300"};
+		String[] appleData = {"AAPL", "Large cap", "Information Technology", "Computers, Phones & Household Electronics", "2698910000000", "Cupertino", "1977", "-4.9300", "United States", "California"};
 		Company apple = new Company(appleData);
 		
 		Company appleGeneratedFromCSV = game.getAllCompanies().get("AAPL");

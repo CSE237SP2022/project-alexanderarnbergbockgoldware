@@ -28,6 +28,7 @@ public class Stockle {
 		game.loadData();
 		game.generateAnswer();
 		game.displayInstructions();
+		int gamesPlayed = 0;
 		
 		while (game.guesses < 6) {
 			game.play(args);
@@ -166,110 +167,203 @@ public class Stockle {
 	 */
 	public boolean compareGuessToAnswer(Company userGuessCompany) {
 		//compare each attribute of the guess to the attribute of the correct answer
+		System.out.println("--------------------------------------------------------");
 		System.out.println("You guessed " + userGuessCompany.getSymbol() + ".");
 		System.out.println();
-		System.out.println("————————————————————");
-		compareSectors(userGuessCompany, answer);
-		System.out.println("————————————————————");
-		compareIndustries(userGuessCompany, answer);
-		System.out.println("————————————————————");
+		compareIndustry(userGuessCompany, answer);
 		compareMarketCaps(userGuessCompany, answer);
-		System.out.println("————————————————————");
 		compareSizes(userGuessCompany, answer);
-		System.out.println("————————————————————");
 		compareHeadquarters(userGuessCompany, answer);
-		System.out.println("————————————————————");
 		compareYearsFounded(userGuessCompany, answer);
-		System.out.println("————————————————————");
 		compareOneYearReturns(userGuessCompany, answer);
-		System.out.println("————————————————————");
 		return isCorrectAnswer(userGuessCompany, answer);
 	}
-	public boolean compareSectors(Company userGuessCompany, Company answer) {
+	
+//	public boolean compareSectors(Company userGuessCompany, Company answer) {
+//		if (userGuessCompany.getSector().equals(answer.getSector())) {
+//			System.out.println("Sector: "+ answer.getSector());
+//			System.out.println("Correct sector!");
+//			return true;
+//		}
+//		else {
+//			System.out.println("Sector: "+ userGuessCompany.getSector());
+//			System.out.println("Incorrect sector...");
+//			return false;
+//		}
+//	}
+//	public boolean compareIndustries(Company userGuessCompany, Company answer) {
+//		if (userGuessCompany.getIndustry().equals(answer.getIndustry())) {
+//			System.out.println("Industry: "+ answer.getIndustry());
+//			System.out.println("Correct industry!");
+//			return true;
+//		}
+//		else {
+//			System.out.println("Industry: "+ userGuessCompany.getIndustry());
+//			System.out.println("Incorrect industry...");
+//			return false;
+//		}
+//	}
+	
+	public boolean compareIndustry(Company userGuessCompany, Company answer) {
+		System.out.print("Industry: ");
 		if (userGuessCompany.getSector().equals(answer.getSector())) {
-			System.out.println("Sector: "+ answer.getSector());
-			System.out.println("Correct sector!");
-			return true;
-		}
+			if (userGuessCompany.getIndustry().equals(answer.getIndustry())) {
+				System.out.println("Your guess is in the same industry as the target");
+				return true;
+			} else {
+				System.out.println("Getting there! You've got the right sector but the wrong industry");
+				return true;
+			}
+			}
 		else {
-			System.out.println("Sector: "+ userGuessCompany.getSector());
-			System.out.println("Incorrect sector...");
+			System.out.println("Keep trying! Wrong sector");
 			return false;
 		}
 	}
-	public boolean compareIndustries(Company userGuessCompany, Company answer) {
-		if (userGuessCompany.getIndustry().equals(answer.getIndustry())) {
-			System.out.println("Industry: "+ answer.getIndustry());
-			System.out.println("Correct industry!");
-			return true;
-		}
-		else {
-			System.out.println("Industry: "+ userGuessCompany.getIndustry());
-			System.out.println("Incorrect industry...");
-			return false;
-		}
-	}
+	
+//	public boolean compareMarketCaps(Company userGuessCompany, Company answer) {
+//		if (userGuessCompany.getMarketCap() == answer.getMarketCap()) {
+//			System.out.println("Market Cap: $"+ answer.getMarketCap());
+//			System.out.println("Correct market cap!");
+//			return true;
+//		}
+//		else {
+//			System.out.println("Market Cap: "+ userGuessCompany.getMarketCap());
+//			System.out.println("Incorrect market cap...");
+//			return false;
+//		}
+//	}
+	
 	public boolean compareMarketCaps(Company userGuessCompany, Company answer) {
+		System.out.print("Market Cap: ");
+		long fivePercentUp = Math.multiplyExact(answer.getMarketCap(), (int) 1.05);
+		long fivePercentDown = Math.multiplyExact(answer.getMarketCap(), (int) 0.95);
 		if (userGuessCompany.getMarketCap() == answer.getMarketCap()) {
-			System.out.println("Market Cap: $"+ answer.getMarketCap());
 			System.out.println("Correct market cap!");
 			return true;
 		}
+		if (fivePercentUp >= userGuessCompany.getMarketCap() && fivePercentDown <= userGuessCompany.getMarketCap()) {
+			System.out.println("Your guess is within 5% of the target company's!");
+			return true;
+		}
 		else {
-			System.out.println("Market Cap: "+ userGuessCompany.getMarketCap());
-			System.out.println("Incorrect market cap...");
+			System.out.println("Your guess is not within 5% of the target company's market cap");
 			return false;
 		}
 	}
+	
 	public boolean compareSizes(Company userGuessCompany, Company answer) {
+		System.out.print("Size: ");
 		if (userGuessCompany.getSize().equals(answer.getSize())) {
-			System.out.println("Size: "+ answer.getSize());
+//			System.out.println("Size: "+ answer.getSize());
 			System.out.println("Correct size!");
 			return true;
 		}
 		else {
-			System.out.println("Size: "+ userGuessCompany.getSize());
+//			System.out.println("Size: "+ userGuessCompany.getSize());
 			System.out.println("Incorrect size...");
 			return false;
 		}
 	}
+	
+//	public boolean compareHeadquarters(Company userGuessCompany, Company answer) {
+//		if (userGuessCompany.getHeadquarters().equals(answer.getHeadquarters())) {
+//			System.out.println("HQ Location: "+ answer.getHeadquarters());
+//			System.out.println("Correct headquarters!");
+//			return true;
+//		}
+//		else {
+//			System.out.println("HQ Location: "+ userGuessCompany.getHeadquarters());
+//			System.out.println("Incorrect headquarters...");
+//			return false;
+//		}
+//	}
+	
 	public boolean compareHeadquarters(Company userGuessCompany, Company answer) {
-		if (userGuessCompany.getHeadquarters().equals(answer.getHeadquarters())) {
-			System.out.println("HQ Location: "+ answer.getHeadquarters());
-			System.out.println("Correct headquarters!");
-			return true;
+		System.out.print("Headquarters: ");
+		if (userGuessCompany.getCountry().equals(answer.getCountry())) {
+			if (userGuessCompany.getCountry().contains("United States")) {
+				if (userGuessCompany.getHeadquarters().equals(answer.getHeadquarters())) {
+					System.out.println("Correct city!");
+					return true;
+				} else if (userGuessCompany.getState().equals(answer.getState())) {
+					System.out.println("Correct state!");
+					return true;
+				} else {
+					System.out.println("Correct country!");
+					return true;
+				}
+			} else {
+				System.out.println("Correct country!");
+				return true;
+			}
 		}
-		else {
-			System.out.println("HQ Location: "+ userGuessCompany.getHeadquarters());
-			System.out.println("Incorrect headquarters...");
-			return false;
+		System.out.println("Wrong country!");
+		return false;
+		
 		}
-	}
+//			if (userGuessCompany.getCountry().contains("United States")) {
+//				if (userGuessCompany.getState().equals(answer.getState())) {
+//					System.out.println("You got the correct state!");
+//					return true;
+//				} else if (userGuessCompany.getHeadquarters().equals(answer.getHeadquarters())) {
+//					System.out.println("You got the correct city!");
+//					return true;
+//				}
+//			} else {
+//				System.out.println("You got the correct (non-US) country!");
+//				return true;
+//			} 
+//		} else {
+//			System.out.println("Target company is in a different country!");
+//			return false;
+//		}
+//		System.out.println("here");
+//		return false;
+//	}
+	
 	public boolean compareYearsFounded(Company userGuessCompany, Company answer) {
+		System.out.print("Year Founded: ");
+		int upperBound = answer.getYearFounded() + 10;
+		int lowerBound = answer.getYearFounded() - 10;
 		if (userGuessCompany.getYearFounded() == answer.getYearFounded()) {
-			System.out.println("Year Founded: "+ answer.getYearFounded());
 			System.out.println("Correct year founded!");
 			return true;
 		}
-		else {
-			System.out.println("Year Founded: "+ userGuessCompany.getYearFounded());
-			System.out.println("Incorrect year founded...");
-			return false;
-		}
-	}
-	public boolean compareOneYearReturns(Company userGuessCompany, Company answer) {
-		if (userGuessCompany.getOneYearReturn() == answer.getOneYearReturn()) {
-			System.out.println("One Year Return: "+ answer.getOneYearReturn());
-			System.out.println("Correct one year return!");
+		if (upperBound >= userGuessCompany.getYearFounded() && lowerBound <= userGuessCompany.getYearFounded()) {
+			System.out.println("Guess is within 10 years of answer!");
 			return true;
 		}
 		else {
-			System.out.println("One Year Return: "+ userGuessCompany.getOneYearReturn());
-			System.out.println("Incorrect one year return...");
+			System.out.println("Guess was founded outside of 10 years near target");
 			return false;
 		}
 	}
+	
+	public boolean compareOneYearReturns(Company userGuessCompany, Company answer) {
+		System.out.print("One Year Return: ");
+		int upperBound = (int) (answer.getOneYearReturn() + 10);
+		int lowerBound = (int) (answer.getOneYearReturn() - 10);
+		
+		if (userGuessCompany.getOneYearReturn() == answer.getOneYearReturn()) {
+			System.out.println("Correct one year return!");
+			System.out.println(" ");
+			return true;
+		}
+		if (upperBound >= userGuessCompany.getOneYearReturn() && lowerBound <= userGuessCompany.getOneYearReturn()) {
+			System.out.println("Guess is within 10% answer!");
+			System.out.println(" ");
+			return true;
+		}
+		else {
+			System.out.println("Incorrect one year return...");
+			System.out.println(" ");
+			return false;
+		}
+	}
+	
 	public boolean isCorrectAnswer(Company userGuessCompany, Company answer) {
+		Stockle game = this;
 		if (userGuessCompany.getSymbol().equals(answer.getSymbol())) {
 			System.out.println("Congratulations! You guessed the correct stock!");
 			
@@ -280,10 +374,16 @@ public class Stockle {
 		}
 		else {
 			System.out.println(userGuessCompany.getSymbol() + " was not correct...");
+			System.out.println("Guesses Remaining: " + (5 - game.guesses));
 			
-			System.out.println("The correct answer was " + answer.getSymbol() + ".");
-			
+//			System.out.println("The correct answer was " + answer.getSymbol() + ".");
+			System.out.println("--------------------------------------------------------");
 			System.out.println();
+			if (game.guesses == 5) {
+				System.out.println("Game Over!");
+				System.out.println("The correct answer was " + answer.getSymbol());
+				return true;
+			}
 			return false;
 		}
 	}

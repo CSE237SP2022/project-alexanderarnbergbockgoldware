@@ -13,7 +13,7 @@ class CompanyTest {
 	
 	@BeforeEach
 	void setup() {
-		String[] appleData = {"AAPL", "Large cap", "Information Technology", "Computers, Phones & Household Electronics", "2698909152580", "Cupertino, California", "1977", "-4.93"};
+		String[] appleData = {"AAPL", "Large cap", "Information Technology", "Computers, Phones & Household Electronics", "2698910000000", "Cupertino", "1977", "-4.93", "United States", "California"};
 		apple = new Company(appleData);
 	}
 	
@@ -44,13 +44,13 @@ class CompanyTest {
 	@Test
 	void testGetMarketCap() {
 		long marketCap = apple.getMarketCap();
-		assertEquals(2698909152580L, marketCap, 1);
+		assertEquals(2698910000000L, marketCap, 1);
 	}
 	
 	@Test
 	void testGetHeadquarters() {
 		String headquarters = apple.getHeadquarters();
-		assertTrue("Cupertino, California".equals(headquarters));
+		assertTrue("Cupertino".equals(headquarters));
 	}
 	
 	@Test
@@ -63,6 +63,18 @@ class CompanyTest {
 	void testGetOneYearReturn() {
 		double oneYearReturn = apple.getOneYearReturn();
 		assertEquals(-4.93, oneYearReturn, 0.01);
+	}
+	
+	@Test
+	void testGetCountry() {
+		String country = apple.getCountry();
+		assertTrue("United States".equals(country));
+	}
+	
+	@Test
+	void testGetState() {
+		String state = apple.getState();
+		assertTrue("California".equals(state));
 	}
 
 }
