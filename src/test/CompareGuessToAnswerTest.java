@@ -17,6 +17,8 @@ class CompareGuessToAnswerTest {
 	private Company disney;
 	private Company costco;
 	private Company microsoft;
+	private Company google;
+	private Company accenture;
 	
 	@BeforeEach
 	void setup() {
@@ -28,12 +30,20 @@ class CompareGuessToAnswerTest {
 		disney = game.getAllCompanies().get("DIS");
 		costco = game.getAllCompanies().get("COST");
 		microsoft = game.getAllCompanies().get("MSFT");
+		google = game.getAllCompanies().get("GOOG");
+		accenture = game.getAllCompanies().get("ACN");
 	}
 
 	@Test
 	void testCompareIndustriesSame() {
 		boolean sameIndustries = game.compareIndustry(apple, apple);
 		assertTrue(sameIndustries);
+	}
+	
+	@Test
+	void testCompareIndustriesSameSector() {
+		boolean sameSector = game.compareIndustry(apple, microsoft);
+		assertTrue(sameSector);
 	}
 	
 	@Test
@@ -73,14 +83,26 @@ class CompareGuessToAnswerTest {
 	}
 	
 	@Test
-	void testCompareHeadquartersSame() {
+	void testCompareHeadquartersSameCity() {
 		boolean sameHeadquarters = game.compareHeadquarters(apple, apple);
 		assertTrue(sameHeadquarters);
 	}
 	
 	@Test
+	void testCompareHeadquartersSameState() {
+		boolean sameState = game.compareHeadquarters(apple, google);
+		assertTrue(sameState);
+	}
+	
+	@Test
+	void testCompareHeadquartersSameCountry() {
+		boolean sameCountry = game.compareHeadquarters(apple, amazon);
+		assertTrue(sameCountry);
+	}
+	
+	@Test
 	void testCompareHeadquartersDifferent() {
-		boolean sameHeadquarters = game.compareHeadquarters(apple, amazon);
+		boolean sameHeadquarters = game.compareHeadquarters(apple, accenture);
 		assertFalse(sameHeadquarters);
 	}
 	
@@ -109,8 +131,14 @@ class CompareGuessToAnswerTest {
 	}
 	
 	@Test
+	void testCompareOneYearReturnsFivePercent() {
+		boolean withinFive = game.compareOneYearReturns(apple, google);
+		assertTrue(withinFive);
+	}
+	
+	@Test
 	void testCompareOneYearReturnsDifferent() {
-		boolean sameOneYearReturns = game.compareOneYearReturns(apple, amazon);
+		boolean sameOneYearReturns = game.compareOneYearReturns(apple, accenture);
 		assertFalse(sameOneYearReturns);
 	}
 	
