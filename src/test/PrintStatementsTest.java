@@ -9,9 +9,6 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import company.Company;
-import stockle.Stockle;
-
 class PrintStatementsTest {
 	
 	// Print statement unit testing inspired by and modified from https://stackoverflow.com/a/1119559

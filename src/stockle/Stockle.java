@@ -2,8 +2,6 @@ package stockle;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.text.NumberFormat;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
@@ -14,22 +12,20 @@ public class Stockle {
 	
 	private HashMap<String, Company> allCompanies;
 	private Company answer;
-	int guesses = 0;
+	private int guessNumber;
 	
 	public Stockle() {
 		this.allCompanies = new HashMap<String, Company>();
 		this.answer = null;
+		this.guessNumber = 0;
 	}
-	
 	
 	public static void main(String[] args) {
 		Stockle game = new Stockle();
 		game.loadData();
 		game.generateAnswer();
 		game.displayInstructions();
-		int gamesPlayed = 0;
-		
-		while (game.guesses < 6) {
+		while (game.guessNumber < 6) {
 			game.play(args);
 		}
 	}
@@ -45,6 +41,7 @@ public class Stockle {
 			while (fileIn.hasNextLine()) {
 				createCompanyFromCsvLine(fileIn.nextLine());
 			}
+			fileIn.close();
 		} catch (FileNotFoundException e) {
 			System.out.println("Cannot find the Stockle Data CSV file...");
 			e.printStackTrace();
@@ -129,7 +126,7 @@ public class Stockle {
 		if (allCompanies.containsKey(userGuess)) {
 			Company userGuessCompany = allCompanies.get(userGuess);
 			game.compareGuessToAnswer(userGuessCompany);
-			game.guesses += 1;
+			game.guessNumber += 1;
 			return true;
 		}
 		else {
@@ -159,31 +156,6 @@ public class Stockle {
 		return isCorrectAnswer(userGuessCompany, answer);
 	}
 	
-//	public boolean compareSectors(Company userGuessCompany, Company answer) {
-//		if (userGuessCompany.getSector().equals(answer.getSector())) {
-//			System.out.println("Sector: "+ answer.getSector());
-//			System.out.println("Correct sector!");
-//			return true;
-//		}
-//		else {
-//			System.out.println("Sector: "+ userGuessCompany.getSector());
-//			System.out.println("Incorrect sector...");
-//			return false;
-//		}
-//	}
-//	public boolean compareIndustries(Company userGuessCompany, Company answer) {
-//		if (userGuessCompany.getIndustry().equals(answer.getIndustry())) {
-//			System.out.println("Industry: "+ answer.getIndustry());
-//			System.out.println("Correct industry!");
-//			return true;
-//		}
-//		else {
-//			System.out.println("Industry: "+ userGuessCompany.getIndustry());
-//			System.out.println("Incorrect industry...");
-//			return false;
-//		}
-//	}
-	
 	public boolean compareIndustry(Company userGuessCompany, Company answer) {
 		System.out.print("Industry: ");
 		if (userGuessCompany.getSector().equals(answer.getSector())) {
@@ -201,23 +173,10 @@ public class Stockle {
 		}
 	}
 	
-//	public boolean compareMarketCaps(Company userGuessCompany, Company answer) {
-//		if (userGuessCompany.getMarketCap() == answer.getMarketCap()) {
-//			System.out.println("Market Cap: $"+ answer.getMarketCap());
-//			System.out.println("Correct market cap!");
-//			return true;
-//		}
-//		else {
-//			System.out.println("Market Cap: "+ userGuessCompany.getMarketCap());
-//			System.out.println("Incorrect market cap...");
-//			return false;
-//		}
-//	}
-	
 	public boolean compareMarketCaps(Company userGuessCompany, Company answer) {
 		System.out.print("Market Cap: ");
-		long fivePercentUp = Math.multiplyExact(answer.getMarketCap(), (int) 1.05);
-		long fivePercentDown = Math.multiplyExact(answer.getMarketCap(), (int) 0.95);
+		long fivePercentUp = (long) (answer.getMarketCap() * 1.05);
+		long fivePercentDown = (long) (answer.getMarketCap() * 0.95);
 		if (userGuessCompany.getMarketCap() == answer.getMarketCap()) {
 			System.out.println("Correct market cap!");
 			return true;
@@ -235,29 +194,14 @@ public class Stockle {
 	public boolean compareSizes(Company userGuessCompany, Company answer) {
 		System.out.print("Size: ");
 		if (userGuessCompany.getSize().equals(answer.getSize())) {
-//			System.out.println("Size: "+ answer.getSize());
 			System.out.println("Correct size!");
 			return true;
 		}
 		else {
-//			System.out.println("Size: "+ userGuessCompany.getSize());
 			System.out.println("Incorrect size...");
 			return false;
 		}
 	}
-	
-//	public boolean compareHeadquarters(Company userGuessCompany, Company answer) {
-//		if (userGuessCompany.getHeadquarters().equals(answer.getHeadquarters())) {
-//			System.out.println("HQ Location: "+ answer.getHeadquarters());
-//			System.out.println("Correct headquarters!");
-//			return true;
-//		}
-//		else {
-//			System.out.println("HQ Location: "+ userGuessCompany.getHeadquarters());
-//			System.out.println("Incorrect headquarters...");
-//			return false;
-//		}
-//	}
 	
 	public boolean compareHeadquarters(Company userGuessCompany, Company answer) {
 		System.out.print("Headquarters: ");
@@ -281,26 +225,7 @@ public class Stockle {
 		System.out.println("Wrong country!");
 		return false;
 		
-		}
-//			if (userGuessCompany.getCountry().contains("United States")) {
-//				if (userGuessCompany.getState().equals(answer.getState())) {
-//					System.out.println("You got the correct state!");
-//					return true;
-//				} else if (userGuessCompany.getHeadquarters().equals(answer.getHeadquarters())) {
-//					System.out.println("You got the correct city!");
-//					return true;
-//				}
-//			} else {
-//				System.out.println("You got the correct (non-US) country!");
-//				return true;
-//			} 
-//		} else {
-//			System.out.println("Target company is in a different country!");
-//			return false;
-//		}
-//		System.out.println("here");
-//		return false;
-//	}
+	}
 	
 	public boolean compareYearsFounded(Company userGuessCompany, Company answer) {
 		System.out.print("Year Founded: ");
@@ -346,20 +271,16 @@ public class Stockle {
 		Stockle game = this;
 		if (userGuessCompany.getSymbol().equals(answer.getSymbol())) {
 			System.out.println("Congratulations! You guessed the correct stock!");
-			
-			guesses = 6;
-			
+			guessNumber = 6;
 			System.out.println();
 			return true;
 		}
 		else {
 			System.out.println(userGuessCompany.getSymbol() + " was not correct...");
-			System.out.println("Guesses Remaining: " + (5 - game.guesses));
-			
-//			System.out.println("The correct answer was " + answer.getSymbol() + ".");
+			System.out.println("Guesses Remaining: " + (5 - game.guessNumber));
 			System.out.println("--------------------------------------------------------");
 			System.out.println();
-			if (game.guesses == 5) {
+			if (game.guessNumber == 5) {
 				System.out.println("Game Over!");
 				System.out.println("The correct answer was " + answer.getSymbol());
 				return true;
