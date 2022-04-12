@@ -11,10 +11,12 @@ git clone https://github.com/CSE237SP2022/project-alexanderarnbergbockgoldware.g
 cd project-alexanderarnbergbockgoldware
 ./stockle.sh
 ```
-A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatability errors).
+
+A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatibility errors).
 
 # Iteration 1
 
+<details> <summary>View Iteration 1</Summary>
 What user stories were completed this iteration?
 
 - A Game should load in all stock data from a CSV file
@@ -32,7 +34,35 @@ What user stories do you intend to complete next iteration?
 Is there anything that you implemented but doesn't currently work?
 
 - Currently, gameplay only allows a singular guess before the game ends, and we will continue developing gameplay in future iterations to allow for multiple consecutive guesses.
-- Additionally, our script to start a game (stockle.sh) doesn't correctly execute for one team member who is using Windows, so in the next iteration we will continue to explore this compatability issue and ensure that Stockle functions correctly on all operating systems. If the script currently poses any issue during testing/grading, the game can also be initiated by running Stockle.java in Eclipse.
+- Additionally, our script to start a game (stockle.sh) doesn't correctly execute for one team member who is using Windows, so in the next iteration we will continue to explore this compatibility issue and ensure that Stockle functions correctly on all operating systems. If the script currently poses any issue during testing/grading, the game can also be initiated by running Stockle.java in Eclipse.
+
+A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatibility errors).
+
+</details><br>
+
+# Iteration 2
+
+<details open> <summary>View Iteration 2</Summary>
+
+What user stories were completed this iteration?
+
+- A User should be allowed to make up to 6 guesses to determine the Answer
+- A User should only see the correct answer when they guess correctly or the game ends
+- A User should input text via Scanner instead of 131 ArgsProcessor
+- A User should receive more detailed feedback about how close each guess is to the correct answer
+
+What user stories do you intend to complete next iteration?
+
+- A Guess should receive a response showing how correct it was using styling/markup
+- A User should be able to see their win streak
+- A User should be able to access a list of possible guesses in case they're stuck
+- A Guess' # of characters should be compared to the correct answer
+
+Is there anything that you implemented but doesn't currently work?
+
+- N/A
+
+Branches of completed pull requests have been deleted for project cleanliness, although they can still be viewed on each issue & pull request page.
 
 What commands are needed to compile and run your code from the command line (or better yet, provide a script that people can use to run your program!)
 
@@ -41,9 +71,11 @@ git clone https://github.com/CSE237SP2022/project-alexanderarnbergbockgoldware.g
 cd project-alexanderarnbergbockgoldware
 ./stockle.sh
 ```
-A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatability errors).
+
+A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatibility errors).
+
+</details><br>
 
 ## References
 
-ArgsProcessor code utilized in CSE131 is included to provide an interface for users to input guesses.
-All other code references are included via inline comments.
+All code references are included via inline comments.

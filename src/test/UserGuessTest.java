@@ -31,5 +31,12 @@ private Stockle game;
 		boolean isValidGuess = game.printResult(userGuess);
 		assertFalse(isValidGuess);
 	}
+	
+	@Test
+	void testNoGuess() {
+		String userGuess = "";
+		boolean isValidGuess = game.printResult(userGuess);
+		assertFalse(isValidGuess);
+	}
 
 }

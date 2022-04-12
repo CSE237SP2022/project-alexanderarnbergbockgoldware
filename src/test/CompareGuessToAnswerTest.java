@@ -14,6 +14,11 @@ class CompareGuessToAnswerTest {
 	private Company apple;
 	private Company amazon;
 	private Company penn;
+	private Company disney;
+	private Company costco;
+	private Company microsoft;
+	private Company google;
+	private Company accenture;
 	
 	@BeforeEach
 	void setup() {
@@ -22,29 +27,28 @@ class CompareGuessToAnswerTest {
 		apple = game.getAllCompanies().get("AAPL");
 		amazon = game.getAllCompanies().get("AMZN");
 		penn = game.getAllCompanies().get("PENN");
+		disney = game.getAllCompanies().get("DIS");
+		costco = game.getAllCompanies().get("COST");
+		microsoft = game.getAllCompanies().get("MSFT");
+		google = game.getAllCompanies().get("GOOG");
+		accenture = game.getAllCompanies().get("ACN");
 	}
 
 	@Test
-	void testCompareSectorsSame() {
-		boolean sameSectors = game.compareSectors(apple, apple);
-		assertTrue(sameSectors);
-	}
-	
-	@Test
-	void testCompareSectorsDifferent() {
-		boolean sameSectors = game.compareSectors(apple, amazon);
-		assertFalse(sameSectors);
-	}
-	
-	@Test
 	void testCompareIndustriesSame() {
-		boolean sameIndustries = game.compareIndustries(apple, apple);
+		boolean sameIndustries = game.compareIndustry(apple, apple);
 		assertTrue(sameIndustries);
 	}
 	
 	@Test
+	void testCompareIndustriesSameSector() {
+		boolean sameSector = game.compareIndustry(apple, microsoft);
+		assertTrue(sameSector);
+	}
+	
+	@Test
 	void testCompareIndustriesDifferent() {
-		boolean sameIndustries = game.compareIndustries(apple, amazon);
+		boolean sameIndustries = game.compareIndustry(apple, amazon);
 		assertFalse(sameIndustries);
 	}
 	
@@ -52,6 +56,12 @@ class CompareGuessToAnswerTest {
 	void testCompareMarketCapsSame() {
 		boolean sameMarketCaps = game.compareMarketCaps(apple, apple);
 		assertTrue(sameMarketCaps);
+	}
+	
+	@Test
+	void testCompareMarketsCapsFivePercent() {
+		boolean withinFive = game.compareMarketCaps(disney, costco);
+		assertTrue(withinFive);
 	}
 	
 	@Test
@@ -73,14 +83,26 @@ class CompareGuessToAnswerTest {
 	}
 	
 	@Test
-	void testCompareHeadquartersSame() {
+	void testCompareHeadquartersSameCity() {
 		boolean sameHeadquarters = game.compareHeadquarters(apple, apple);
 		assertTrue(sameHeadquarters);
 	}
 	
 	@Test
+	void testCompareHeadquartersSameState() {
+		boolean sameState = game.compareHeadquarters(apple, google);
+		assertTrue(sameState);
+	}
+	
+	@Test
+	void testCompareHeadquartersSameCountry() {
+		boolean sameCountry = game.compareHeadquarters(apple, amazon);
+		assertTrue(sameCountry);
+	}
+	
+	@Test
 	void testCompareHeadquartersDifferent() {
-		boolean sameHeadquarters = game.compareHeadquarters(apple, amazon);
+		boolean sameHeadquarters = game.compareHeadquarters(apple, accenture);
 		assertFalse(sameHeadquarters);
 	}
 	
@@ -88,6 +110,12 @@ class CompareGuessToAnswerTest {
 	void testCompareYearsFoundedSame() {
 		boolean sameYearFounded = game.compareYearsFounded(apple, apple);
 		assertTrue(sameYearFounded);
+	}
+	
+	@Test
+	void testCompareYearsFoundedWithin10() {
+		boolean withinTen = game.compareYearsFounded(apple, microsoft);
+		assertTrue(withinTen);
 	}
 	
 	@Test
@@ -103,8 +131,14 @@ class CompareGuessToAnswerTest {
 	}
 	
 	@Test
+	void testCompareOneYearReturnsFivePercent() {
+		boolean withinFive = game.compareOneYearReturns(apple, google);
+		assertTrue(withinFive);
+	}
+	
+	@Test
 	void testCompareOneYearReturnsDifferent() {
-		boolean sameOneYearReturns = game.compareOneYearReturns(apple, amazon);
+		boolean sameOneYearReturns = game.compareOneYearReturns(apple, accenture);
 		assertFalse(sameOneYearReturns);
 	}
 	
