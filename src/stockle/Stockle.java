@@ -13,7 +13,6 @@ public class Stockle {
 	private HashMap<String, Company> allCompanies;
 	private Company answer;
 	private int guessNumber;
-	private int hintCount = 0;
 	
 	public Stockle() {
 		this.allCompanies = new HashMap<String, Company>();
@@ -127,54 +126,41 @@ public class Stockle {
 		if (allCompanies.containsKey(userGuess)) {
 			Company userGuessCompany = allCompanies.get(userGuess);
 			game.compareGuessToAnswer(userGuessCompany);
-			game.displayHintPossibility();
 			game.guessNumber += 1;
 			return true;
 		}
-		else if (userGuess.equals("HINT") == true && hintCount == 10) {
+		else if (userGuess.equals("HINT") == true) {
 			game.giveHint();
 			return true;
 		}
-		
 		else {
 			System.out.println("'" + userGuess + "' is not a valid S&P 500 stock ticker.");
-			System.out.println("Stuck? Try again with AAPL, MSFT, or AMZN.");
+			game.offerHint();
 			return false;
 		}
-		
 	}
 	
 	
 	/**
-	 * Display hint notification
+	 * Notify user that hints are available
 	 */
-	public void displayHintPossibility() {
-		if (guessNumber == 2) {
-			hintCount = 10;
-			System.out.println("*****");
-			System.out.println("If you need help, try \"HINT\"");
-			System.out.println("*****");
-		}
+	public void offerHint() {
+		System.out.println("*****");
+		System.out.println("If you need help, try \"HINT\"");
+		System.out.println("*****");
 	}
 	
 	/**
-	 * Give random list of stocks, one of which being the correct answer, as a hint
-	 * 
-	 * 
+	 * Generate 10 hint options, one of which will be the correct answer
 	 */
-	public void giveHint() {
-		//randomly generate ten stocks, one of which will be correct answer
-		//may need to number the stocks in stock data, 1-500
-		//or can convert hashmap to an array
-		
+	public Company[] generateHints() {
 		Object[] moveToArray = allCompanies.keySet().toArray();
-		Company[] hints = new Company[9];
+		Company[] hints = new Company[10];
 		Random rand = new Random();
 		int randomIndex = rand.nextInt(10);
 		hints[randomIndex] = answer;
 		int i = 0;
-		while(i<9) {
-			
+		while(i<10) {
 			if (i == randomIndex) {
 				i++;
 			}
@@ -186,13 +172,22 @@ public class Stockle {
 				i++;
 			}
 		}
-		System.out.println("Here is your list of hints:");
+		return hints;
+	}
+	
+	/**
+	 * Print a random list of stocks (one of which is the correct answer) as a hint
+	 */
+	public void giveHint() {
+		Stockle game = this;
+		Company[] hints = game.generateHints();
+		System.out.println("Try one of these companies!");
 		System.out.println();
 		for (Company c : hints) {
 			System.out.println(c.getSymbol());
 		}
+		System.out.println();
 	}
-	
 	
 	
 	/**
@@ -338,6 +333,9 @@ public class Stockle {
 			System.out.println("Guesses Remaining: " + (5 - game.guessNumber));
 			System.out.println("--------------------------------------------------------");
 			System.out.println();
+			if (game.guessNumber == 2) {
+				game.offerHint();
+			}
 			if (game.guessNumber == 5) {
 				System.out.println("Game Over!");
 				System.out.println("The correct answer was " + answer.getSymbol());
