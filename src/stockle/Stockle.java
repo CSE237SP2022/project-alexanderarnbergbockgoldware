@@ -13,6 +13,7 @@ public class Stockle {
 	private HashMap<String, Company> allCompanies;
 	private Company answer;
 	private int guessNumber;
+	private int hintCount = 0;
 	
 	public Stockle() {
 		this.allCompanies = new HashMap<String, Company>();
@@ -126,9 +127,15 @@ public class Stockle {
 		if (allCompanies.containsKey(userGuess)) {
 			Company userGuessCompany = allCompanies.get(userGuess);
 			game.compareGuessToAnswer(userGuessCompany);
+			game.displayHintPossibility();
 			game.guessNumber += 1;
 			return true;
 		}
+		else if (userGuess.equals("HINT") == true && hintCount == 10) {
+			game.giveHint();
+			return true;
+		}
+		
 		else {
 			System.out.println("'" + userGuess + "' is not a valid S&P 500 stock ticker.");
 			System.out.println("Stuck? Try again with AAPL, MSFT, or AMZN.");
@@ -136,6 +143,57 @@ public class Stockle {
 		}
 		
 	}
+	
+	
+	/**
+	 * Display hint notification
+	 */
+	public void displayHintPossibility() {
+		if (guessNumber == 2) {
+			hintCount = 10;
+			System.out.println("*****");
+			System.out.println("If you need help, try \"HINT\"");
+			System.out.println("*****");
+		}
+	}
+	
+	/**
+	 * Give random list of stocks, one of which being the correct answer, as a hint
+	 * 
+	 * 
+	 */
+	public void giveHint() {
+		//randomly generate ten stocks, one of which will be correct answer
+		//may need to number the stocks in stock data, 1-500
+		//or can convert hashmap to an array
+		
+		Object[] moveToArray = allCompanies.keySet().toArray();
+		Company[] hints = new Company[9];
+		Random rand = new Random();
+		int randomIndex = rand.nextInt(10);
+		hints[randomIndex] = answer;
+		int i = 0;
+		while(i<9) {
+			
+			if (i == randomIndex) {
+				i++;
+			}
+			else {
+				Random random = new Random();
+				Object randomCompany = moveToArray[random.nextInt(moveToArray.length)];
+				Company randomComp = allCompanies.get(randomCompany);
+				hints[i] = randomComp;
+				i++;
+			}
+		}
+		System.out.println("Here is your list of hints:");
+		System.out.println();
+		for (Company c : hints) {
+			System.out.println(c.getSymbol());
+		}
+	}
+	
+	
 	
 	/**
 	 * Print out a full comparison of the guess to the answer across all data attributes
