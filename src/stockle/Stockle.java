@@ -129,13 +129,66 @@ public class Stockle {
 			game.guessNumber += 1;
 			return true;
 		}
+		else if (userGuess.equals("HINT") == true) {
+			game.giveHint();
+			return true;
+		}
 		else {
 			System.out.println("'" + userGuess + "' is not a valid S&P 500 stock ticker.");
-			System.out.println("Stuck? Try again with AAPL, MSFT, or AMZN.");
+			game.offerHint();
 			return false;
 		}
-		
 	}
+	
+	
+	/**
+	 * Notify user that hints are available
+	 */
+	public void offerHint() {
+		System.out.println("*****");
+		System.out.println("If you need help, try \"HINT\"");
+		System.out.println("*****");
+	}
+	
+	/**
+	 * Generate 10 hint options, one of which will be the correct answer
+	 */
+	public Company[] generateHints() {
+		Object[] moveToArray = allCompanies.keySet().toArray();
+		Company[] hints = new Company[10];
+		Random rand = new Random();
+		int randomIndex = rand.nextInt(10);
+		hints[randomIndex] = answer;
+		int i = 0;
+		while(i<10) {
+			if (i == randomIndex) {
+				i++;
+			}
+			else {
+				Random random = new Random();
+				Object randomCompany = moveToArray[random.nextInt(moveToArray.length)];
+				Company randomComp = allCompanies.get(randomCompany);
+				hints[i] = randomComp;
+				i++;
+			}
+		}
+		return hints;
+	}
+	
+	/**
+	 * Print a random list of stocks (one of which is the correct answer) as a hint
+	 */
+	public void giveHint() {
+		Stockle game = this;
+		Company[] hints = game.generateHints();
+		System.out.println("Try one of these companies!");
+		System.out.println();
+		for (Company c : hints) {
+			System.out.println(c.getSymbol());
+		}
+		System.out.println();
+	}
+	
 	
 	/**
 	 * Print out a full comparison of the guess to the answer across all data attributes
@@ -280,6 +333,9 @@ public class Stockle {
 			System.out.println("Guesses Remaining: " + (5 - game.guessNumber));
 			System.out.println("--------------------------------------------------------");
 			System.out.println();
+			if (game.guessNumber == 2) {
+				game.offerHint();
+			}
 			if (game.guessNumber == 5) {
 				System.out.println("Game Over!");
 				System.out.println("The correct answer was " + answer.getSymbol());
