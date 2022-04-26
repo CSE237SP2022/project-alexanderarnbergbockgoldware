@@ -2,9 +2,13 @@ package stockle;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Set;
 
 import company.Company;
 
@@ -128,7 +132,11 @@ public class Stockle {
 			game.compareGuessToAnswer(userGuessCompany);
 			game.guessNumber += 1;
 			return true;
-		}
+		} 
+//		else if (userGuess.equals("HELP")) {
+//			help(game.answer);
+//			return true;
+//		}
 		else {
 			System.out.println("'" + userGuess + "' is not a valid S&P 500 stock ticker.");
 			System.out.println("Stuck? Try again with AAPL, MSFT, or AMZN.");
@@ -136,7 +144,7 @@ public class Stockle {
 		}
 		
 	}
-	
+
 	/**
 	 * Print out a full comparison of the guess to the answer across all data attributes
 	 * @param userGuessCompany
@@ -153,7 +161,27 @@ public class Stockle {
 		compareHeadquarters(userGuessCompany, answer);
 		compareYearsFounded(userGuessCompany, answer);
 		compareOneYearReturns(userGuessCompany, answer);
+		compareLetters(userGuessCompany, answer);
 		return isCorrectAnswer(userGuessCompany, answer);
+	}
+	
+	public boolean compareLetters(Company userGuessCompany, Company answer) {
+		char[] userGuess = userGuessCompany.getSymbol().toString().toCharArray();
+		char[] answerActual = answer.getSymbol().toString().toCharArray();
+		if (userGuess.length == answerActual.length) {
+			System.out.println("Number of Letters: Correct");
+		} else {
+			System.out.println("Number of Letters: Incorrect");
+		}
+		for (int i = 0; i < userGuess.length; i++) {
+			for (int j = 0; j < answerActual.length; j++) {
+				if (userGuess[i] == answerActual[j]) {
+					System.out.println("Letter " + userGuess[i] + " is in the ticker symbol");
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 	
 	public boolean compareIndustry(Company userGuessCompany, Company answer) {
@@ -276,6 +304,7 @@ public class Stockle {
 			return true;
 		}
 		else {
+			System.out.println(" ");
 			System.out.println(userGuessCompany.getSymbol() + " was not correct...");
 			System.out.println("Guesses Remaining: " + (5 - game.guessNumber));
 			System.out.println("--------------------------------------------------------");
@@ -288,4 +317,15 @@ public class Stockle {
 			return false;
 		}
 	}
+	
+//	public boolean help(String help, Company answer) {
+//		System.out.println("What section would you like a hint on?");
+//		Stockle game = this;
+//		Scanner scanner = new Scanner(System.in);
+//		String userRequest = scanner.nextLine();
+//		if (userRequest == "Industry") {
+//			
+//		}
+//		return true;
+//	}
 }

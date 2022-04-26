@@ -33,6 +33,18 @@ class CompareGuessToAnswerTest {
 		google = game.getAllCompanies().get("GOOG");
 		accenture = game.getAllCompanies().get("ACN");
 	}
+	
+	@Test
+	void testCompareLettersSame() {
+		boolean sameLetter = game.compareLetters(amazon, apple);
+		assertTrue(sameLetter);
+	}
+	
+	@Test
+	void testCompareLettersDifferent() {
+		boolean differentLetters = game.compareLetters(apple, microsoft);
+		assertFalse(differentLetters);
+	}
 
 	@Test
 	void testCompareIndustriesSame() {
