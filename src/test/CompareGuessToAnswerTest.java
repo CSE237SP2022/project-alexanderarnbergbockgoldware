@@ -35,15 +35,27 @@ class CompareGuessToAnswerTest {
 	}
 	
 	@Test
-	void testCompareLettersSame() {
-		boolean sameLetter = game.compareLetters(amazon, apple);
+	void testCompareLettersSameNumLetters() {
+		boolean sameLetter = game.compareLetterCount(amazon, microsoft);
 		assertTrue(sameLetter);
 	}
 	
 	@Test
-	void testCompareLettersDifferent() {
-		boolean differentLetters = game.compareLetters(apple, microsoft);
+	void testCompareLettersDifferentNumLetters() {
+		boolean differentLetters = game.compareLetterCount(apple, disney);
 		assertFalse(differentLetters);
+	}
+	
+	@Test
+	void testCompareTickersWithSharedLetter() {
+		boolean hasSharedLetter = game.printLetterSimilarities(apple, amazon);
+		assertTrue(hasSharedLetter);
+	}
+	
+	@Test
+	void testCompareTickersWithoutSharedLetter() {
+		boolean hasSharedLetter = game.printLetterSimilarities(apple, microsoft);
+		assertFalse(hasSharedLetter);
 	}
 
 	@Test
