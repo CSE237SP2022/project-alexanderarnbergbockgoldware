@@ -2,9 +2,13 @@ package stockle;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Set;
 
 import company.Company;
 
@@ -207,7 +211,38 @@ public class Stockle {
 		compareHeadquarters(userGuessCompany, answer);
 		compareYearsFounded(userGuessCompany, answer);
 		compareOneYearReturns(userGuessCompany, answer);
+		compareLetterCount(userGuessCompany, answer);
+		printLetterSimilarities(userGuessCompany, answer);
 		return isCorrectAnswer(userGuessCompany, answer);
+	}
+	
+	public boolean compareLetterCount(Company userGuessCompany, Company answer) {
+		char[] userGuess = userGuessCompany.getSymbol().toString().toCharArray();
+		char[] answerActual = answer.getSymbol().toString().toCharArray();
+		if (userGuess.length == answerActual.length) {
+			System.out.println(String.format("𝐍𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐋𝐞𝐭𝐭𝐞𝐫𝐬: 𝐂𝐨𝐫𝐫𝐞𝐜𝐭! (%d)", userGuess.length));
+			System.out.println("");
+			return true;
+		} else {
+			System.out.println(String.format("Number of Letters: Incorrect... (%d)", userGuess.length));
+			System.out.println("");
+			return false;
+		}
+	}
+	
+	public boolean printLetterSimilarities(Company userGuessCompany, Company answer) {
+		char[] userGuess = userGuessCompany.getSymbol().toString().toCharArray();
+		char[] answerActual = answer.getSymbol().toString().toCharArray();
+		for (int i = 0; i < userGuess.length; i++) {
+			for (int j = 0; j < answerActual.length; j++) {
+				if (userGuess[i] == answerActual[j]) {
+					System.out.println("Letter " + userGuess[i] + " is in the ticker symbol!");
+					System.out.println("");
+					return true;
+				}
+			}
+		}
+		return false;
 	}
 	
 	public boolean compareIndustry(Company userGuessCompany, Company answer) {
@@ -301,17 +336,14 @@ public class Stockle {
 		
 		if (userGuessCompany.getOneYearReturn() == answer.getOneYearReturn()) {
 			System.out.println(String.format("𝐎𝐧𝐞 𝐘𝐞𝐚𝐫 𝐑𝐞𝐭𝐮𝐫𝐧: 𝐂𝐨𝐫𝐫𝐞𝐜𝐭! (%.2f%%)", userGuessCompany.getOneYearReturn()));
-			System.out.println(" ");
 			return true;
 		}
 		if (upperBound >= userGuessCompany.getOneYearReturn() && lowerBound <= userGuessCompany.getOneYearReturn()) {
 			System.out.println(String.format("𝘖𝘯𝘦 𝘠𝘦𝘢𝘳 𝘙𝘦𝘵𝘶𝘳𝘯: 𝘞𝘪𝘵𝘩𝘪𝘯 10%% 𝘰𝘧 𝘢𝘯𝘴𝘸𝘦𝘳! (%.2f%%)", userGuessCompany.getOneYearReturn()));
-			System.out.println(" ");
 			return true;
 		}
 		else {
 			System.out.println(String.format("One Year Return: Incorrect... (%.2f%%)", userGuessCompany.getOneYearReturn()));
-			System.out.println(" ");
 			return false;
 		}
 	}
