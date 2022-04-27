@@ -42,7 +42,7 @@ A game can also be started by running Stockle.java within Eclipse (in case of an
 
 # Iteration 2
 
-<details open> <summary>View Iteration 2</Summary>
+<details> <summary>View Iteration 2</Summary>
 
 What user stories were completed this iteration?
 
@@ -54,9 +54,9 @@ What user stories were completed this iteration?
 What user stories do you intend to complete next iteration?
 
 - A Guess should receive a response showing how correct it was using styling/markup
-- A User should be able to see their win streak
 - A User should be able to access a list of possible guesses in case they're stuck
 - A Guess' # of characters should be compared to the correct answer
+- A User should be able to see their win streak (later removed from scope in iteration 3)
 
 Is there anything that you implemented but doesn't currently work?
 
@@ -73,6 +73,40 @@ cd project-alexanderarnbergbockgoldware
 ```
 
 A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatibility errors).
+
+</details><br>
+
+# Iteration 3
+
+<details open> <summary>View Iteration 3</Summary>
+
+What user stories were completed this iteration?
+
+- A Guess should receive a response showing how correct it was using styling/markup (Unicode bold & italics)
+- A Guess' # of characters should be compared to the correct answer
+- A Guess should print out a character in common with the Answer
+- A User should be able to access a list of hints in case they're stuck (after an invalid guess or 3 incorrect guesses)
+
+Is there anything that you implemented but doesn't currently work?
+
+- N/A
+
+What commands are needed to compile and run your code from the command line (or better yet, provide a script that people can use to run your program!)
+
+```
+git clone https://github.com/CSE237SP2022/project-alexanderarnbergbockgoldware.git
+cd project-alexanderarnbergbockgoldware
+./stockle.sh
+```
+
+## Troubleshooting
+
+Please ensure that Unicode fonts/characters are enabled on your device in order to properly view bolded and italicized guess feedback.
+
+A game can also be started by running Stockle.java within Eclipse (in case of any terminal compilation/compatibility errors).
+
+<br>
+Branches of completed pull requests have been deleted for project cleanliness, although they can still be viewed on each issue & pull request page.
 
 </details><br>
 
